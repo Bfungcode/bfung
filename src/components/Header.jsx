@@ -125,7 +125,7 @@ const Header = ({ isLarge }) => {
           </div>
           <div className="w-full h-[70%] flex flex-col flex-wrap justify- item-center relative">
             <div className="z-30 relative w-full h-[40%] p-6 pt-0 ">
-              <div className="w-full h-[200px] md:h-[250px] lg:p-36 lg:text-[22px] font-primary font-semibold text-[11px] md:text-[18px] text-center relative flex justify-center items-center flex-col p-2 pr-0 pl-0 z-30 gap-1 text-gray-500">
+              <div className="w-full h-[200px] md:h-[250px] lg:p-36 lg:text-[22px] font-primary font-semibold text-[13px] md:text-[18px] text-center relative flex justify-center items-center flex-col p-2 pr-0 pl-0 z-30 gap-1 text-gray-500 pt-10">
                 <div> {review}</div>
                 <span className="w-full h-[1px] border-[1px] border-black"></span>
                 <div className="flex flex-col flex-wrap text-[16px] md:text-[22px] text-black">

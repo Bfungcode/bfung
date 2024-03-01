@@ -235,14 +235,13 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
           </>
         ) : (
           <>
-            {" "}
             <div className="w-full h-[119px] bg-black text-white font-secondary text-[52px] md:text-[72px] text-center flex justify-center items-center  border-2 border-white">
               Contacts
             </div>
             <div className="flex flex-col flex-wrap">
               <div className="w-full bg-white h-[100px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
                 <div className="flex flex-row flex-wrap justify-center items-center">
-                  <div className="text-[26px] md:text-[42px] font-secondary">
+                  <div className="text-[20px] md:text-[42px] font-secondary">
                     Mail me
                   </div>
                   <ArrowRight />
@@ -254,24 +253,24 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
               </div>
               <div className="w-full bg-white h-[100px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
                 <div className="flex flex-row flex-wrap justify-center items-center">
-                  <div className="text-[26px] md:text-[42px] font-secondary">
+                  <div className="text-[20px] md:text-[42px] font-secondary">
                     Linkedin
                     <div className="w-full h-[2px] border-black border-[1px]"></div>
                   </div>
                   <ArrowBackBlack />
-                  <div className="text-[26px] md:text-[42px] font-secondary ">
+                  <div className="text-[20px] md:text-[42px] font-secondary ">
                     See my profile
                   </div>
                 </div>
               </div>
               <div className="w-full bg-white h-[100px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
                 <div className="flex flex-row flex-wrap justify-center items-center">
-                  <div className="text-[26px] md:text-[42px] font-secondary">
+                  <div className="text-[20px] md:text-[42px] font-secondary">
                     {" "}
                     See my code
                   </div>
                   <ArrowRight />
-                  <div className="text-[26px] md:text-[42px] font-secondary ">
+                  <div className="text-[20px] md:text-[42px] font-secondary ">
                     Github
                     <div className="w-full h-[2px] border-black border-[1px]"></div>
                   </div>
@@ -279,12 +278,12 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
               </div>
               <div className="w-full bg-white h-[100px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
                 <div className="flex flex-row flex-wrap justify-center items-center">
-                  <div className="text-[26px] md:text-[42px] font-secondary">
+                  <div className="text-[20px] md:text-[42px] font-secondary">
                     X
                     <div className="w-full h-[2px] border-black border-[1px]"></div>
                   </div>
                   <ArrowBackBlack />
-                  <div className="text-[26px] font-secondary md:text-[42px]">
+                  <div className="text-[20px] font-secondary md:text-[42px]">
                     See my tweets
                   </div>
                 </div>

@@ -23,7 +23,7 @@ const Services = ({ isLarge }) => {
             {serviceslist.map((service) => {
               return (
                 <div className="w-[30%] h-[140px] md:h-[200px]  lg:h-[250px]  relative ">
-                  <div className="text-[15px] md:text-[22px] w-full h-full font-secondary flex justify-center text-center items-center font-semibold p-2 ">
+                  <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-center text-center items-center font-semibold p-2 ">
                     {service.text}
                     <div className="w-[90%] h-[80%] border-l-2 border-t-2 border-black absolute left-0 top-0"></div>
                     <div className="w-[90%] h-[80%] border-r-2 border-b-2 border-black absolute right-0 bottom-0"></div>
@@ -43,7 +43,7 @@ const Services = ({ isLarge }) => {
             {serviceslist.map((service) => {
               return (
                 <div className="w-[90%] h-[140px] md:h-[200px]  lg:h-[250px]  relative bg-white">
-                  <div className="text-[15px] md:text-[22px] w-full h-full font-secondary flex justify-center text-center items-center font-semibold p-2 ">
+                  <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-center text-center items-center font-semibold p-2 ">
                     {service.text}
                     <div className="w-[90%] h-[80%] border-l-2 border-t-2 border-black absolute left-0 top-0"></div>
                     <div className="w-[90%] h-[80%] border-r-2 border-b-2 border-black absolute right-0 bottom-0"></div>

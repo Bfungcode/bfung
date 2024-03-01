@@ -69,7 +69,7 @@ const Skillset = ({ isLarge }) => {
       iconColor: 11,
     },
     {
-      skill: "NODE . JS",
+      skill: "NODE JS",
       color: "bg-gradient-to-b from-green-500 to-blue-200",
       icon: 2,
       iconColor: 12,
@@ -93,19 +93,19 @@ const Skillset = ({ isLarge }) => {
       iconColor: 15,
     },
     {
-      skill: "REACT . JS",
+      skill: "REACT JS",
       color: "bg-gradient-to-b  from-sky-400 to-slate-200",
       icon: 6,
       iconColor: 16,
     },
     {
-      skill: "VUE . JS",
+      skill: "VUE JS",
       color: " bg-gradient-to-b from-green-500 to-gray-600",
       icon: 7,
       iconColor: 17,
     },
     {
-      skill: "NEXT . JS",
+      skill: "NEXT JS",
       color: "bg-gradient-to-b  from-black to-slate-300",
       icon: 8,
       iconColor: 18,
