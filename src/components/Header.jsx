@@ -110,7 +110,7 @@ const Header = ({ isLarge }) => {
         </div>
       ) : (
         <div className="w-full h-full flex flex-col flex-wrap  border-2 border-black border-b-0">
-          <div className="w-full h-[15%] border-b-2 border-black flex flex-row justify-around items-center ">
+          <div className="w-full h-[10%] border-b-2 border-black flex flex-row justify-around items-center ">
             <div className="w-[75%] font-semibold font-secondary text-[28px] md:text-[52px] p-2 text-center hover:bg-black hover:text-white transition-all duration-1000 h-full flex justify-center items-center">
               Bie Fung - SWE
             </div>
@@ -123,10 +123,10 @@ const Header = ({ isLarge }) => {
               </div>
             </div>
           </div>
-          <div className="w-full h-[70%] flex flex-col flex-wrap justify- item-center relative">
+          <div className="w-full h-[75%] flex flex-col flex-wrap justify- item-center relative">
             <div className="z-30 relative w-full h-[40%] p-6 pt-0 ">
               <div className="w-full h-[200px] md:h-[250px] lg:p-36 lg:text-[22px] font-primary font-semibold text-[13px] md:text-[18px] text-center relative flex justify-center items-center flex-col p-2 pr-0 pl-0 z-30 gap-1 text-gray-500 pt-10">
-                <div> {review}</div>
+                <div className=""> {review}</div>
                 <span className="w-full h-[1px] border-[1px] border-black"></span>
                 <div className="flex flex-col flex-wrap text-[16px] md:text-[22px] text-black">
                   - {reviewer}
