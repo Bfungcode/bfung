@@ -1,12 +1,15 @@
 import React, { useState } from "react";
-import { ArrowBackBlack, ArrowBackWhite, ArrowDownLeft } from "../media/svg";
+import { ArrowBackBlack, ArrowBackWhite } from "../media/svg";
 
 const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
   const [openCartal, setOpenCartal] = useState(false);
   const [openCryptoHex, setOpenCrytoHex] = useState(false);
   const [openCashier, setOpenCashier] = useState(false);
   const [openEasy, setOpenEasy] = useState(false);
-  const [numCartal, setNumCartal] = useState(1);
+  const [numCartal1, setNumCartal1] = useState(1);
+  const [numCartal2, setNumCartal2] = useState(1);
+  const [numCartal3, setNumCartal3] = useState(1);
+  const [numCartal4, setNumCartal4] = useState(1);
   const [hover1, setHover1] = useState(false);
   const [turn1, setTurn1] = useState(false);
   const [hover2, setHover2] = useState(false);
@@ -15,7 +18,10 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
   const [turn3, setTurn3] = useState(false);
   const [hover4, setHover4] = useState(false);
   const [turn4, setTurn4] = useState(false);
-  const [hoverPage, setHoverPage] = useState(false);
+  const [previous1, setPrevious1] = useState(false);
+  const [previous2, setPrevious2] = useState(false);
+  const [previous3, setPrevious3] = useState(false);
+  const [previous4, setPrevious4] = useState(false);
   const turnPt = (setTurn, turn) => {
     setTurn(!turn);
   };
@@ -34,6 +40,11 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
         "During bootcamp, the final project tasked to create a web application that facilitated transactions between customers and suppliers in car rental industry. We were divided into two teams of 5-member. I offered myself and assigned for the role of the Project Leader for the team. My responsibilities as the project leader is ensuring efficient task allocation and collaboration within the team. For that, i implemented Agile and Scrum method for the development process and provided a flow chart for allocating the task to each member. I divided my team into two group, one for handling the customer side of website and one for the admin side to update the data(CRUD). I'm in charge of implementing Redux middleware for managing the API data and responsible for the website's responsiveness and slicing the homepage based by the design provided by the UI/UX team.",
       words2:
         "Throughout the project, I actively led the team, ensuring that everyone understood their roles and responsibilities. I scheduled a regular team meetings for catching up and checking for our progress and discussing any challenges or problem we have and solving it together at the moment. I'm in charge for both group the customer side and the admin side where any change would be approved through me by using Github pull request. We successfully completed the project on time and passed all the requirements. Our exceptional performance was recognized, as we achieved an outstanding score of 97 out of 100.",
+      pt: "5",
+      ft: 5,
+      num: 1,
+      imgNum: numCartal1,
+      setImgNum: setNumCartal1,
     },
     {
       name: "CryptoHex",
@@ -52,6 +63,11 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
         "Applied for a job in Front End Developer role that has 5 steps recruitment process. The client has two cases, the first one is to create a web design using Figma by the given description by the client. The second case is connected with the first case which is to make a website based on the design i made in the first case.",
       words2:
         "  As the first case were given, that time i never use Figma before or do any web design before. So i proceed to negotiate a 3 days deals to learn Web Design and Figma. By my Front End Engineer experience i confidently began the second case, i were given the acceptance criteria which have an option to choose the framework to use between Vue JS Svelte JS, Next JS and React JS. with a condition framework other than React JS will be given adding points, so i decided to go for framework beside React JS although it's where i most experienced, i switch it with Vue JS which by the previous internship i learned by only one month. Gladfully i proceed through the fifth step and for the final step is doing interview with the User and HR as final interview. Unfortunately after the final step i were rejected as it said i'm not fit with their company culture.",
+      pt: "2",
+      ft: 4,
+      num: 2,
+      imgNum: numCartal2,
+      setImgNum: setNumCartal2,
     },
 
     {
@@ -68,6 +84,11 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
         "I've created a handy project called Cashier to assist front desk workers in efficiently managing orders and processing payments. With Cashier, you can effortlessly handle customer orders and keep track of payments. with Features:",
       words2:
         "Interactive Menu: Our menu system is user-friendly, allowing you to add items to orders with a simple click. You can stack items for multiple quantities and remove them just as easily. Order Summary: Cashier keeps a running tally of the selected items, quantities, and their individual prices. This makes it a breeze to review and make any necessary adjustments to the order. Payment Proccessing:When it's time to settle the bill, our system calculates the total cost based on the items in the order. There's a convenient input field where you can enter the customer's payment amount.Payment Notifications: If the customer provides more money than the total, our system displays a toast notification showing the change to be returned. However, if the payment is insufficient, you'll receive a notification indicating that the payment has failed.",
+      pt: "3",
+      ft: 3,
+      num: 3,
+      imgNum: numCartal3,
+      setImgNum: setNumCartal3,
     },
     {
       name: "Easy Features",
@@ -83,15 +104,21 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
         "A personal website portfolio that i made for contributing to React JS Front End Developer community. Creating features using a React JS and vanilla JavaScript or pure without any framework can quite be a problem and waste a lot of times. Let say the feature is a simple slide, in the vanila javascript we easily put the DOM method immediately in the script but as React JS developer we have to implement that using the react way by using the React Hooks, etc. Because in React JS rendering a component and DOM behaves differently, for example React DOM escapes any values embedded in JSX before rendering them. So it's can be a problem for a simple features although it's the same logic function that works on purely javascript website.",
       words2:
         "I developed and designed React JS templates of feature that widely used by people or basic features a website needed, which we can just straight up copy and paste the JSX and style it how we want without worrying the underhood.",
+      pt: "1",
+      ft: 3,
+      num: 4,
+      imgNum: numCartal4,
+      setImgNum: setNumCartal4,
     },
   ];
-  const handleNext = () => {
-    if (numCartal < 5) {
+  const setPrevious = [setPrevious1, setPrevious2, setPrevious3, setPrevious4];
+  const handleNext = (num, numCartal, setNumCartal, ft) => () => {
+    if (numCartal < ft) {
       setNumCartal(numCartal + 1);
     }
   };
 
-  const handlePrevious = () => {
+  const handlePrevious = (num, numCartal, setNumCartal) => () => {
     if (numCartal > 1) {
       setNumCartal(numCartal - 1);
     }
@@ -1067,26 +1094,36 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           <div className="w-full h-[35%] md:h-[45%]">
                             <div className="w-full h-[85%] flex justify-center items-center">
                               <img
-                                src={`/Thumbnail${numCartal}.png`}
+                                src={`/pt${project.pt}/ft${project.imgNum}.png`}
                                 className="min-w-[200px] max-w-[900px] h-full"
                               />
                             </div>
                             <div className="w-full h-[15%] flex flex-row justify-around text-[16px] md:text-[20px] items-center">
                               <div
-                                onClick={handlePrevious}
-                                disabled={numCartal <= 1}
+                                onClick={handlePrevious(
+                                  project.num,
+                                  project.imgNum,
+                                  project.setImgNum,
+                                  setPrevious
+                                )}
+                                disabled={project.imgNum <= 1}
                               >
-                                {numCartal <= 1 ? (
+                                {project.imgNum <= 1 ? (
                                   <span className="opacity-50">Previous</span>
                                 ) : (
                                   <div>Previous</div>
                                 )}
                               </div>
                               <div
-                                onClick={handleNext}
-                                disabled={numCartal >= 5}
+                                onClick={handleNext(
+                                  project.num,
+                                  project.imgNum,
+                                  project.setImgNum,
+                                  project.ft
+                                )}
+                                disabled={project.imgNum >= project.ft}
                               >
-                                {numCartal >= 5 ? (
+                                {project.imgNum >= project.ft ? (
                                   <span className="opacity-50">Next</span>
                                 ) : (
                                   <div>Next</div>
@@ -1105,7 +1142,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                       >
                         <div className="w-[40%] h-full">
                           <img
-                            src="/Thumbnail1.png"
+                            src={`/pt${project.pt}/ft${project.imgNum}.png`}
                             className="w-full h-full object-fill"
                           ></img>
                         </div>
@@ -1192,26 +1229,36 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           <div className="w-full h-[35%] md:h-[45%]  md:pr-20 md:pl-20">
                             <div className="w-full h-[85%] flex justify-center items-center">
                               <img
-                                src={`/Thumbnail${numCartal}.png`}
+                                src={`/pt${project.pt}/ft${project.imgNum}.png`}
                                 className="min-w-[200px] max-w-[900px] h-full"
                               />
                             </div>
-                            <div className="w-full h-[15%] flex flex-row justify-around items-center text-[16px]">
+                            <div className="w-full h-[15%] flex flex-row justify-around items-center text-[16px] ">
                               <div
-                                onClick={handlePrevious}
-                                disabled={numCartal <= 1}
+                                onClick={handlePrevious(
+                                  project.num,
+                                  project.imgNum,
+                                  project.setImgNum
+                                )}
+                                disabled={project.imgNum <= 1}
                               >
-                                {numCartal <= 1 ? (
+                                {project.imgNum <= 1 ? (
                                   <span className="opacity-50">Previous</span>
                                 ) : (
                                   <div>Previous</div>
                                 )}
                               </div>
+
                               <div
-                                onClick={handleNext}
-                                disabled={numCartal >= 5}
+                                onClick={handleNext(
+                                  project.num,
+                                  project.imgNum,
+                                  project.setImgNum,
+                                  project.ft
+                                )}
+                                disabled={project.imgNum >= project.ft}
                               >
-                                {numCartal >= 5 ? (
+                                {project.imgNum >= project.ft ? (
                                   <span className="opacity-50">Next</span>
                                 ) : (
                                   <div>Next</div>
@@ -1235,7 +1282,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                         </div>
                         <div className="w-[40%] h-full">
                           <img
-                            src="/Thumbnail1.png"
+                            src={`/pt${project.pt}/ft${project.imgNum}.png`}
                             className="w-full h-full object-fill"
                           ></img>
                         </div>

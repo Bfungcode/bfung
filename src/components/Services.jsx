@@ -19,7 +19,7 @@ const Services = ({ isLarge }) => {
     <>
       {isLarge ? (
         <div className="w-screen h-[400px] p-4 pt-0 pb-0">
-          <div className="w-full h-full border-2 border-b-0 border-black p-8 pr-4 pl-4 flex flex-row flex-wrap gap-4 justify-around items-center bg-white">
+          <div className="w-full h-full border-2 border-b-0 border-black p-8 pr-4 pl-4 flex flex-row flex-wrap gap-4 justify-around items-center ">
             {serviceslist.map((service) => {
               return (
                 <div className="w-[30%] h-[140px] md:h-[200px]  lg:h-[250px]  relative ">

@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper/modules";
 const Designs = ({ isLarge }) => {
+  const [num, setNum] = useState(1);
+  const handleNext = () => {
+    if (num < 6) {
+      setNum(num + 1);
+    }
+  };
+  const handlePrevious = () => {
+    if (num > 1) {
+      setNum(num - 1);
+    }
+  };
   return (
     <div className="w-screen  p-4 pt-0 pb-0">
       {isLarge ? (
@@ -62,11 +73,23 @@ const Designs = ({ isLarge }) => {
             </div>
             <div className="w-full h-[75%] flex flex-col flex-wrap ">
               <div className="w-full h-[80%]">
-                <img src="/dp/dp1.png" className="w-full h-[100%]"></img>
+                <img src={`/dp/dp${num}.png`} className="w-full h-[100%]"></img>
               </div>
               <div className="w-full h-[20%] flex flex-row flex-wrap justify-around items-center pt-2 pb-2">
-                <div>Previous</div>
-                <div>Next</div>
+                {num <= 1 ? (
+                  <div onClick={handlePrevious} className="opacity-50">
+                    Previous
+                  </div>
+                ) : (
+                  <div onClick={handlePrevious}>Previous</div>
+                )}
+                {num >= 6 ? (
+                  <div onClick={handleNext} className="opacity-50">
+                    Next
+                  </div>
+                ) : (
+                  <div onClick={handleNext}>Next</div>
+                )}
               </div>
             </div>
           </div>

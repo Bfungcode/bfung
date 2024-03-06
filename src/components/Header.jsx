@@ -50,10 +50,13 @@ const Header = ({ isLarge }) => {
               <div>-</div>
               <div>Software Engineer</div>
             </div>
-            <div className="w-[8%] border-l-2 border-black bg-white flex flex-col flex-wrap justify-center items-center gap-2">
+            <a
+              className="w-[8%] border-l-2 border-black bg-white flex flex-col flex-wrap justify-center items-center gap-2"
+              href="https://drive.google.com/file/d/1fC_PxrVXrQ_fcvbWfrXFpM7IWDR1JWD6/view?usp=sharing"
+            >
               <div className="text-xl font-secondary text-black ">Resume</div>
               <FileIconBlack />
-            </div>
+            </a>
           </div>
           <div className="w-full h-[76%] flex flex-col flex-wrap">
             <div className="w-[13%] h-full border-r-2 flex flex-col flex-wrap justify-between">
@@ -88,9 +91,9 @@ const Header = ({ isLarge }) => {
                   <span className="underline text-[52px] pl-4">?</span>
                 </div>
               </div>
-              <div className="h-[75%] w-full font-secondary text-[30px] p-4 flex flex-col flex-wrap justify-start items-center text-center gap-2 ">
-                <div className="w-[80%] text-black font-medium  relative z-0 ">
-                  <div className="bg-white">{review}</div>
+              <div className="h-[75%] w-full font-secondary text-[28px] p-4 pt-12 flex flex-col flex-wrap justify-start items-center text-center gap-6 ">
+                <div className="w-[80%] text-black font-medium  relative z-0 bg-white">
+                  <div className="">{review}</div>
                 </div>
                 <span className="w-[90%] h-[1px] bg-black"></span>
                 <div className="w-[20%] text-white text-[48px] bg-red-700 ">
@@ -114,14 +117,18 @@ const Header = ({ isLarge }) => {
             <div className="w-[75%] font-semibold font-secondary text-[28px] md:text-[52px] p-2 text-center hover:bg-black hover:text-white transition-all duration-1000 h-full flex justify-center items-center">
               Bie Fung - SWE
             </div>
-            <div className="w-[25%] h-full border-l-2 border-black flex flex-col flex-wrap justify-center items-center bg-black text-white">
+
+            <a
+              className="w-[25%] h-full border-l-2 border-black flex flex-col flex-wrap justify-center items-center bg-black text-white"
+              href="https://drive.google.com/file/d/1fC_PxrVXrQ_fcvbWfrXFpM7IWDR1JWD6/view?usp=sharing"
+            >
               <div className="text-[12px] md:text-[32px] full border-black flex flex-col flex-wrap justify-center ]">
                 Resume
               </div>
               <div>
                 <FileIconWhite />
               </div>
-            </div>
+            </a>
           </div>
           <div className="w-full h-[75%] flex flex-col flex-wrap justify- item-center relative">
             <div className="z-30 relative w-full h-[40%] p-6 pt-0 ">
