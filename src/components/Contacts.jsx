@@ -254,7 +254,7 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
               <div className="w-full bg-white h-[100px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
                 <div className="flex flex-row flex-wrap justify-center items-center">
                   <div className="text-[20px] md:text-[42px] font-secondary">
-                    Linkedin
+                    <a href="https://www.linkedin.com/in/biefung/">Linkedin</a>
                     <div className="w-full h-[2px] border-black border-[1px]"></div>
                   </div>
                   <ArrowBackBlack />
@@ -271,7 +271,7 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                   </div>
                   <ArrowRight />
                   <div className="text-[20px] md:text-[42px] font-secondary ">
-                    Github
+                    <a href="https://github.com/Bfungcode">Github</a>
                     <div className="w-full h-[2px] border-black border-[1px]"></div>
                   </div>
                 </div>
@@ -279,7 +279,7 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
               <div className="w-full bg-white h-[100px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
                 <div className="flex flex-row flex-wrap justify-center items-center">
                   <div className="text-[20px] md:text-[42px] font-secondary">
-                    X
+                    <a href="https://twitter.com/bei_fg">X</a>
                     <div className="w-full h-[2px] border-black border-[1px]"></div>
                   </div>
                   <ArrowBackBlack />
