@@ -68,7 +68,7 @@ const Header = ({ isLarge }) => {
                   Profile
                 </div>
                 <div>
-                  <img src="/bfung.png"></img>
+                  <img src="/bfung3.png"></img>
                 </div>
                 <div className="text-[12px] pt-4 font-primary text-black font-semibold">
                   Hello, i'm Bie Fung. you can call me Abe or Bei. I’m a Front
@@ -130,8 +130,8 @@ const Header = ({ isLarge }) => {
               </div>
             </a>
           </div>
-          <div className="w-full h-[75%] flex flex-col flex-wrap justify- item-center relative">
-            <div className="z-30 relative w-full h-[40%] p-6 pt-0 ">
+          <div className="w-full h-[75%] flex flex-col md:flex-row flex-wrap justify- item-center relative">
+            <div className="z-30 relative w-full h-[40%]  p-6 pt-0 ">
               <div className="w-full h-[200px] md:h-[250px] lg:p-36 lg:text-[22px] font-primary font-semibold text-[13px] md:text-[18px] text-center relative flex justify-center items-center flex-col p-2 pr-0 pl-0 z-30 gap-1 text-gray-500 pt-10">
                 <div className=""> {review}</div>
                 <span className="w-full h-[1px] border-[1px] border-black"></span>
@@ -142,8 +142,8 @@ const Header = ({ isLarge }) => {
             </div>
             <div className="w-full h-[60%] flex justify-center flex-col items-center z-10 ">
               <img
-                src="/bfung.png"
-                className="w-full md:w-[60%] lg:w-[40%] h-full z-20 md"
+                src="/bfung3.png"
+                className="max-w-full md:max-w-[40%] lg:max-w-[40%] h-full z-20 "
               />
             </div>
           </div>
