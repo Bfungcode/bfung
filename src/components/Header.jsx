@@ -143,7 +143,7 @@ const Header = ({ isLarge }) => {
             <div className="w-full h-[60%] flex justify-center flex-col items-center z-10 ">
               <img
                 src="/bfung3.png"
-                className="max-w-full md:max-w-[40%] lg:max-w-[40%] h-full z-20 "
+                className="w-full md:max-w-[40%] lg:max-w-[40%] h-full z-20 "
               />
             </div>
           </div>
