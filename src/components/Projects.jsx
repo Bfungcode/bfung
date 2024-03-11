@@ -37,9 +37,9 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
       setState: setOpenCartal,
       white: true,
       words1:
-        "During bootcamp, the final project tasked to create a web application that facilitated transactions between customers and suppliers in car rental industry. We were divided into two teams of 5-member. I offered myself and assigned for the role of the Project Leader for the team. My responsibilities as the project leader is ensuring efficient task allocation and collaboration within the team. For that, i implemented Agile and Scrum method for the development process and provided a flow chart for allocating the task to each member. I divided my team into two group, one for handling the customer side of website and one for the admin side to update the data(CRUD). I'm in charge of implementing Redux middleware for managing the API data and responsible for the website's responsiveness and slicing the homepage based by the design provided by the UI/UX team.",
+        "During boot camp, I took on the pivotal role of Project Leader for our team tasked with developing a web application facilitating transactions between customers and suppliers in the car rental industry. The team was split into two groups, with each responsible for either the customer-facing or admin side of the website. As the Project Leader, my primary responsibilities involved ensuring efficient task allocation and fostering collaboration within the team. To achieve this, I implemented Agile and Scrum methodologies, providing a comprehensive flow chart for task allocation among team members. The team was strategically divided into two groups, each handling specific aspects of the project. One group focused on the customer side, while the other managed the admin side, responsible for updating data through CRUD operations. Personally, I took charge of implementing Redux middleware to manage API data, ensuring website responsiveness, and slicing the homepage according to the UI/UX team's design.",
       words2:
-        "Throughout the project, I actively led the team, ensuring that everyone understood their roles and responsibilities. I scheduled a regular team meetings for catching up and checking for our progress and discussing any challenges or problem we have and solving it together at the moment. I'm in charge for both group the customer side and the admin side where any change would be approved through me by using Github pull request. We successfully completed the project on time and passed all the requirements. Our exceptional performance was recognized, as we achieved an outstanding score of 97 out of 100.",
+        "Throughout the project, I played an active leadership role, ensuring everyone comprehended their roles and responsibilities. Regular team meetings were scheduled to track progress, discuss challenges, and collectively address any issues that arose. Additionally, I oversaw both the customer and admin groups, approving any changes through GitHub pull requests. Our cohesive efforts and effective project management led to the successful completion of the project within the stipulated timeframe, meeting all requirements. Our outstanding performance was duly recognized, culminating in an impressive score of 97 out of 100.",
       pt: "5",
       ft: 5,
       num: 1,
@@ -60,7 +60,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
       setState: setOpenCrytoHex,
       white: false,
       words1:
-        "Applied for a job in Front End Developer role that has 5 steps recruitment process. The client has two cases, the first one is to create a web design using Figma by the given description by the client. The second case is connected with the first case which is to make a website based on the design i made in the first case.",
+        "I recently applied for a Front-End Developer role that entailed a comprehensive 5-step recruitment process. The first case required creating a web design using Figma based on the client's given description. Here, I faced a challenge as I hadn't previously used Figma or engaged in web design. To address this gap, I negotiated a 3-day period to immerse myself in learning both web design principles and Figma. ",
       words2:
         "  As the first case were given, that time i never use Figma before or do any web design before. So i proceed to negotiate a 3 days deals to learn Web Design and Figma. By my Front End Engineer experience i confidently began the second case, i were given the acceptance criteria which have an option to choose the framework to use between Vue JS Svelte JS, Next JS and React JS. with a condition framework other than React JS will be given adding points, so i decided to go for framework beside React JS although it's where i most experienced, i switch it with Vue JS which by the previous internship i learned by only one month. Gladfully i proceed through the fifth step and for the final step is doing interview with the User and HR as final interview. Unfortunately after the final step i were rejected as it said i'm not fit with their company culture.",
       pt: "2",
@@ -442,32 +442,41 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                   <div className="w-full h-[95%] ">
                     <div className="w-full h-[30%] flex flex-row flex-wrap">
                       <div className="text-base text-gray-200 w-[35%]">
-                        Applied for a job in Front End Developer role that has 5
-                        steps recruitment process. The client has two cases, the
-                        first one is to create a web design using Figma by the
-                        given description by the client. The second case is
-                        connected with the first case which is to make a website
-                        based on the design i made in the first case.
+                        I recently applied for a Front-End Developer role that
+                        entailed a comprehensive 5-step recruitment process. The
+                        first case required creating a web design using Figma
+                        based on the client's given description. Here, I faced a
+                        challenge as I hadn't previously used Figma or engaged
+                        in web design. To address this gap, I negotiated a 3-day
+                        period to immerse myself in learning both web design
+                        principles and Figma.
                       </div>
                       <div className="text-base text-gray-200 w-[65%]">
-                        As the first case were given, that time i never use
-                        Figma before or do any web design before. So i proceed
-                        to negotiate a 3 days deals to learn Web Design and
-                        Figma. By my Front End Engineer experience i confidently
-                        began the second case, i were given the acceptance
-                        criteria which have an option to choose the framework to
-                        use between Vue JS Svelte JS, Next JS and React JS. with
-                        a condition framework other than React JS will be given
-                        adding points, so i decided to go for framework beside
-                        React JS although it's where i most experienced, i
-                        switch it with Vue JS which by the previous internship i
-                        learned by only one month.
+                        Drawing on my Front-End Engineer experience, I
+                        confidently progressed to the second case, where I
+                        received acceptance criteria that included the option to
+                        choose a framework from Vue JS, Svelte JS, Next JS, and
+                        React JS. Interestingly, additional points were awarded
+                        for opting for a framework other than React JS. Despite
+                        my extensive experience with React JS, I opted for Vue
+                        JS, a framework I had learned during a previous
+                        internship within a month. Navigating through the five
+                        steps, I reached the final stage, which involved an
+                        interview with both the User and HR. Regrettably, I
+                        received feedback that I was not a fit for their company
+                        culture and was subsequently rejected. learned by only
+                        one month.
                         <div className="text-base text-gray-100 font-bold">
-                          Gladfully i proceed through the fifth step and for the
-                          final step is doing interview with the User and HR as
-                          final interview. Unfortunately after the final step i
-                          were rejected as it said i'm not fit with their
-                          company culture.
+                          While the outcome wasn't what I had hoped for, this
+                          experience presented valuable learning opportunities.
+                          From acquiring Figma and web design skills within a
+                          tight timeframe to making strategic decisions
+                          regarding the choice of framework, each step of the
+                          process contributed to my professional growth. I
+                          remain optimistic about future opportunities and am
+                          committed to continuously improving and adapting to
+                          diverse challenges in the dynamic field of front-end
+                          development.
                         </div>
                       </div>
                     </div>
@@ -657,58 +666,58 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                   <div className="w-full h-[95%] flex flex-col flex-wrap gap-10">
                     <div className="w-full h-[35%]">
                       <div className="text-base text-gray-500 font-semibold">
-                        I've created a handy project called "Cashier" to assist
-                        front desk workers in efficiently managing orders and
-                        processing payments. With "Cashier," you can
-                        effortlessly handle customer orders and keep track of
-                        payments. with Features:
+                        I developed a practical project named "Cashier" designed
+                        to streamline the order management and payment
+                        processing tasks for front desk workers. "Cashier"
+                        facilitated the efficient handling of customer orders
+                        and the seamless processing of payments, boasting
+                        several key features:
                         <div className="w-full flex flex-row flex-wrap">
-                          <div className="w-full flex flex-row flex-wrap">
+                          <div className="w-full flex flex-row flex-wrap gap-2">
                             <div className="w-full h-[10%]">
                               <div className="text-base text-gray-500 font-medium">
                                 <div className="text-black inline-block font-semibold pr-2">
                                   - Interactive Menu:
                                 </div>
-                                Our menu system is user-friendly, allowing you
-                                to add items to orders with a simple click. You
-                                can stack items for multiple quantities and
-                                remove them just as easily.
+                                The menu system was user-friendly, enabling the
+                                addition of items to orders with a simple click.
+                                Items could be stacked for multiple quantities
+                                and removed just as easily.
                               </div>
                             </div>
                             <div className="w-full h-[10%]">
                               <div className="text-base text-gray-500 font-medium">
                                 <div className="text-black inline-block font-semibold pr-2">
-                                  Order Summary:
+                                  - Order Summary:
                                 </div>
-                                "Cashier" keeps a running tally of the selected
-                                items, quantities, and their individual prices.
-                                This makes it a breeze to review and make any
-                                necessary adjustments to the order.
+                                "Cashier" maintained a running tally of the
+                                selected items, their quantities, and individual
+                                prices. This feature made it easy to review and
+                                make any necessary adjustments to the order.
                               </div>
                             </div>
                             <div className="w-full h-[10%]">
                               <div className="text-base text-gray-500 font-medium">
                                 <div className="text-black inline-block font-semibold pr-2">
-                                  Payment Proccessing:
+                                  - Payment Proccessing:
                                 </div>
-                                When it's time to settle the bill, our system
-                                calculates the total cost based on the items in
-                                the order. There's a convenient input field
-                                where you can enter the customer's payment
-                                amount.
+                                When it came time to settle the bill, the system
+                                calculated the total cost based on the items in
+                                the order. There was a convenient input field
+                                where the customer's payment amount could be
+                                entered.
                               </div>
                             </div>
                             <div className="w-full h-[10%]">
                               <div className="text-base text-gray-500 font-medium">
                                 <div className="text-black inline-block font-semibold pt-2 pr-2">
-                                  Payment Notifications:
+                                  - Payment Notifications:
                                 </div>
-                                If the customer provides more money than the
-                                total, our system displays a toast notification
-                                showing the change to be returned. However, if
-                                the payment is insufficient, you'll receive a
-                                notification indicating that the payment has
-                                failed.
+                                If the customer provided more money than the
+                                total, the system displayed a toast notification
+                                showing the change to be returned. Conversely,
+                                if the payment was insufficient, a notification
+                                indicated that the payment had failed.
                               </div>
                             </div>
                           </div>
@@ -890,27 +899,31 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                   <div className="w-full h-[95%] flex flex-col gap-6 flex-wrap pt-5">
                     <div className="w-full h-[30%]">
                       <div className="text-base text-gray-200">
-                        A personal website portfolio that i made for
-                        contributing to React JS Front End Developer community.
-                        Creating features using a React JS and vanilla
-                        JavaScript or pure without any framework can quite be a
-                        problem and waste a lot of times. Let say the feature is
-                        a simple slide, in the vanila javascript we easily put
-                        the DOM method immediately in the script but as React JS
-                        developer we have to implement that using the react way
-                        by using the React Hooks, etc. Because in React JS
-                        rendering a component and DOM behaves differently, for
-                        example React DOM escapes any values embedded in JSX
-                        before rendering them. So it's can be a problem for a
-                        simple features although it's the same logic function
-                        that works on purely javascript website.
+                        I developed a personal website portfolio aimed at
+                        contributing to the React JS Front End Developer
+                        community. While creating features using React JS and
+                        vanilla JavaScript or pure methods without any
+                        framework, I encountered challenges and time-consuming
+                        tasks. For instance, implementing a simple slider
+                        feature in vanilla JavaScript involves straightforward
+                        DOM manipulation. However, as a React JS developer, I
+                        had to follow the React way, utilizing React Hooks,
+                        among other methods. The difference in rendering
+                        components and DOM behavior in React JS posed
+                        challenges. For example, React DOM escapes any values
+                        embedded in JSX before rendering them. This discrepancy
+                        sometimes made implementing simple features more
+                        complex, despite their identical logic functioning in
+                        purely JavaScript websites.
                       </div>
                       <div className="text-lg text-gray-200 font-semibold">
-                        I developed and designed React JS templates of feature
-                        that widely used by people or basic features a website
-                        needed, which we can just straight up copy and paste the
-                        JSX and style it how we want without worrying the
-                        underhood.
+                        To streamline the development process and address these
+                        challenges, I designed and developed React JS templates
+                        for widely used features or basic functionalities
+                        essential for websites. These templates allow developers
+                        to directly copy and paste the JSX code and style it
+                        according to their preferences without worrying about
+                        the underlying complexities.
                       </div>
                     </div>
                     <div className="w-full h-[70%] flex flex-row flex-wrap transition-all duration-1000 ease-in-out">

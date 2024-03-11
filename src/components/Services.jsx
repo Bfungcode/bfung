@@ -3,15 +3,15 @@ import React from "react";
 const Services = ({ isLarge }) => {
   const serviceslist = [
     {
-      text: "Convert your Figma design to a functional website, with a framework of your choice or what i'm offer [React JS, Next JS, Vue JS]",
+      text: "I will help you convert your Figma design into a functional website using a framework of your choice or one of the options I'm offering [React JS, Next JS, Vue JS].",
       num: 1,
     },
     {
-      text: "Create a website from scratch, i do the design and the ui/ux and create the website with the framework i choose, deployed and host the website",
+      text: "I will help you create a website from scratch. I can effectively handle the design and the UI/UX, as well as develop the website using the framework of your choice. Once completed, I will also handle the website deployment and hosting.",
       num: 2,
     },
     {
-      text: "Debug and Fix your code, if you having any bug from your website that need to be fixed but you are stuck i can offer myself to debug your function or fix your code to make sure it can run as you wish",
+      text: "I will help debug and fix your code. If you have any bugs on your website that need to be fixed but you are stuck, I can offer to debug your functions or fix your code to ensure it runs as you wish",
       num: 3,
     },
   ];
