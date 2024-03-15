@@ -578,6 +578,23 @@ function ArrowRight() {
   );
 }
 
+function Noise() {
+  return (
+    <div>
+      <svg>
+        <filter id="noiseFilter">
+          <feTurbulence
+            type="fractalNoise"
+            baseFrequency="6.29"
+            numOctaves="6"
+            stitchTiles="stitch"
+          />
+        </filter>
+      </svg>
+    </div>
+  );
+}
+
 export {
   Xicon,
   LinkedInIcon,
@@ -611,4 +628,5 @@ export {
   ArrowBackWhite,
   ArrowBackBlack,
   ArrowRight,
+  Noise,
 };

@@ -313,7 +313,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           <div className="w-full font-secondary text-black text-6xl p-10  bg-white text-center ">
                             Cartal
                             <div className="text-2xl font-secondary">
-                              a Car Rental Web Application for the customer side
+                              Car Rental Web Application for the customer side
                               to do transaction, built by using React JS.
                               (Bootcamp Final Project)
                             </div>
@@ -346,7 +346,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           <div className="w-full font-secondary text-black text-6xl   bg-white text-center p-10">
                             Cartal
                             <div className="text-2xl font-secondary">
-                              a Car Rental Web Application for the customer side
+                              Car Rental Web Application for the customer side
                               to do transaction, built by using React JS.
                               (Bootcamp Final Project)
                             </div>
@@ -544,7 +544,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           <div className="w-full font-secondary text-white text-6xl p-6  bg-black text-center">
                             CryptoHex
                             <div className="text-2xl font-secondary">
-                              a Cryptocurrency wallet service web application
+                              Cryptocurrency wallet service web application
                               built with Vue JS
                             </div>
                           </div>
@@ -577,7 +577,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           <div className="w-full font-secondary text-white text-6xl p-6  bg-black text-center">
                             CryptoHex
                             <div className="text-2xl font-secondary">
-                              a Cryptocurrency wallet service web application
+                              Cryptocurrency wallet service web application
                               built with Vue JS
                             </div>
                           </div>
@@ -776,7 +776,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           <div className="w-full font-secondary text-black text-6xl p-6  bg-white text-center">
                             Cashier
                             <div className="text-2xl font-secondary">
-                              a User-friendly portfolio project with an
+                              User-friendly portfolio project with an
                               interactive food menu webpage that allows you to
                               assemble your order on the right side while
                               keeping track of your total payment.
@@ -810,7 +810,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           <div className="w-full font-secondary text-black text-6xl p-6  bg-white text-center">
                             Cashier
                             <div className="text-2xl font-secondary">
-                              a User-friendly portfolio project with an
+                              User-friendly portfolio project with an
                               interactive food menu webpage that allows you to
                               assemble your order on the right side while
                               keeping track of your total payment.
@@ -988,10 +988,10 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           <div className="w-full font-secondary text-white text-6xl p-6   text-center">
                             Easy Features
                             <div className="text-2xl font-secondary">
-                              a Dedicated website built with React JS and
-                              designed to assist developers working with
-                              React.js. With its extensive collection of JSX
-                              templates and CSS code snippets,
+                              Dedicated website built with React JS and designed
+                              to assist developers working with React.js. With
+                              its extensive collection of JSX templates and CSS
+                              code snippets,
                             </div>
                           </div>
                         </div>
@@ -1022,10 +1022,10 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           <div className="w-full font-secondary text-white text-6xl p-6   text-center">
                             Easy Features
                             <div className="text-2xl font-secondary">
-                              a Dedicated website built with React JS and
-                              designed to assist developers working with
-                              React.js. With its extensive collection of JSX
-                              templates and CSS code snippets,
+                              Dedicated website built with React JS and designed
+                              to assist developers working with React.js. With
+                              its extensive collection of JSX templates and CSS
+                              code snippets,
                             </div>
                           </div>
                         </div>

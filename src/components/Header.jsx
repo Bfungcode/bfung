@@ -9,6 +9,7 @@ const Header = ({ isLarge }) => {
     "Furthermore, Bie demonstrates a genuine passion for continuous learning. He actively seeks opportunities to expand his skillset and knowledge base, readily accepting new challenges and adapting to unfamiliar situations. This growth mindset ensures he consistently delivers high-quality work and brings fresh perspectives to any project.",
     "In conclusion, Bie Fung's strong character, collaborative spirit, and dedication to learning make him an excellent candidate for your project. He is a reliable and fantastic person all around. ",
     "Bie Fung is a genuine asset to any team or project he is a part of. His dedication is evident in the way he immerses himself in his work, always giving 100% to ensure that every task he undertakes is completed to the highest standard. His attention to detail, along with his determination, ensures that he not only meets but often exceeds expectations. I highly recommend Bei Fung for any project you need.",
+    "Bie helped me get my python script working again quickly. Fast work and good communication. Thank you!",
   ];
   const reviewers = [
     "M. Elliot",
@@ -17,6 +18,7 @@ const Header = ({ isLarge }) => {
     "Edd.C",
     "Edd.C",
     "J.Currier",
+    "Cam.F",
   ];
   const [idx, setIdx] = useState(0);
   const [review, setReviews] = useState(reviews[idx]);

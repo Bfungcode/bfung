@@ -5,7 +5,7 @@ import Projects from "./components/Projects";
 import Designs from "./components/Designs";
 import Skillset from "./components/Skillset";
 import Contacts from "./components/Contacts";
-
+import { Noise } from "./media/svg";
 function App() {
   const handleMouseEnter = (setBox) => () => {
     setBox(true);
@@ -27,7 +27,7 @@ function App() {
   }, []);
   return (
     <>
-      <div className="bg-[rgb(241,239,233)]">
+      <div className="bg-[rgb(241,239,233)] relative">
         <div className="w-full h-full overflow-x-auto">
           <Header
             isLarge={isLarge}
