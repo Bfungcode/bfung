@@ -12,15 +12,15 @@ const Services = ({ isLarge }) => {
             <div className="w-full h-full border-2 border-b-0 border-black p-8 pr-4 pl-4 flex md:flex-col flex-col lg:flex-row justify-around items-center gap-6 md:gap-6 lg:gap-1">
               <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative  border-[1px] border-black ">
                 <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                  <div className="text-2xl font-secondary mt-4 w-full text-start relative">
+                  <div className="text-xl font-secondary mt-4 w-full text-start relative">
                     Custom Website Service
                     <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                   </div>
-                  <div className="text-xl font-secondary w-full text-start font-medium">
+                  <div className="text-lg font-secondary w-full text-start font-medium">
                     I will create you a custom website for your business or for
                     your personal use case
                   </div>
-                  <div className="text-2xl font-secondary w-full text-start">
+                  <div className="text-xl font-secondary w-full text-start">
                     How It Works:
                   </div>
                   <div className="text-lg font-secondary w-full ml-2">
@@ -99,15 +99,15 @@ const Services = ({ isLarge }) => {
               </div>
               <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative  border-[1px] border-black ">
                 <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                  <div className="text-2xl font-secondary mt-4 w-full text-start relative">
+                  <div className="text-xl font-secondary mt-4 w-full text-start relative">
                     CMS Website Service
                     <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                   </div>
-                  <div className="text-xl font-secondary w-full text-start font-medium">
+                  <div className="text-lg font-secondary w-full text-start font-medium">
                     I will create you a custom website for your business or for
                     your personal use case using Wordpress, Shopify or Wix
                   </div>
-                  <div className="text-2xl font-secondary w-full text-start">
+                  <div className="text-xl font-secondary w-full text-start">
                     How It Works:
                   </div>
                   <div className="text-lg font-secondary w-full ml-2">
@@ -182,16 +182,16 @@ const Services = ({ isLarge }) => {
               </div>
               <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative border-[1px] border-black ">
                 <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                  <div className="text-2xl font-secondary mt-4 w-full text-start relative">
+                  <div className="text-xl font-secondary mt-4 w-full text-start relative">
                     Bot and Scripts Services
                     <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                   </div>
-                  <div className="text-xl font-secondary w-full text-start font-medium">
+                  <div className="text-lg font-secondary w-full text-start font-medium">
                     Need data extracted from websites? Want to automate social
                     media posting or other online tasks? I will make you the web
                     scraping scripts and bot scripts and got you covered.
                   </div>
-                  <div className="text-2xl font-secondary w-full text-start">
+                  <div className="text-xl font-secondary w-full text-start">
                     What We Offer:
                   </div>
                   <div className="text-lg font-secondary w-full ml-2">
@@ -238,15 +238,15 @@ const Services = ({ isLarge }) => {
             <div className="w-full h-full border-2 border-b-0 border-black p-8 pr-4 pl-4 flex md:flex-col flex-col lg:flex-row justify-around items-center gap-6 md:gap-6 lg:gap-1">
               <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[900px]  relative  border-[1px] border-black ">
                 <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                  <div className="text-2xl font-secondary mt-4 w-full text-start relative">
+                  <div className="text-xl font-secondary mt-4 w-full text-start relative">
                     Custom Website Service
                     <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                   </div>
-                  <div className="text-xl font-secondary w-full text-start font-medium">
+                  <div className="text-lg font-secondary w-full text-start font-medium">
                     I will create you a custom website for your business or for
                     your personal use case
                   </div>
-                  <div className="text-2xl font-secondary w-full text-start">
+                  <div className="text-xl font-secondary w-full text-start">
                     How It Works:
                   </div>
                   <div className="text-lg font-secondary w-full ml-2">
@@ -325,15 +325,15 @@ const Services = ({ isLarge }) => {
               </div>
               <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[900px]  relative  border-[1px] border-black ">
                 <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                  <div className="text-2xl font-secondary mt-4 w-full text-start relative">
+                  <div className="text-xl font-secondary mt-4 w-full text-start relative">
                     CMS Website Service
                     <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                   </div>
-                  <div className="text-xl font-secondary w-full text-start font-medium">
+                  <div className="text-lg font-secondary w-full text-start font-medium">
                     I will create you a custom website for your business or for
                     your personal use case using Wordpress, Shopify or Wix
                   </div>
-                  <div className="text-2xl font-secondary w-full text-start">
+                  <div className="text-xl font-secondary w-full text-start">
                     How It Works:
                   </div>
                   <div className="text-lg font-secondary w-full ml-2">
@@ -408,16 +408,16 @@ const Services = ({ isLarge }) => {
               </div>
               <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[900px]  relative border-[1px] border-black ">
                 <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                  <div className="text-2xl font-secondary mt-4 w-full text-start relative">
+                  <div className="text-xl font-secondary mt-4 w-full text-start relative">
                     Bot and Scripts Services
                     <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                   </div>
-                  <div className="text-xl font-secondary w-full text-start font-medium">
+                  <div className="text-lg font-secondary w-full text-start font-medium">
                     Need data extracted from websites? Want to automate social
                     media posting or other online tasks? I will make you the web
                     scraping scripts and bot scripts and got you covered.
                   </div>
-                  <div className="text-2xl font-secondary w-full text-start">
+                  <div className="text-xl font-secondary w-full text-start">
                     What We Offer:
                   </div>
                   <div className="text-lg font-secondary w-full ml-2">

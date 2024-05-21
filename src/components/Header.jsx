@@ -142,7 +142,7 @@ const Header = ({ isLarge }) => {
                 Wha
                 <span className="font-bold bg-white w-full h-full">T</span>
               </div>
-              <div className="w-full pl-[20%] tracking-[10px]">
+              <div className="w-full pl-[15%] tracking-[10px]">
                 They sa
                 <span className=" bg-black  text-white font-bold w-full h-full">
                   y
