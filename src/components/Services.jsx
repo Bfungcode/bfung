@@ -1,61 +1,463 @@
 import React from "react";
 
 const Services = ({ isLarge }) => {
-  const serviceslist = [
-    {
-      text: "I will help you convert your Figma design into a functional website using a framework of your choice or one of the options I'm offering [React JS, Next JS, Vue JS].",
-      num: 1,
-    },
-    {
-      text: "I will help you create a website from scratch. I can effectively handle the design and the UI/UX, as well as develop the website using the framework of your choice. Once completed, I will also handle the website deployment and hosting.",
-      num: 2,
-    },
-    {
-      text: "I will help debug and fix your code. If you have any bugs on your website that need to be fixed but you are stuck, I can offer to debug your functions or fix your code to ensure it runs as you wish",
-      num: 3,
-    },
-  ];
+  const serviceslist = [];
   return (
     <>
+      {" "}
       {isLarge ? (
-        <div className="w-screen h-[400px] p-4 pt-0 pb-0 ">
-          <div className="w-full h-full border-2 border-b-0 border-black p-8 pr-4 pl-4 flex flex-row flex-wrap gap-4 justify-around items-center ">
-            {serviceslist.map((service) => {
-              return (
-                <div className="w-[30%] h-[140px] md:h-[200px]  lg:h-[250px]  relative bg-white">
-                  <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-center text-center items-center font-semibold p-3 ">
-                    {service.text}
-                    <div className="w-[10%] h-[20%] border-l-2 border-t-2 border-black absolute left-0 top-0"></div>
-                    <div className="w-[10%] h-[20%] border-r-2 border-b-2 border-black absolute right-0 bottom-0"></div>
-                    <div className="w-[20px] h-[40px] text-2xl absolute right-0 top-0">
-                      {service.num}
+        <>
+          {" "}
+          <div className="w-screen  p-4 pt-0 pb-0 ">
+            <div className="w-full h-full border-2 border-b-0 border-black p-8 pr-4 pl-4 flex md:flex-col flex-col lg:flex-row justify-around items-center gap-6 md:gap-6 lg:gap-1">
+              <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative  border-[1px] border-black ">
+                <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
+                  <div className="text-2xl font-secondary mt-4 w-full text-start relative">
+                    Custom Website Service
+                    <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
+                  </div>
+                  <div className="text-xl font-secondary w-full text-start font-medium">
+                    I will create you a custom website for your business or for
+                    your personal use case
+                  </div>
+                  <div className="text-2xl font-secondary w-full text-start">
+                    How It Works:
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="text-lg w-full text-start">
+                      1. Chat & Plan
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Consultation:</span> We’ll
+                      talk about your goals and vision.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Plan: </span> We’ll outline
+                      the project, including timeline and deliverables.
                     </div>
                   </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">
+                      2. Design & Prototype
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Wireframes:</span> See the
+                      layout of your site.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Design: </span> Check out
+                      design mockups and give feedback.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">3. Build</div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Frontend: </span> We create a
+                      responsive, interactive site.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Backend: </span> We build a
+                      strong backend for smooth performance.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Content: </span> We integrate
+                      your content, optimized for SEO.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">
+                      4. Test & Launch
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">QA:</span> We test everything
+                      to ensure it works perfectly.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Review: </span> You review the
+                      site before it goes live.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Launch: </span> We deploy your
+                      site.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">5. Support</div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Training:</span> Learn how to
+                      manage your new site.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Maintenance: </span> We offer
+                      ongoing support and updates.
+                    </div>
+                  </div>
+                  <div className="w-[20px] h-[40px] text-2xl absolute right-0 top-0">
+                    1
+                  </div>
                 </div>
-              );
-            })}
-          </div>
-        </div>
-      ) : (
-        <div className="w-screen h-[550px] md:h-[700px] lg:h-[900px] p-4 pt-0 pb-0 ">
-          <div className="w-full h-full border-2 border-b-0  border-black p-8 pr-4 pl-4 flex flex-col flex-wrap gap-4 justify-center items-center">
-            {serviceslist.map((service) => {
-              return (
-                <div className="w-[90%] h-[140px] md:h-[200px]  lg:h-[250px]  relative bg-white ">
-                  <div className="text-[13px] md:text-[20px] w-full h-full font-secondary flex justify-center text-center items-center font-semibold p-3 ">
-                    {service.text}
-                    <div className="w-[10%] h-[20%] border-l-2 border-t-2 border-black absolute left-0 top-0"></div>
-                    <div className="w-[10%] h-[20%] border-r-2 border-b-2 border-black absolute right-0 bottom-0"></div>
+              </div>
+              <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative  border-[1px] border-black ">
+                <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
+                  <div className="text-2xl font-secondary mt-4 w-full text-start relative">
+                    CMS Website Service
+                    <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
+                  </div>
+                  <div className="text-xl font-secondary w-full text-start font-medium">
+                    I will create you a custom website for your business or for
+                    your personal use case using Wordpress, Shopify or Wix
+                  </div>
+                  <div className="text-2xl font-secondary w-full text-start">
+                    How It Works:
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="text-lg w-full text-start">
+                      1. Chat & Plan
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Consultation:</span> We’ll
+                      talk about your goals and vision.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Plan: </span> We’ll outline
+                      the project, including timeline and deliverables.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">
+                      2. Design & Prototype
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Wireframes:</span> See the
+                      layout of your site.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Design: </span> Check out
+                      design mockups and give feedback.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">3. Build</div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Website: </span> We create a
+                      responsive, interactive site.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Content: </span> We integrate
+                      your content, optimized for SEO.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">
+                      4. Test & Launch
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">QA:</span> We test everything
+                      to ensure it works perfectly.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Review: </span> You review the
+                      site before it goes live.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Launch: </span> We deploy your
+                      site.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">5. Support</div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Training:</span> Learn how to
+                      manage your new site.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Maintenance: </span> We offer
+                      ongoing support and updates.
+                    </div>
+                  </div>
+                  <div className="w-[20px] h-[40px] text-2xl absolute right-0 top-0">
+                    2
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative border-[1px] border-black ">
+                <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
+                  <div className="text-2xl font-secondary mt-4 w-full text-start relative">
+                    Bot and Scripts Services
+                    <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
+                  </div>
+                  <div className="text-xl font-secondary w-full text-start font-medium">
+                    Need data extracted from websites? Want to automate social
+                    media posting or other online tasks? I will make you the web
+                    scraping scripts and bot scripts and got you covered.
+                  </div>
+                  <div className="text-2xl font-secondary w-full text-start">
+                    What We Offer:
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="text-lg w-full text-start">
+                      Web Scraping Scripts
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      1. Custom scripts to extract data from any website, API or
+                      database
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      2. Data delivered in your preferred format (CSV, JSON,
+                      etc.)
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      3. Scheduled or on-demand scraping
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">Bot Scripts</div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      1. Social media bots for posting, scheduling, interaction
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      2. Chatbots and virtual assistants (Using llm and gpt API)
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      3. Customized to your unique needs and Works with all
+                      major platforms
+                    </div>
+                  </div>
 
-                    <div className="w-[20px] h-[40px] text-2xl absolute right-0 top-0 ">
-                      {service.num}
-                    </div>
+                  <div className="w-[20px] h-[40px] text-2xl absolute right-0 top-0">
+                    3
                   </div>
                 </div>
-              );
-            })}
+              </div>
+            </div>
           </div>
-        </div>
+        </>
+      ) : (
+        <>
+          <div className="w-screen  p-4 pt-0 pb-0 ">
+            <div className="w-full h-full border-2 border-b-0 border-black p-8 pr-4 pl-4 flex md:flex-col flex-col lg:flex-row justify-around items-center gap-6 md:gap-6 lg:gap-1">
+              <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[900px]  relative  border-[1px] border-black ">
+                <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
+                  <div className="text-2xl font-secondary mt-4 w-full text-start relative">
+                    Custom Website Service
+                    <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
+                  </div>
+                  <div className="text-xl font-secondary w-full text-start font-medium">
+                    I will create you a custom website for your business or for
+                    your personal use case
+                  </div>
+                  <div className="text-2xl font-secondary w-full text-start">
+                    How It Works:
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="text-lg w-full text-start">
+                      1. Chat & Plan
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Consultation:</span> We’ll
+                      talk about your goals and vision.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Plan: </span> We’ll outline
+                      the project, including timeline and deliverables.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">
+                      2. Design & Prototype
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Wireframes:</span> See the
+                      layout of your site.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Design: </span> Check out
+                      design mockups and give feedback.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">3. Build</div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Frontend: </span> We create a
+                      responsive, interactive site.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Backend: </span> We build a
+                      strong backend for smooth performance.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Content: </span> We integrate
+                      your content, optimized for SEO.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">
+                      4. Test & Launch
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">QA:</span> We test everything
+                      to ensure it works perfectly.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Review: </span> You review the
+                      site before it goes live.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Launch: </span> We deploy your
+                      site.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">5. Support</div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Training:</span> Learn how to
+                      manage your new site.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Maintenance: </span> We offer
+                      ongoing support and updates.
+                    </div>
+                  </div>
+                  <div className="w-[20px] h-[40px] text-2xl absolute right-0 top-0">
+                    1
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[900px]  relative  border-[1px] border-black ">
+                <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
+                  <div className="text-2xl font-secondary mt-4 w-full text-start relative">
+                    CMS Website Service
+                    <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
+                  </div>
+                  <div className="text-xl font-secondary w-full text-start font-medium">
+                    I will create you a custom website for your business or for
+                    your personal use case using Wordpress, Shopify or Wix
+                  </div>
+                  <div className="text-2xl font-secondary w-full text-start">
+                    How It Works:
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="text-lg w-full text-start">
+                      1. Chat & Plan
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Consultation:</span> We’ll
+                      talk about your goals and vision.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Plan: </span> We’ll outline
+                      the project, including timeline and deliverables.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">
+                      2. Design & Prototype
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Wireframes:</span> See the
+                      layout of your site.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Design: </span> Check out
+                      design mockups and give feedback.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">3. Build</div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Website: </span> We create a
+                      responsive, interactive site.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Content: </span> We integrate
+                      your content, optimized for SEO.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">
+                      4. Test & Launch
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">QA:</span> We test everything
+                      to ensure it works perfectly.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Review: </span> You review the
+                      site before it goes live.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Launch: </span> We deploy your
+                      site.
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">5. Support</div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      <span className="font-bold">Training:</span> Learn how to
+                      manage your new site.
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      <span className="font-bold">Maintenance: </span> We offer
+                      ongoing support and updates.
+                    </div>
+                  </div>
+                  <div className="w-[20px] h-[40px] text-2xl absolute right-0 top-0">
+                    2
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[900px]  relative border-[1px] border-black ">
+                <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
+                  <div className="text-2xl font-secondary mt-4 w-full text-start relative">
+                    Bot and Scripts Services
+                    <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
+                  </div>
+                  <div className="text-xl font-secondary w-full text-start font-medium">
+                    Need data extracted from websites? Want to automate social
+                    media posting or other online tasks? I will make you the web
+                    scraping scripts and bot scripts and got you covered.
+                  </div>
+                  <div className="text-2xl font-secondary w-full text-start">
+                    What We Offer:
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="text-lg w-full text-start">
+                      Web Scraping Scripts
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      1. Custom scripts to extract data from any website, API or
+                      database
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      2. Data delivered in your preferred format (CSV, JSON,
+                      etc.)
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      3. Scheduled or on-demand scraping
+                    </div>
+                  </div>
+                  <div className="text-lg font-secondary w-full ml-2">
+                    <div className="w-full text-start text-lg">Bot Scripts</div>
+                    <div className="w-full text-base font-medium text-start pl-5">
+                      1. Social media bots for posting, scheduling, interaction
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      2. Chatbots and virtual assistants (Using llm and gpt API)
+                    </div>
+                    <div className="w-full text-base font-medium text-start pl-5 ">
+                      3. Customized to your unique needs and Works with all
+                      major platforms
+                    </div>
+                  </div>
+
+                  <div className="w-[20px] h-[40px] text-2xl absolute right-0 top-0">
+                    3
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </>
       )}
     </>
   );

@@ -176,7 +176,7 @@ const Skillset = ({ isLarge }) => {
                         onMouseEnter={handleMouseEnter(skill.icon)}
                         onMouseLeave={handleMouseLeave(skill.icon)}
                       >
-                        <div className="absolute w-[50%] h-[40%] border-l-2 border-t-2 border-black top-10 left-3"></div>
+                        <div className="absolute wala-[50%] h-[40%] border-l-2 border-t-2 border-black top-10 left-3"></div>
                         <div className="absolute w-[50%] h-[40%] border-r-2 border-b-2 border-black bottom-10 right-3"></div>
                         <div className="w-full h-[85%] text-start tracking-[8px] flex items-center justify-start pt-16 ">
                           {skill.skill}

@@ -10,6 +10,8 @@ const Header = ({ isLarge }) => {
     "In conclusion, Bie Fung's strong character, collaborative spirit, and dedication to learning make him an excellent candidate for your project. He is a reliable and fantastic person all around. ",
     "Bie Fung is a genuine asset to any team or project he is a part of. His dedication is evident in the way he immerses himself in his work, always giving 100% to ensure that every task he undertakes is completed to the highest standard. His attention to detail, along with his determination, ensures that he not only meets but often exceeds expectations. I highly recommend Bei Fung for any project you need.",
     "Bie helped me get my python script working again quickly. Fast work and good communication. Thank you!",
+    "I needed help fixing a python script and posted an ad on Reddit. Bie was quick to respond and eager to help. We have had several back and fourth emails discussing the code and Bie took the time to analyze the task at hand and provide the solution I needed. We had several additional emails each time discussing changes with Bie tweaking the code until it ran perfectly. Bie was professional, quick and fixed the problems at hand. Would recommend and will contact him again in the future for further coding projects. ",
+    "Bfung, Thank you for coding the bot for me! Your expertise and dedication were evident, resulting in a highly functional solution. Working with you was a pleasure, and I'm thoroughly impressed with the quality of your work. Highly recommended!",
   ];
   const reviewers = [
     "M. Elliot",
@@ -19,6 +21,8 @@ const Header = ({ isLarge }) => {
     "Edd.C",
     "J.Currier",
     "Cam.F",
+    "Cam.F",
+    "Matthew. F",
   ];
   const [idx, setIdx] = useState(0);
   const [review, setReviews] = useState(reviews[idx]);
@@ -94,7 +98,7 @@ const Header = ({ isLarge }) => {
                 </div>
               </div>
               <div className="h-[75%] w-full font-secondary text-[28px] p-4 pt-12 flex flex-col flex-wrap justify-start items-center text-center gap-6 ">
-                <div className="w-[80%] text-black font-medium  relative z-0 bg-white">
+                <div className="w-[90%] text-black font-medium  relative z-0 bg-white">
                   <div className="">{review}</div>
                 </div>
                 <span className="w-[90%] h-[1px] bg-black"></span>
@@ -133,20 +137,27 @@ const Header = ({ isLarge }) => {
             </a>
           </div>
           <div className="w-full h-[75%] flex flex-col md:flex-row flex-wrap justify- item-center relative">
-            <div className="z-30 relative w-full h-[40%]  p-6 pt-0 ">
-              <div className="w-full h-[200px] md:h-[250px] lg:p-36 lg:text-[22px] font-primary font-semibold text-[13px] md:text-[18px] text-center relative flex justify-center items-center flex-col p-2 pr-0 pl-0 z-30 gap-1 text-gray-500 pt-10">
-                <div className=""> {review}</div>
-                <span className="w-full h-[1px] border-[1px] border-black"></span>
-                <div className="flex flex-col flex-wrap text-[16px] md:text-[22px] text-black">
-                  - {reviewer}
-                </div>
+            <div className="text-[36px] md:text-[70px] font-third w-full h-[25%] flex flex-col justify-center items-center relative">
+              <div className="w-full pl-[10%] pt-10 md:pt-20 text-[36px] md:text-[70px] tracking-[15px] ">
+                Wha
+                <span className="font-bold bg-white w-full h-full">T</span>
+              </div>
+              <div className="w-full pl-[20%] tracking-[15px]">
+                they sa
+                <span className=" bg-black  text-white font-bold w-full h-full">
+                  y
+                </span>
+                <span className="underline text-[60px] pl-4">?</span>
               </div>
             </div>
-            <div className="w-full h-[60%] flex justify-center flex-col items-center z-10 ">
-              <img
-                src="/bfung3.png"
-                className="w-full md:max-w-[40%] lg:max-w-[40%] h-full z-20 "
-              />
+            <div className="h-[70%] w-full font-secondary text-[16px] md:text-[22px] p-2 pt-2 flex flex-col flex-wrap justify-center items-center text-center gap-4 ">
+              <div className="w-[90%] text-black font-medium  relative z-0 bg-white p-2">
+                <div className="">{review}</div>
+              </div>
+              <span className="w-[90%] h-[1px] bg-black"></span>
+              <div className="w-[50%] text-white text-[22px] md:text-[30px] bg-red-700 ">
+                - {reviewer}
+              </div>
             </div>
           </div>
           <div className="w-full h-[15%] border-black border-t-2 z-20">
