@@ -150,9 +150,9 @@ const Header = ({ isLarge }) => {
                 <span className="underline text-[43px] pl-4">?</span>
               </div>
             </div>
-            <div className="h-[70%] w-full font-secondary text-[16px] md:text-[22px] p-2 pt-2 flex flex-col flex-wrap justify-center items-center text-center gap-4 ">
+            <div className="h-[70%] w-full font-secondary text-[15px] md:text-[20px] p-2  flex flex-col flex-wrap justify-center items-center text-center gap-2 ">
               <div className="w-[90%] text-black font-medium  relative z-0 bg-white p-2">
-                <div className="">{review}</div>
+                <div>{review}</div>
               </div>
               <span className="w-[90%] h-[1px] bg-black"></span>
               <div className="w-[50%] text-white text-[22px] md:text-[30px] bg-red-700 ">
