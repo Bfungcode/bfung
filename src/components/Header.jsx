@@ -41,7 +41,7 @@ const Header = ({ isLarge }) => {
     setReviewer(reviewers[idx]);
   }, [idx, reviews, reviewers]);
   return (
-    <div className=" w-screen h-screen p-4  pb-0">
+    <div className=" w-screen h-screen p-4 pb-0">
       {isLarge ? (
         <div className="w-full h-full flex flex-col flex-wrap  border-2 border-black border-b-0">
           <div className="w-full h-[12%] border-black border-b-2 flex flex-row flex-wrap">
@@ -137,17 +137,17 @@ const Header = ({ isLarge }) => {
             </a>
           </div>
           <div className="w-full h-[75%] flex flex-col md:flex-row flex-wrap justify- item-center relative">
-            <div className="text-[36px] md:text-[70px] font-third w-full h-[25%] flex flex-col justify-center items-center relative">
+            <div className="text-[32px] md:text-[70px] font-third w-full h-[25%] flex flex-col justify-center items-center relative">
               <div className="w-full pl-[10%] pt-10 md:pt-20 text-[36px] md:text-[70px] tracking-[15px] ">
                 Wha
                 <span className="font-bold bg-white w-full h-full">T</span>
               </div>
-              <div className="w-full pl-[20%] tracking-[15px]">
-                they sa
+              <div className="w-full pl-[20%] tracking-[10px]">
+                They sa
                 <span className=" bg-black  text-white font-bold w-full h-full">
                   y
                 </span>
-                <span className="underline text-[60px] pl-4">?</span>
+                <span className="underline text-[43px] pl-4">?</span>
               </div>
             </div>
             <div className="h-[70%] w-full font-secondary text-[16px] md:text-[22px] p-2 pt-2 flex flex-col flex-wrap justify-center items-center text-center gap-4 ">
