@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ArrowBackBlack, ArrowRight } from "../media/svg";
+import { ArrowBackBlack, ArrowRight } from "./svg";
 
 const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
   const [contact1, setContact1] = useState(false);
@@ -8,11 +8,12 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
   const [contact4, setContact4] = useState(false);
 
   return (
-    <div className="w-screen  p-4 pt-0">
-      <div className="w-full h-full border-2 border-t-0 border-black flex flex-col">
-        {isLarge ? (
+    <>
+      {isLarge ? (
+        <div className="w-full   border-t-2 border-black">
+          {" "}
           <>
-            <div className="w-full h-[109px]  text-white font-secondary text-[62px] md:text-[72px] text-center flex flex-row justify-center items-center  border-2 border-white">
+            <div className="w-full h-[80px]  text-white font-secondary text-[62px] md:text-[72px] text-center flex flex-row justify-center items-center  border-2 border-white">
               <div className="w-[70%] h-full">
                 <img src="Rectangle10.png" className="w-full h-full"></img>
               </div>
@@ -27,7 +28,7 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
             >
               {contact1 ? (
                 <>
-                  <div className="w-full h-full text-white text-5xl font-secondary bg-white flex justify-center items-center text-center flex-row gap-2 transition-all ease-in-out duration-1000">
+                  <div className="w-full h-full text-white text-4xl font-secondary  flex justify-center items-center text-center flex-row gap-2 transition-all ease-in-out duration-1000">
                     <div className="w-[60%] flex flex-row flex-wrap justify-end gap-4">
                       <div className="text-6xl font-secondary text-black">
                         Mail me
@@ -62,12 +63,12 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                 </>
               ) : (
                 <>
-                  <div className="w-[70%] h-full   text-white text-5xl font-secondary bg-black flex justify-center items-center flex-col gap-2 transition-all ease-in-out duration-1000">
+                  <div className="w-[70%] h-full   text-white text-4xl font-secondary bg-black flex justify-center items-center flex-col gap-2 transition-all ease-in-out duration-1000">
                     <a href="mailto:bfung0011@gmail.com" target="_blank">
                       bfung0011@gmail.com
                     </a>
                   </div>
-                  <div className="w-[30%] h-full text-black font-secondary text-5xl flex flex-row justify-center items-center border-black border-l-2 transition-all ease-in-out duration-1000">
+                  <div className="w-[30%] h-full text-black font-secondary text-4xl flex flex-row justify-center items-center border-black border-l-2 transition-all ease-in-out duration-1000">
                     Gmail
                   </div>
                 </>
@@ -80,7 +81,7 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
             >
               {contact2 ? (
                 <>
-                  <div className="w-full h-full text-white text-5xl font-secondary bg-white flex justify-center items-center text-center flex-row gap-2 transition-all ease-in-out duration-1000">
+                  <div className="w-full h-full text-white text-4xl font-secondary  flex justify-center items-center text-center flex-row gap-2 transition-all ease-in-out duration-1000">
                     <div className="w-[40%] flex flex-column flex-wrap justify-center items-center transition-all ease-in-out duration-1000">
                       <a
                         href="https://linkedin.com/in/biefung/"
@@ -115,13 +116,13 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                 </>
               ) : (
                 <>
-                  <div className="w-[30%] h-full  border-black border-r-2 text-black text-5xl font-secondary  flex justify-center items-center transition-all ease-in-out duration-1000">
-                    LinkedIn
-                  </div>
-                  <div className="w-[70%] h-full text-white font-secondary text-5xl flex flex-col justify-center items-center   bg-black gap-2 transition-all ease-in-out duration-1000">
+                  <div className="w-[70%] h-full text-white font-secondary text-4xl flex flex-col justify-center items-center   bg-black gap-2 transition-all ease-in-out duration-1000">
                     <a href="https://linkedin.com/in/biefung" target="_blank">
                       linkedin.com/in/biefung
                     </a>
+                  </div>
+                  <div className="w-[30%] h-full  border-black border-l-2 text-black text-4xl font-secondary  flex justify-center items-center transition-all ease-in-out duration-1000">
+                    LinkedIn
                   </div>
                 </>
               )}
@@ -133,7 +134,7 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
             >
               {contact3 ? (
                 <>
-                  <div className="w-full h-full text-white text-5xl font-secondary bg-white flex justify-center items-center text-center flex-row gap-2 transition-all ease-in-out duration-1000">
+                  <div className="w-full h-full text-white text-4xl font-secondary  flex justify-center items-center text-center flex-row gap-2 transition-all ease-in-out duration-1000">
                     <div className="w-[60%] flex flex-row flex-wrap justify-end gap-4">
                       <div className="text-6xl font-secondary text-black">
                         See my code
@@ -168,12 +169,12 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                 </>
               ) : (
                 <>
-                  <div className="w-[70%] h-full  text-white text-5xl font-secondary bg-black flex justify-center items-center flex-col gap-2 transition-all ease-in-out duration-1000">
+                  <div className="w-[70%] h-full  text-white text-4xl font-secondary bg-black flex justify-center items-center flex-col gap-2 transition-all ease-in-out duration-1000">
                     <a href="https://github.com/Bfungcode" target="_blank">
                       github.com/Bfungcode
                     </a>
                   </div>
-                  <div className="w-[30%] h-full text-black font-secondary text-5xl flex flex-row justify-center items-center border-black border-l-2 transition-all ease-in-out duration-1000">
+                  <div className="w-[30%] h-full text-black font-secondary text-4xl flex flex-row justify-center items-center border-black border-l-2 transition-all ease-in-out duration-1000">
                     Github
                   </div>
                 </>
@@ -186,7 +187,7 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
             >
               {contact4 ? (
                 <>
-                  <div className="w-full h-full text-white text-5xl font-secondary bg-white flex justify-center items-center text-center flex-row gap-2 transition-all ease-in-out duration-1000">
+                  <div className="w-full h-full text-white text-4xl font-secondary  flex justify-center items-center text-center flex-row gap-2 transition-all ease-in-out duration-1000">
                     <div className="w-[40%] flex flex-column flex-wrap justify-center items-center transition-all ease-in-out duration-1000">
                       <a
                         href="https://twitter.com/bei_fg"
@@ -221,25 +222,32 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                 </>
               ) : (
                 <>
-                  <div className="w-[30%] h-full  border-black border-r-2 text-black text-5xl font-secondary  flex justify-center items-center transition-all ease-in-out duration-1000">
-                    X / Twitter
-                  </div>
-                  <div className="w-[70%] h-full text-white font-secondary text-5xl flex flex-col justify-center items-center bg-black gap-2 transition-all ease-in-out duration-1000">
+                  <div className="w-[70%] h-full text-white font-secondary text-4xl flex flex-col justify-center items-center bg-black gap-2 transition-all ease-in-out duration-1000">
                     <a href="https://twitter.com/bei_fg" target="_blank">
                       twitter.com/bei_fg
                     </a>
+                  </div>
+                  <div className="w-[30%] h-full  border-black border-l-2 text-black text-4xl font-secondary  flex justify-center items-center transition-all ease-in-out duration-1000">
+                    X / Twitter
                   </div>
                 </>
               )}
             </div>
           </>
-        ) : (
+        </div>
+      ) : (
+        <div className="w-full   border-t-2 border-black">
           <>
-            <div className="w-full h-[119px] bg-black text-white font-secondary text-[52px] md:text-[72px] text-center flex justify-center items-center  border-2 border-white">
-              Contacts
+            <div className="w-full h-[80px]   font-secondary text-[52px] md:text-[72px] text-center flex justify-center items-center ">
+              <div className="w-[35%] h-full flex text-center justify-center items-center text-[30px] font-secondary ">
+                Contacts
+              </div>
+              <div className="w-[65%] h-full border-l-2 border-black ">
+                <img src="/Rectangle10.png" className="w-full h-full"></img>
+              </div>
             </div>
             <div className="flex flex-col flex-wrap">
-              <div className="w-full bg-white h-[100px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
+              <div className="w-full  h-[80px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
                 <div className="flex flex-row flex-wrap justify-center items-center">
                   <div className="text-[20px] md:text-[42px] font-secondary">
                     Mail me
@@ -251,7 +259,7 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                   </div>
                 </div>
               </div>
-              <div className="w-full bg-white h-[100px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
+              <div className="w-full  h-[80px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
                 <div className="flex flex-row flex-wrap justify-center items-center">
                   <div className="text-[20px] md:text-[42px] font-secondary">
                     <a href="https://www.linkedin.com/in/biefung/">Linkedin</a>
@@ -263,7 +271,7 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                   </div>
                 </div>
               </div>
-              <div className="w-full bg-white h-[100px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
+              <div className="w-full  h-[80px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
                 <div className="flex flex-row flex-wrap justify-center items-center">
                   <div className="text-[20px] md:text-[42px] font-secondary">
                     {" "}
@@ -276,7 +284,7 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                   </div>
                 </div>
               </div>
-              <div className="w-full bg-white h-[100px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
+              <div className="w-full  h-[80px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
                 <div className="flex flex-row flex-wrap justify-center items-center">
                   <div className="text-[20px] md:text-[42px] font-secondary">
                     <a href="https://twitter.com/bei_fg">X</a>
@@ -290,9 +298,9 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
               </div>
             </div>
           </>
-        )}
-      </div>
-    </div>
+        </div>
+      )}
+    </>
   );
 };
 

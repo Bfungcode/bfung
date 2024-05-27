@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FileIconBlack, FileIconWhite } from "../media/svg.jsx";
+import { FileIconBlack, FileIconWhite } from "./svg.jsx";
 
 const Header = ({ isLarge }) => {
   const reviews = [
@@ -10,7 +10,7 @@ const Header = ({ isLarge }) => {
     "In conclusion, Bie Fung's strong character, collaborative spirit, and dedication to learning make him an excellent candidate for your project. He is a reliable and fantastic person all around. ",
     "Bie Fung is a genuine asset to any team or project he is a part of. His dedication is evident in the way he immerses himself in his work, always giving 100% to ensure that every task he undertakes is completed to the highest standard. His attention to detail, along with his determination, ensures that he not only meets but often exceeds expectations. I highly recommend Bei Fung for any project you need.",
     "Bie helped me get my python script working again quickly. Fast work and good communication. Thank you!",
-    "I needed help fixing a python script and posted an ad on Reddit. Bie was quick to respond and eager to help. We have had several back and fourth emails discussing the code and Bie took the time to analyze the task at hand and provide the solution I needed. We had several additional emails each time discussing changes with Bie tweaking the code until it ran perfectly. Bie was professional, quick and fixed the problems at hand. Would recommend and will contact him again in the future for further coding projects. ",
+    "I needed help fixing a python script and posted an ad . Bie was quick to respond and eager to help. We have had several back and fourth emails discussing the code and Bie took the time to analyze the task at hand and provide the solution I needed. We had several additional emails each time discussing changes with Bie tweaking the code until it ran perfectly. Bie was professional, quick and fixed the problems at hand. Would recommend and will contact him again in the future for further coding projects. ",
     "Bfung, Thank you for coding the bot for me! Your expertise and dedication were evident, resulting in a highly functional solution. Working with you was a pleasure, and I'm thoroughly impressed with the quality of your work. Highly recommended!",
   ];
   const reviewers = [
@@ -31,7 +31,7 @@ const Header = ({ isLarge }) => {
     const interval = setInterval(() => {
       setIdx((prevIndex) => (prevIndex + 1) % reviews.length);
       setReviewer((prevIndex) => (prevIndex + 1) % reviewers.length);
-    }, 8000);
+    }, 1000);
 
     return () => clearInterval(interval);
   }, [reviews.length]);
@@ -41,133 +41,93 @@ const Header = ({ isLarge }) => {
     setReviewer(reviewers[idx]);
   }, [idx, reviews, reviewers]);
   return (
-    <div className=" w-screen h-screen p-4 pb-0">
+    <>
       {isLarge ? (
-        <div className="w-full h-full flex flex-col flex-wrap  border-2 border-black border-b-0">
-          <div className="w-full h-[12%] border-black border-b-2 flex flex-row flex-wrap">
-            <div className="w-[13%] h-full">
-              <img
-                src="/Rectangle4.png"
-                className="w-full h-full object-none"
-              ></img>
+        <div className="w-full h-[90%] flex flex-row flex-wrap">
+          <div className="w-[15%] h-full border-r-2 flex flex-col flex-wrap justify-between">
+            <div className="w-full h-[100%] p-4 flex flex-col justify-end items-start gap-2">
+              <div className="text-[18px] font-primary font-bold text-black">
+                Bie Fung
+              </div>
+              <div className="text-[12px]  font-primary text-black font-semibold tracking-widest">
+                Hello, i'm Bie Fung. you can call me Abe or Bei. I’m a Front End
+                Developer and Web Designer. Specializing in JavaScript. I'm a
+                self taught Software Engineer with passion and dreams
+              </div>
             </div>
-            <div className="w-[79%] border-l-2 border-black font-secondary text-[56px] flex justify-evenly items-center">
-              <div>Bie Fung</div>
-              <div>-</div>
-              <div>Software Engineer</div>
-            </div>
-            <a
-              className="w-[8%] border-l-2 border-black bg-white flex flex-col flex-wrap justify-center items-center gap-2"
-              href="https://drive.google.com/file/d/1fC_PxrVXrQ_fcvbWfrXFpM7IWDR1JWD6/view?usp=sharing"
-            >
-              <div className="text-xl font-secondary text-black ">Resume</div>
-              <FileIconBlack />
-            </a>
           </div>
-          <div className="w-full h-[76%] flex flex-col flex-wrap">
-            <div className="w-[13%] h-full border-r-2 flex flex-col flex-wrap justify-between">
-              <div className="w-full h-[100%] p-4 flex flex-col justify-end items-start">
-                <div className="text-[18px] font-primary font-bold">
+          <div className="w-[85%] h-full border-l-2 border-black flex flex-col flex-wrap pt-4 relative">
+            <div className="text-[100px] font-third h-[35%] w-[60%] flex flex-col absolute top-42 ">
+              <div className=" h-[50%] w-full tracking-[15px] absolute left-10">
+                Wha
+                <span className="font-bold bg-white w-full h-full">T</span>
+              </div>
+              <div className=" h-[50%] w-full tracking-[15px] absolute bottom-10 left-28">
+                they sa
+                <span className=" bg-black  text-white font-bold w-full h-full">
+                  y
+                </span>
+                <span className="underline  pl-4">?</span>
+              </div>
+            </div>
+            <div className="h-full w-full font-secondary text-[20px] p-4 pt-32 flex flex-col flex-wrap justify-center items-center text-center gap-6">
+              <div className="w-[90%] text-black font-medium  relative z-0 bg-white">
+                <div className="pt-4 pb-4 pr-2 pl-2 font-secondary">
+                  {review}
+                </div>
+              </div>
+              <span className="w-[90%] h-[1px] bg-black"></span>
+              <div className="w-[30%] text-white text-[32px] bg-red-700 ">
+                - {reviewer}
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : (
+        <div className="w-full h-[100%] flex flex-row flex-wrap">
+          <div className="flex flex-col flex-wrap w-full h-full">
+            <div className="w-full h-[75%] md:h-[60%] flex flex-col flex-wrap pt-4 relative ">
+              <div className="text-[38px] md:text-[78px] font-third h-[35%] w-[60%] flex flex-row absolute top-42 md:top-50">
+                <div className=" h-[50%] w-full tracking-[15px] absolute left-6 md:left-20">
+                  Wha
+                  <span className="font-bold bg-white w-full h-full">T</span>
+                </div>
+                <div className=" h-[50%] tracking-[15px] absolute bottom-5 left-10 md:left-40">
+                  they,sa
+                  <span className=" bg-black  text-white font-bold w-full h-full">
+                    y
+                  </span>
+                  <span className="underline  pl-4">?</span>
+                </div>
+              </div>
+              <div className="h-full w-full  font-secondary text-[14px] md:text-[22px] p-2 pt-28 md:pt-56 flex flex-col flex-wrap justify-center items-center text-center gap-2">
+                <div className="w-full md:w-[90%] text-black font-medium  relative z-0 bg-white">
+                  <div className="pt-2 pb-2 pr-2 pl-2 font-secondary">
+                    {review}
+                  </div>
+                </div>
+                <span className="w-[90%] h-[1px] bg-black"></span>
+                <div className="w-[30%] text-white text-[16px] md:text-[22px] bg-red-700 ">
+                  - {reviewer}
+                </div>
+              </div>
+            </div>
+            <div className="w-full h-[25%]  md:h-[40%] flex flex-col flex-wrap justify-between pr-3 pl-3 pt-2 pb-2 ">
+              <div className="w-full h-[100%] p-2 flex flex-col justify-end items-start ">
+                <div className="text-[18px] md:text-[32px] font-primary font-bold text-black">
                   Bie Fung
                 </div>
-                <div className="text-[14px] font-primary text-gray-400 font-medium">
-                  Profile
-                </div>
-                <div>
-                  <img src="/bfung3.png"></img>
-                </div>
-                <div className="text-[12px] pt-4 font-primary text-black font-semibold">
+                <div className="text-[12px] md:text-[26px] font-primary text-black tracking-normal font-light">
                   Hello, i'm Bie Fung. you can call me Abe or Bei. I’m a Front
                   End Developer and Web Designer. Specializing in JavaScript.
                   I'm a self taught Software Engineer with passion and dreams
                 </div>
               </div>
             </div>
-            <div className="w-[87%] h-full border-l-2 border-black flex flex-col flex-wrap e p-4">
-              <div className="text-[72px] font-third w-full h-[25%] flex flex-col justify-center items-center relative">
-                <div className="w-full pl-[2%] text-[100px] absolute -top-5 tracking-[15px] ">
-                  Wha
-                  <span className="font-bold bg-white w-full h-full">T</span>
-                </div>
-                <div className="w-full pl-[10%] absolute -bottom-5 tracking-[15px]">
-                  they sa
-                  <span className=" bg-black  text-white font-bold w-full h-full">
-                    y
-                  </span>
-                  <span className="underline text-[52px] pl-4">?</span>
-                </div>
-              </div>
-              <div className="h-[75%] w-full font-secondary text-[28px] p-4 pt-12 flex flex-col flex-wrap justify-start items-center text-center gap-6 ">
-                <div className="w-[90%] text-black font-medium  relative z-0 bg-white">
-                  <div className="">{review}</div>
-                </div>
-                <span className="w-[90%] h-[1px] bg-black"></span>
-                <div className="w-[20%] text-white text-[48px] bg-red-700 ">
-                  - {reviewer}
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="w-full h-[12%] border-t-2 border-black flex flex-row flex-wrap">
-            <div className="w-[30%] h-full bg-black border-2 border-white font-secondary text-[62px] flex justify-center items-center text-white">
-              Services
-            </div>
-            <div className="w-[70%] h-full  border-l-2 border-black">
-              <img src="/Rectangle10.png" className="w-full h-full"></img>
-            </div>
-          </div>
-        </div>
-      ) : (
-        <div className="w-full h-full flex flex-col flex-wrap  border-2 border-black border-b-0">
-          <div className="w-full h-[10%] border-b-2 border-black flex flex-row justify-around items-center ">
-            <div className="w-[75%] font-semibold font-secondary text-[28px] md:text-[52px] p-2 text-center hover:bg-black hover:text-white transition-all duration-1000 h-full flex justify-center items-center">
-              Bie Fung - SWE
-            </div>
-
-            <a
-              className="w-[25%] h-full border-l-2 border-black flex flex-col flex-wrap justify-center items-center bg-black text-white"
-              href="https://drive.google.com/file/d/1fC_PxrVXrQ_fcvbWfrXFpM7IWDR1JWD6/view?usp=sharing"
-            >
-              <div className="text-[12px] md:text-[32px] full border-black flex flex-col flex-wrap justify-center ]">
-                Resume
-              </div>
-              <div>
-                <FileIconWhite />
-              </div>
-            </a>
-          </div>
-          <div className="w-full h-[75%] flex flex-col md:flex-row flex-wrap justify- item-center relative">
-            <div className="text-[32px] md:text-[70px] font-third w-full h-[25%] flex flex-col justify-center items-center relative">
-              <div className="w-full pl-[10%] pt-10 md:pt-20 text-[36px] md:text-[70px] tracking-[15px] ">
-                Wha
-                <span className="font-bold bg-white w-full h-full">T</span>
-              </div>
-              <div className="w-full pl-[15%] tracking-[10px]">
-                They sa
-                <span className=" bg-black  text-white font-bold w-full h-full">
-                  y
-                </span>
-                <span className="underline text-[43px] pl-4">?</span>
-              </div>
-            </div>
-            <div className="h-[70%] w-full font-secondary text-[15px] md:text-[20px] p-2  flex flex-col flex-wrap justify-center items-center text-center gap-2 ">
-              <div className="w-[90%] text-black font-medium  relative z-0 bg-white p-2">
-                <div>{review}</div>
-              </div>
-              <span className="w-[90%] h-[1px] bg-black"></span>
-              <div className="w-[50%] text-white text-[22px] md:text-[30px] bg-red-700 ">
-                - {reviewer}
-              </div>
-            </div>
-          </div>
-          <div className="w-full h-[15%] border-black border-t-2 z-20">
-            <div className="w-full h-full font-secondary text-[52px] md:text-[72px] bg-black border-white text-center flex justify-center items-center border-2 text-white hover:text-black hover:bg-white hover:border-none transition-all duration-1000">
-              Services
-            </div>
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 

@@ -19,7 +19,7 @@ import {
   ReactColor,
   VueColor,
   TailwindColor,
-} from "../media/svg.jsx";
+} from "./svg.jsx";
 
 const Skillset = ({ isLarge }) => {
   const [isHover0, setIsHover0] = useState(false);
@@ -138,7 +138,7 @@ const Skillset = ({ isLarge }) => {
   };
   return (
     <>
-      {isLarge ? (
+      {/* {isLarge ? (
         <div className="w-screen h-[800px] p-4 pt-0 pb-0 flex flex-row flex-wrap">
           <div className="w-[15%] h-full bg-white text-black font-secondary text-[62px]  text-center flex flex-row justify-center items-center border-l-2  border-b-2  border-black  vertical-rl">
             <div className="w-full h-full flex justify-center items-center  border-black tracking-[5px] rotate-0 orientation-upright uppercase font-third relative">
@@ -211,6 +211,112 @@ const Skillset = ({ isLarge }) => {
                     <Icon />
                   </div>
                 </div>
+              );
+            })}
+          </div>
+        </div>
+      )} */}
+      {isLarge ? (
+        <div className="w-full h-full p-4 pt-0 pb-0 pr-0 pl-0 flex flex-row flex-wrap">
+          <div className="w-[15%] h-full bg-white text-black font-secondary text-[62px]  text-center flex flex-row justify-center items-center vertical-rl">
+            <div className="w-full h-full flex justify-center items-center  border-black tracking-[5px] rotate-0 orientation-upright uppercase font-third relative">
+              <div className="absolute w-[40%] h-[60%] border-l-2 border-t-2 border-black top-10 left-18"></div>
+              <div className="absolute w-[40%] h-[60%] border-r-2 border-b-2 border-black bottom-10 right-18"></div>
+              Skill set
+            </div>
+          </div>
+          <div className="w-[85%] h-full  flex flex-row ">
+            {skills.map((skill) => {
+              let Icon = IconComponent[skill.icon];
+              return (
+                <>
+                  {eval(`isHover${skill.icon}`) ? (
+                    <>
+                      <div
+                        className={`w-[10%] h-full  text-[46px] font-secondary flex flex-col flex-wrap justify-center items-center text-center p-2  tracking-widest border-l-2 border-black vertical-rl orientation-upright relative ${skill.color}`}
+                        onMouseEnter={handleMouseEnter(skill.icon)}
+                        onMouseLeave={handleMouseLeave(skill.icon)}
+                      >
+                        <div className="absolute w-[50%] h-[40%] border-l-2 border-t-2 border-black top-10 left-3"></div>
+                        <div className="absolute w-[50%] h-[40%] border-r-2 border-b-2 border-black bottom-10 right-3"></div>
+                        <div className="w-full h-[85%] text-start tracking-[8px] flex items-center justify-start pt-16 ">
+                          {skill.skill}
+                        </div>
+                        <div className="w-full h-[15%] flex justify-start items-center">
+                          <Icon />
+                        </div>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div
+                        className={`w-[10%] h-full  text-[46px] font-secondary flex flex-col flex-wrap justify-center items-center text-center p-2   tracking-widest border-l-2  border-black vertical-rl orientation-upright relative `}
+                        onMouseEnter={handleMouseEnter(skill.icon)}
+                        onMouseLeave={handleMouseLeave(skill.icon)}
+                      >
+                        <div className="absolute w-[50%] h-[40%] border-l-2 border-t-2 border-black top-10 left-3"></div>
+                        <div className="absolute w-[50%] h-[40%] border-r-2 border-b-2 border-black bottom-10 right-3"></div>
+                        <div className="w-full h-[85%] text-start tracking-[8px] flex items-center justify-start pt-16 ">
+                          {skill.skill}
+                        </div>
+                        <div className="w-full h-[15%] flex justify-start items-center">
+                          <Icon />
+                        </div>
+                      </div>
+                    </>
+                  )}
+                </>
+              );
+            })}
+          </div>
+        </div>
+      ) : (
+        <div className="w-full  p-4 pt-0 pb-0 pr-0 pl-0 flex flex-col flex-wrap border-t-2 border-black">
+          <div className="w-full h-[80px]  text-black font-secondary text-[32px]  text-center flex flex-row justify-center items-center border-b-2 border-black">
+            <div className="w-[35%] h-full flex text-center justify-center items-center text-[28px] font-secondary  ">
+              Skill Set
+            </div>
+            <div className="w-[65%] h-full border-l-2 border-black ">
+              <img src="/Rectangle10.png" className="w-full h-full"></img>
+            </div>
+          </div>
+          <div className="w-full h-[85%]  flex flex-col ">
+            {skills.map((skill) => {
+              let Icon = IconComponent[skill.icon];
+              return (
+                <>
+                  {eval(`isHover${skill.icon}`) ? (
+                    <>
+                      <div
+                        className={`w-full h-[15%]  text-[26px] font-secondary flex flex-row flex-wrap justify-center items-center text-center p-2  tracking-widest border-black  border-b-2 orientation-upright relative ${skill.color}`}
+                        onMouseEnter={handleMouseEnter(skill.icon)}
+                        onMouseLeave={handleMouseLeave(skill.icon)}
+                      >
+                        <div className="w-[85%] h-full text-start tracking-[8px] flex items-center justify-start ">
+                          {skill.skill}
+                        </div>
+                        <div className="w-[15%] h-full flex justify-start items-center">
+                          <Icon />
+                        </div>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div
+                        className={`w-full h-[15%]  text-[26px] font-secondary flex flex-row flex-wrap justify-center items-center text-center p-2   tracking-widest   border-b-2 border-black orientation-upright relative `}
+                        onMouseEnter={handleMouseEnter(skill.icon)}
+                        onMouseLeave={handleMouseLeave(skill.icon)}
+                      >
+                        <div className="w-[85%] h-full text-center tracking-[8px] flex items-center justify-start  ">
+                          {skill.skill}
+                        </div>
+                        <div className="w-[15%] h-full flex justify-start items-center">
+                          <Icon />
+                        </div>
+                      </div>
+                    </>
+                  )}
+                </>
               );
             })}
           </div>
