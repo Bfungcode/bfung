@@ -31,7 +31,7 @@ const Header = ({ isLarge }) => {
     const interval = setInterval(() => {
       setIdx((prevIndex) => (prevIndex + 1) % reviews.length);
       setReviewer((prevIndex) => (prevIndex + 1) % reviewers.length);
-    }, 8000);
+    }, 1000);
 
     return () => clearInterval(interval);
   }, [reviews.length]);
@@ -84,15 +84,15 @@ const Header = ({ isLarge }) => {
           </div>
         </div>
       ) : (
-        <div className="w-full h-[80%] flex flex-row flex-wrap">
+        <div className="w-full h-[100%] flex flex-row flex-wrap">
           <div className="flex flex-col flex-wrap w-full h-full">
             <div className="w-full h-[75%] md:h-[60%] flex flex-col flex-wrap pt-4 relative ">
-              <div className="text-[33px] md:text-[78px] font-third h-[35%] w-[60%] flex flex-row absolute top-1 md:top-50">
-                <div className=" h-[50%] w-full tracking-[15px] absolute left-6 md:left-20">
+              <div className="text-[33px] md:text-[78px] font-third h-[35%] w-[60%] flex flex-row absolute top-10 md:top-50">
+                <div className=" h-[50%] w-full tracking-[15px] absolute left-3 md:left-20">
                   Wha
                   <span className="font-bold bg-white w-full h-full">T</span>
                 </div>
-                <div className=" h-[50%] tracking-[15px] absolute bottom-5 left-10 md:left-40">
+                <div className=" h-[50%] tracking-[15px] absolute bottom-10 left-8 md:left-40">
                   they,sa
                   <span className=" bg-black  text-white font-bold w-full h-full">
                     y
@@ -113,11 +113,15 @@ const Header = ({ isLarge }) => {
               </div>
             </div>
             <div className="w-full h-[25%]  md:h-[40%] flex flex-col flex-wrap justify-between pr-3 pl-3 pt-2 pb-2 ">
-              <div className="w-full h-[100%] p-2 flex flex-col justify-end items-start ">
+              <div className="w-full h-[100%] p-2 flex flex-col justify-end items-start gap-3">
                 <div className="text-[18px] md:text-[32px] font-primary font-bold text-black">
                   Bie Fung
+                  <div className="text-xs font-primary text-gray-500">
+                    Profile
+                  </div>
                 </div>
-                <div className="text-[12px] md:text-[26px] font-primary text-black tracking-normal font-light">
+
+                <div className="text-[14px] md:text-[26px] font-primary text-black tracking-normal font-light">
                   Hello, i'm Bie Fung. you can call me Abe or Bei. I’m a Front
                   End Developer and Web Designer. Specializing in JavaScript.
                   I'm a self taught Software Engineer with passion and dreams
