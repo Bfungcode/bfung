@@ -86,7 +86,7 @@ function App() {
         </div>
       ) : (
         <div className="w-screen h-screen bg-[#EEE6DE] p-4 pt-6 relative">
-          <div className="border-2 border-black w-full h-[95%]">
+          <div className="border-2 border-black w-full h-[100%]">
             <div className="absolute w-[70px] md:w-[100px] h-[10%] flex flex-col flex-wrap right-2 top-1 border-2 border-black z-20 bg-black text-white justify-center items-center">
               <div className="text-xs font-primary font-bold md:text-base">
                 Resume
