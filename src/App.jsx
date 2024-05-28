@@ -85,74 +85,71 @@ function App() {
           </div>
         </div>
       ) : (
-        <>
-          {" "}
-          <div className="w-screen h-screen bg-[#EEE6DE] p-4 pt-6 relative">
-            <div className="border-2 border-black border-b-0 w-full h-[100%]">
-              <div className="absolute w-[70px] md:w-[100px] h-[10%] flex flex-col flex-wrap right-2 top-1 border-2 border-black z-20 bg-black text-white justify-center items-center">
-                <div className="text-xs font-primary font-bold md:text-base">
-                  Resume
-                </div>
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="30"
-                    height="30"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#ffffff"
-                    stroke-width="1"
-                    stroke-linecap="square"
-                    stroke-linejoin="bevel"
-                  >
-                    <path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
-                    <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
-                  </svg>
-                </div>
+        <div className="w-screen h-screen bg-[#EEE6DE] p-4 pt-6 relative">
+          <div className="border-2 border-black w-full h-full">
+            <div className="absolute w-[70px] md:w-[100px] h-[10%] flex flex-col flex-wrap right-2 top-1 border-2 border-black z-20 bg-black text-white justify-center items-center">
+              <div className="text-xs font-primary font-bold md:text-base">
+                Resume
               </div>
-              <div className="w-full h-[88%] overflow-auto">
-                <Header
-                  isLarge={isLarge}
-                  handleMouseEnter={handleMouseEnter}
-                  handleMouseLeave={handleMouseLeave}
-                />
-                <Services
-                  isLarge={isLarge}
-                  handleMouseEnter={handleMouseEnter}
-                  handleMouseLeave={handleMouseLeave}
-                />
-                <Skillset
-                  isLarge={isLarge}
-                  handleMouseEnter={handleMouseEnter}
-                  handleMouseLeave={handleMouseLeave}
-                />
-                <Projects
-                  isLarge={isLarge}
-                  handleMouseEnter={handleMouseEnter}
-                  handleMouseLeave={handleMouseLeave}
-                />
-                <Designs
-                  isLarge={isLarge}
-                  handleMouseEnter={handleMouseEnter}
-                  handleMouseLeave={handleMouseLeave}
-                />
-                <Contacts
-                  isLarge={isLarge}
-                  handleMouseEnter={handleMouseEnter}
-                  handleMouseLeave={handleMouseLeave}
-                />
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#ffffff"
+                  stroke-width="1"
+                  stroke-linecap="square"
+                  stroke-linejoin="bevel"
+                >
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
+                  <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
+                </svg>
+              </div>
+            </div>
+            <div className="w-full h-[88%] overflow-auto">
+              <Header
+                isLarge={isLarge}
+                handleMouseEnter={handleMouseEnter}
+                handleMouseLeave={handleMouseLeave}
+              />
+              <Services
+                isLarge={isLarge}
+                handleMouseEnter={handleMouseEnter}
+                handleMouseLeave={handleMouseLeave}
+              />
+              <Skillset
+                isLarge={isLarge}
+                handleMouseEnter={handleMouseEnter}
+                handleMouseLeave={handleMouseLeave}
+              />
+              <Projects
+                isLarge={isLarge}
+                handleMouseEnter={handleMouseEnter}
+                handleMouseLeave={handleMouseLeave}
+              />
+              <Designs
+                isLarge={isLarge}
+                handleMouseEnter={handleMouseEnter}
+                handleMouseLeave={handleMouseLeave}
+              />
+              <Contacts
+                isLarge={isLarge}
+                handleMouseEnter={handleMouseEnter}
+                handleMouseLeave={handleMouseLeave}
+              />
+            </div>
+            <div className="w-full h-[12%] border-t-2 border-black flex flex-row">
+              <div className="w-[25%] h-full bg-black text-white text-xs md:text-base flex justify-start items-end font-bold font-primary p-2">
+                Portfolio
+              </div>
+              <div className="w-[85%] h-full text-center font-secondary justify-center items-center text-[20px] md:text-[44px] md:pt-7 pt-5 ">
+                Bie Fung - Software Engineer
               </div>
             </div>
           </div>
-          <div className="w-full h-[100px] p-4 absolute bottom-0 flex flex-row flex-wrap">
-            <div className="w-[25%] h-full bg-black text-white text-xs md:text-base flex justify-start items-end font-bold font-primary p-2 border-t-2 border-black">
-              Portfolio
-            </div>
-            <div className="w-[75%] h-full text-center font-secondary justify-center items-center text-[18px] md:text-[44px] md:pt-7 pt-5 border-t-2 border-black border-b-2">
-              Bie Fung - Software Engineer
-            </div>
-          </div>
-        </>
+        </div>
       )}
     </>
   );
