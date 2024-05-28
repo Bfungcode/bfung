@@ -272,8 +272,8 @@ const Skillset = ({ isLarge }) => {
         </div>
       ) : (
         <div className="w-full  p-4 pt-0 pb-0 pr-0 pl-0 flex flex-col flex-wrap border-t-2 border-black">
-          <div className="w-full h-[80px]  text-black font-secondary text-[32px]  text-center flex flex-row justify-center items-center border-b-2 border-black">
-            <div className="w-[35%] h-full flex text-center justify-center items-center text-[28px] font-secondary  ">
+          <div className="w-full h-[60px]  text-black font-secondary text-[32px]  text-center flex flex-row justify-center items-center border-b-2 border-black">
+            <div className="w-[35%] h-full flex text-center justify-center items-center text-[22px] font-secondary  ">
               Skill Set
             </div>
             <div className="w-[65%] h-full border-l-2 border-black ">

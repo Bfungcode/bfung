@@ -238,8 +238,8 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
       ) : (
         <div className="w-full   border-t-2 border-black">
           <>
-            <div className="w-full h-[80px]   font-secondary text-[52px] md:text-[72px] text-center flex justify-center items-center ">
-              <div className="w-[35%] h-full flex text-center justify-center items-center text-[30px] font-secondary ">
+            <div className="w-full h-[60px]   font-secondary text-[52px] md:text-[72px] text-center flex justify-center items-center ">
+              <div className="w-[35%] h-full flex text-center justify-center items-center text-[22px] font-secondary ">
                 Contacts
               </div>
               <div className="w-[65%] h-full border-l-2 border-black ">

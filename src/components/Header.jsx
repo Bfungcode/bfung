@@ -84,10 +84,10 @@ const Header = ({ isLarge }) => {
           </div>
         </div>
       ) : (
-        <div className="w-full h-[100%] flex flex-row flex-wrap">
+        <div className="w-full h-[80%] flex flex-row flex-wrap">
           <div className="flex flex-col flex-wrap w-full h-full">
             <div className="w-full h-[75%] md:h-[60%] flex flex-col flex-wrap pt-4 relative ">
-              <div className="text-[38px] md:text-[78px] font-third h-[35%] w-[60%] flex flex-row absolute top-42 md:top-50">
+              <div className="text-[33px] md:text-[78px] font-third h-[35%] w-[60%] flex flex-row absolute top-1 md:top-50">
                 <div className=" h-[50%] w-full tracking-[15px] absolute left-6 md:left-20">
                   Wha
                   <span className="font-bold bg-white w-full h-full">T</span>
@@ -100,9 +100,9 @@ const Header = ({ isLarge }) => {
                   <span className="underline  pl-4">?</span>
                 </div>
               </div>
-              <div className="h-full w-full  font-secondary text-[14px] md:text-[22px] p-2 pt-28 md:pt-56 flex flex-col flex-wrap justify-center items-center text-center gap-2">
+              <div className="h-full w-full  font-secondary text-[12px] md:text-[22px] p-2 pt-20 md:pt-56 flex flex-col flex-wrap justify-center items-center text-center gap-2">
                 <div className="w-full md:w-[90%] text-black font-medium  relative z-0 bg-white">
-                  <div className="pt-2 pb-2 pr-2 pl-2 font-secondary">
+                  <div className="pt-2 pb-2 pr-2 pl-2 font-primary">
                     {review}
                   </div>
                 </div>

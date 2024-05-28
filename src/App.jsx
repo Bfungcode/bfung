@@ -87,7 +87,7 @@ function App() {
       ) : (
         <div className="w-screen h-screen bg-[#EEE6DE] p-4 pt-6 relative">
           <div className="border-2 border-black w-full h-full">
-            <div className="absolute w-[70px] md:w-[100px] h-[10%] flex flex-col flex-wrap right-2 top-1 border-2 border-black z-20 bg-white justify-center items-center">
+            <div className="absolute w-[70px] md:w-[100px] h-[10%] flex flex-col flex-wrap right-2 top-1 border-2 border-black z-20 bg-black text-white justify-center items-center">
               <div className="text-xs font-primary font-bold md:text-base">
                 Resume
               </div>
@@ -98,7 +98,7 @@ function App() {
                   height="30"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#000000"
+                  stroke="#ffffff"
                   stroke-width="1"
                   stroke-linecap="square"
                   stroke-linejoin="bevel"
@@ -142,7 +142,7 @@ function App() {
             </div>
             <div className="w-full h-[12%] border-t-2 border-black flex flex-row">
               <div className="w-[25%] h-full bg-black text-white text-xs md:text-base flex justify-start items-end font-bold font-primary p-2">
-                Home
+                Portfolio
               </div>
               <div className="w-[85%] h-full text-center font-secondary justify-center items-center text-[20px] md:text-[44px] md:pt-7 pt-5 ">
                 Bie Fung - Software Engineer

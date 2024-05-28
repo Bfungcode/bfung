@@ -145,8 +145,8 @@ const Designs = ({ isLarge }) => {
       ) : (
         <>
           <div className="w-full  flex flex-col flex-wrap">
-            <div className="w-full h-[80px]   font-secondary text-[52px] text-center flex justify-center items-center border-b-2 border-black">
-              <div className="w-[35%] h-full flex text-center justify-center items-center text-[30px] font-secondary  ">
+            <div className="w-full h-[60px]   font-secondary text-[52px] text-center flex justify-center items-center border-b-2 border-black">
+              <div className="w-[35%] h-full flex text-center justify-center items-center text-[22px] font-secondary  ">
                 Services
               </div>
               <div className="w-[65%] h-full border-l-2 border-black ">

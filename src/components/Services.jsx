@@ -690,8 +690,8 @@ const Services = ({ isLarge }) => {
         </div>
       ) : (
         <div className="w-full pt-0 pb-0 border-t-2  border-black">
-          <div className="w-full h-[80px] flex flex-row flex-wrap justify-center items-center border-b-2  border-black">
-            <div className="w-[35%] h-full flex text-center justify-center items-center text-[30px] font-secondary  font-bold">
+          <div className="w-full h-[60px] flex flex-row flex-wrap justify-center items-center border-b-2  border-black">
+            <div className="w-[35%] h-full flex text-center justify-center items-center text-[22px] font-secondary  font-bold">
               Services
             </div>
             <div className="w-[65%] h-full border-l-2 border-black ">
