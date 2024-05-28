@@ -87,7 +87,7 @@ const Header = ({ isLarge }) => {
         <div className="w-full h-[100%] flex flex-row flex-wrap">
           <div className="flex flex-col flex-wrap w-full h-full">
             <div className="w-full h-[75%] md:h-[60%] flex flex-col flex-wrap relative ">
-              <div className="text-[33px] md:text-[60px] font-third h-[40%] w-full flex flex-col flex-wrap justify-start items-center">
+              <div className="text-[30px] md:text-[60px] font-third md:h-[40%] h-[35%] w-full flex flex-col flex-wrap justify-start items-center">
                 <div className="w-full  tracking-[15px] pl-4  md:pl-24">
                   Wha
                   <span className="font-bold bg-white w-full h-full">T</span>
