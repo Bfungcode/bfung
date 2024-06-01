@@ -1,0 +1,27 @@
+<svg viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+  <filter id="noiseFilter">
+    <feTurbulence
+      type="fractalNoise"
+      baseFrequency="5"
+      numOctaves="3"
+      stitchTiles="stitch"
+      result="turbulence"
+    />
+    <feColorMatrix
+      in="turbulence"
+      type="saturate"
+      values="0"
+      result="desaturatedTurbulence"
+    />
+    <feColorMatrix
+      in="desaturatedTurbulence"
+      type="matrix"
+      values="0.91 0.91 0.91 0 0
+               0.87 0.87 0.87 0 0
+               0.86 0.86 0.86 0 0
+               0    0    0    1 0"
+      result="coloredTurbulence"
+    />
+  </filter>
+  <rect width="100%" height="100%" filter="url(#noiseFilter)" opacity="0.70" />
+</svg>

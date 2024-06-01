@@ -145,34 +145,44 @@ const Designs = ({ isLarge }) => {
       ) : (
         <>
           <div className="w-full  flex flex-col flex-wrap">
-            <div className="w-full h-[60px]   font-secondary text-[52px] text-center flex justify-center items-center border-b-2 border-black">
-              <div className="w-[35%] h-full flex text-center justify-center items-center text-[22px] font-secondary  ">
-                Services
+            <div className="w-full h-[80px] flex flex-row flex-wrap justify-center items-center border-b-2  border-black">
+              <div className="w-[35%] h-full flex text-center justify-center items-center text-[28px] font-secondary  font-bold">
+                Designs
               </div>
               <div className="w-[65%] h-full border-l-2 border-black ">
                 <img src="/Rectangle10.png" className="w-full h-full"></img>
               </div>
             </div>
             <div className="w-full h-full flex flex-col flex-wrap p-1">
-              <div className="w-full h-[80%]">
-                <img src={`/dp/dp${num}.png`} className="w-full h-[100%]"></img>
-              </div>
-              <div className="w-full h-[20%] flex flex-row flex-wrap justify-around items-center pt-2 pb-2">
-                {num <= 1 ? (
-                  <div onClick={handlePrevious} className="opacity-50">
-                    Previous
-                  </div>
-                ) : (
-                  <div onClick={handlePrevious}>Previous</div>
-                )}
-                {num >= 6 ? (
-                  <div onClick={handleNext} className="opacity-50">
-                    Next
-                  </div>
-                ) : (
-                  <div onClick={handleNext}>Next</div>
-                )}
-              </div>
+              <Swiper
+                slidesPerView={1}
+                spaceBetween={10}
+                freeMode={false}
+                pagination={{
+                  clickable: true,
+                }}
+                modules={[FreeMode, Pagination]}
+                className="w-full h-full"
+              >
+                <SwiperSlide>
+                  <img src="/dp/dp1.png" loading="lazy" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="/dp/dp2.png" loading="lazy" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="/dp/dp3.png" loading="lazy" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="/dp/dp4.png" loading="lazy" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="/dp/dp5.png" loading="lazy" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src="/dp/dp6.png" loading="lazy" />
+                </SwiperSlide>
+              </Swiper>
             </div>
           </div>
         </>

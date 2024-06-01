@@ -10,19 +10,19 @@ const Services = ({ isLarge }) => {
             <div className="w-full h-full border-2 border-b-0 border-black p-8 pr-4 pl-4 flex md:flex-col flex-col lg:flex-row justify-around items-center gap-6 md:gap-6 lg:gap-1">
               <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative  border-[1px] border-black ">
                 <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                  <div className="text-xl font-secondary mt-4 w-full text-start relative">
+                  <div className="text-lg font-secondary mt-4 w-full text-start relative">
                     Custom Website Service
                     <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                   </div>
-                  <div className="text-lg font-secondary w-full text-start font-medium">
+                  <div className="text-base font-secondary w-full text-start font-medium">
                     I will create you a custom website for your business or for
                     your personal use case
                   </div>
-                  <div className="text-xl font-secondary w-full text-start">
+                  <div className="text-lg font-secondary w-full text-start">
                     How It Works:
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="text-lg w-full text-start">
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="text-base w-full text-start">
                       1. Chat & Plan
                     </div>
                     <div className="w-full text-base font-medium text-start pl-5">
@@ -34,8 +34,8 @@ const Services = ({ isLarge }) => {
                       the project, including timeline and deliverables.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">
                       2. Design & Prototype
                     </div>
                     <div className="w-full text-base font-medium text-start pl-5">
@@ -47,8 +47,8 @@ const Services = ({ isLarge }) => {
                       design mockups and give feedback.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">3. Build</div>
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">3. Build</div>
                     <div className="w-full text-base font-medium text-start pl-5">
                       <span className="font-bold">Frontend: </span> We create a
                       responsive, interactive site.
@@ -62,8 +62,8 @@ const Services = ({ isLarge }) => {
                       your content, optimized for SEO.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">
                       4. Test & Launch
                     </div>
                     <div className="w-full text-base font-medium text-start pl-5">
@@ -79,8 +79,8 @@ const Services = ({ isLarge }) => {
                       site.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">5. Support</div>
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">5. Support</div>
                     <div className="w-full text-base font-medium text-start pl-5">
                       <span className="font-bold">Training:</span> Learn how to
                       manage your new site.
@@ -97,19 +97,19 @@ const Services = ({ isLarge }) => {
               </div>
               <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative  border-[1px] border-black ">
                 <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                  <div className="text-xl font-secondary mt-4 w-full text-start relative">
+                  <div className="text-lg font-secondary mt-4 w-full text-start relative">
                     CMS Website Service
                     <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                   </div>
-                  <div className="text-lg font-secondary w-full text-start font-medium">
+                  <div className="text-base font-secondary w-full text-start font-medium">
                     I will create you a custom website for your business or for
                     your personal use case using Wordpress, Shopify or Wix
                   </div>
-                  <div className="text-xl font-secondary w-full text-start">
+                  <div className="text-lg font-secondary w-full text-start">
                     How It Works:
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="text-lg w-full text-start">
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="text-base w-full text-start">
                       1. Chat & Plan
                     </div>
                     <div className="w-full text-base font-medium text-start pl-5">
@@ -121,8 +121,8 @@ const Services = ({ isLarge }) => {
                       the project, including timeline and deliverables.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">
                       2. Design & Prototype
                     </div>
                     <div className="w-full text-base font-medium text-start pl-5">
@@ -134,8 +134,8 @@ const Services = ({ isLarge }) => {
                       design mockups and give feedback.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">3. Build</div>
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">3. Build</div>
                     <div className="w-full text-base font-medium text-start pl-5">
                       <span className="font-bold">Website: </span> We create a
                       responsive, interactive site.
@@ -145,8 +145,8 @@ const Services = ({ isLarge }) => {
                       your content, optimized for SEO.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">
                       4. Test & Launch
                     </div>
                     <div className="w-full text-base font-medium text-start pl-5">
@@ -162,8 +162,8 @@ const Services = ({ isLarge }) => {
                       site.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">5. Support</div>
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">5. Support</div>
                     <div className="w-full text-base font-medium text-start pl-5">
                       <span className="font-bold">Training:</span> Learn how to
                       manage your new site.
@@ -180,20 +180,20 @@ const Services = ({ isLarge }) => {
               </div>
               <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative border-[1px] border-black ">
                 <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                  <div className="text-xl font-secondary mt-4 w-full text-start relative">
+                  <div className="text-lg font-secondary mt-4 w-full text-start relative">
                     Bot and Scripts Services
                     <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                   </div>
-                  <div className="text-lg font-secondary w-full text-start font-medium">
+                  <div className="text-base font-secondary w-full text-start font-medium">
                     Need data extracted from websites? Want to automate social
                     media posting or other online tasks? I will make you the web
                     scraping scripts and bot scripts and got you covered.
                   </div>
-                  <div className="text-xl font-secondary w-full text-start">
+                  <div className="text-lg font-secondary w-full text-start">
                     What We Offer:
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="text-lg w-full text-start">
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="text-base w-full text-start">
                       Web Scraping Scripts
                     </div>
                     <div className="w-full text-base font-medium text-start pl-5">
@@ -208,8 +208,8 @@ const Services = ({ isLarge }) => {
                       3. Scheduled or on-demand scraping
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">Bot Scripts</div>
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">Bot Scripts</div>
                     <div className="w-full text-base font-medium text-start pl-5">
                       1. Social media bots for posting, scheduling, interaction
                     </div>
@@ -236,19 +236,19 @@ const Services = ({ isLarge }) => {
             <div className="w-full h-full border-2 border-b-0 border-black p-8 pr-4 pl-4 flex md:flex-col flex-col lg:flex-row justify-around items-center gap-6 md:gap-6 lg:gap-1">
               <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[900px]  relative  border-[1px] border-black ">
                 <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                  <div className="text-xl font-secondary mt-4 w-full text-start relative">
+                  <div className="text-lg font-secondary mt-4 w-full text-start relative">
                     Custom Website Service
                     <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                   </div>
-                  <div className="text-lg font-secondary w-full text-start font-medium">
+                  <div className="text-base font-secondary w-full text-start font-medium">
                     I will create you a custom website for your business or for
                     your personal use case
                   </div>
-                  <div className="text-xl font-secondary w-full text-start">
+                  <div className="text-lg font-secondary w-full text-start">
                     How It Works:
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="text-lg w-full text-start">
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="text-base w-full text-start">
                       1. Chat & Plan
                     </div>
                     <div className="w-full text-base font-medium text-start pl-5">
@@ -260,8 +260,8 @@ const Services = ({ isLarge }) => {
                       the project, including timeline and deliverables.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">
                       2. Design & Prototype
                     </div>
                     <div className="w-full text-base font-medium text-start pl-5">
@@ -273,8 +273,8 @@ const Services = ({ isLarge }) => {
                       design mockups and give feedback.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">3. Build</div>
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">3. Build</div>
                     <div className="w-full text-base font-medium text-start pl-5">
                       <span className="font-bold">Frontend: </span> We create a
                       responsive, interactive site.
@@ -288,8 +288,8 @@ const Services = ({ isLarge }) => {
                       your content, optimized for SEO.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">
                       4. Test & Launch
                     </div>
                     <div className="w-full text-base font-medium text-start pl-5">
@@ -305,8 +305,8 @@ const Services = ({ isLarge }) => {
                       site.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">5. Support</div>
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">5. Support</div>
                     <div className="w-full text-base font-medium text-start pl-5">
                       <span className="font-bold">Training:</span> Learn how to
                       manage your new site.
@@ -323,19 +323,19 @@ const Services = ({ isLarge }) => {
               </div>
               <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[900px]  relative  border-[1px] border-black ">
                 <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                  <div className="text-xl font-secondary mt-4 w-full text-start relative">
+                  <div className="text-lg font-secondary mt-4 w-full text-start relative">
                     CMS Website Service
                     <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                   </div>
-                  <div className="text-lg font-secondary w-full text-start font-medium">
+                  <div className="text-base font-secondary w-full text-start font-medium">
                     I will create you a custom website for your business or for
                     your personal use case using Wordpress, Shopify or Wix
                   </div>
-                  <div className="text-xl font-secondary w-full text-start">
+                  <div className="text-lg font-secondary w-full text-start">
                     How It Works:
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="text-lg w-full text-start">
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="text-base w-full text-start">
                       1. Chat & Plan
                     </div>
                     <div className="w-full text-base font-medium text-start pl-5">
@@ -347,8 +347,8 @@ const Services = ({ isLarge }) => {
                       the project, including timeline and deliverables.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">
                       2. Design & Prototype
                     </div>
                     <div className="w-full text-base font-medium text-start pl-5">
@@ -360,8 +360,8 @@ const Services = ({ isLarge }) => {
                       design mockups and give feedback.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">3. Build</div>
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">3. Build</div>
                     <div className="w-full text-base font-medium text-start pl-5">
                       <span className="font-bold">Website: </span> We create a
                       responsive, interactive site.
@@ -371,8 +371,8 @@ const Services = ({ isLarge }) => {
                       your content, optimized for SEO.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">
                       4. Test & Launch
                     </div>
                     <div className="w-full text-base font-medium text-start pl-5">
@@ -388,8 +388,8 @@ const Services = ({ isLarge }) => {
                       site.
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">5. Support</div>
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">5. Support</div>
                     <div className="w-full text-base font-medium text-start pl-5">
                       <span className="font-bold">Training:</span> Learn how to
                       manage your new site.
@@ -406,20 +406,20 @@ const Services = ({ isLarge }) => {
               </div>
               <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[900px]  relative border-[1px] border-black ">
                 <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                  <div className="text-xl font-secondary mt-4 w-full text-start relative">
+                  <div className="text-lg font-secondary mt-4 w-full text-start relative">
                     Bot and Scripts Services
                     <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                   </div>
-                  <div className="text-lg font-secondary w-full text-start font-medium">
+                  <div className="text-base font-secondary w-full text-start font-medium">
                     Need data extracted from websites? Want to automate social
                     media posting or other online tasks? I will make you the web
                     scraping scripts and bot scripts and got you covered.
                   </div>
-                  <div className="text-xl font-secondary w-full text-start">
+                  <div className="text-lg font-secondary w-full text-start">
                     What We Offer:
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="text-lg w-full text-start">
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="text-base w-full text-start">
                       Web Scraping Scripts
                     </div>
                     <div className="w-full text-base font-medium text-start pl-5">
@@ -434,8 +434,8 @@ const Services = ({ isLarge }) => {
                       3. Scheduled or on-demand scraping
                     </div>
                   </div>
-                  <div className="text-lg font-secondary w-full ml-2">
-                    <div className="w-full text-start text-lg">Bot Scripts</div>
+                  <div className="text-base font-secondary w-full ml-2">
+                    <div className="w-full text-start text-base">Bot Scripts</div>
                     <div className="w-full text-base font-medium text-start pl-5">
                       1. Social media bots for posting, scheduling, interaction
                     </div>
@@ -470,19 +470,19 @@ const Services = ({ isLarge }) => {
           <div className="w-full h-full pt-4 pr-4 pl-4 pb-4 flex md:flex-col flex-col lg:flex-row justify-around items-center gap-6 md:gap-6 lg:gap-1 ">
             <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative  border-[1px] border-black ">
               <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                <div className="text-xl font-secondary mt-4 w-full text-start relative">
+                <div className="text-lg font-secondary mt-4 w-full text-start relative">
                   Custom Website Service
                   <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                 </div>
-                <div className="text-lg font-secondary w-full text-start font-medium">
+                <div className="text-base font-secondary w-full text-start font-medium">
                   I will create you a custom website for your business or for
                   your personal use case
                 </div>
-                <div className="text-xl font-secondary w-full text-start">
+                <div className="text-lg font-secondary w-full text-start">
                   How It Works:
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="text-lg w-full text-start">
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="text-base w-full text-start">
                     1. Chat & Plan
                   </div>
                   <div className="w-full text-base font-medium text-start pl-5">
@@ -494,8 +494,8 @@ const Services = ({ isLarge }) => {
                     project, including timeline and deliverables.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">
                     2. Design & Prototype
                   </div>
                   <div className="w-full text-base font-medium text-start pl-5">
@@ -507,8 +507,8 @@ const Services = ({ isLarge }) => {
                     mockups and give feedback.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">3. Build</div>
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">3. Build</div>
                   <div className="w-full text-base font-medium text-start pl-5">
                     <span className="font-bold">Frontend: </span> We create a
                     responsive, interactive site.
@@ -522,8 +522,8 @@ const Services = ({ isLarge }) => {
                     your content, optimized for SEO.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">
                     4. Test & Launch
                   </div>
                   <div className="w-full text-base font-medium text-start pl-5">
@@ -539,8 +539,8 @@ const Services = ({ isLarge }) => {
                     site.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">5. Support</div>
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">5. Support</div>
                   <div className="w-full text-base font-medium text-start pl-5">
                     <span className="font-bold">Training:</span> Learn how to
                     manage your new site.
@@ -557,19 +557,19 @@ const Services = ({ isLarge }) => {
             </div>
             <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative  border-[1px] border-black ">
               <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                <div className="text-xl font-secondary mt-4 w-full text-start relative">
+                <div className="text-lg font-secondary mt-4 w-full text-start relative">
                   CMS Website Service
                   <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                 </div>
-                <div className="text-lg font-secondary w-full text-start font-medium">
+                <div className="text-base font-secondary w-full text-start font-medium">
                   I will create you a custom website for your business or for
                   your personal use case using Wordpress, Shopify or Wix
                 </div>
-                <div className="text-xl font-secondary w-full text-start">
+                <div className="text-lg font-secondary w-full text-start">
                   How It Works:
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="text-lg w-full text-start">
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="text-base w-full text-start">
                     1. Chat & Plan
                   </div>
                   <div className="w-full text-base font-medium text-start pl-5">
@@ -581,8 +581,8 @@ const Services = ({ isLarge }) => {
                     project, including timeline and deliverables.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">
                     2. Design & Prototype
                   </div>
                   <div className="w-full text-base font-medium text-start pl-5">
@@ -594,8 +594,8 @@ const Services = ({ isLarge }) => {
                     mockups and give feedback.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">3. Build</div>
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">3. Build</div>
                   <div className="w-full text-base font-medium text-start pl-5">
                     <span className="font-bold">Website: </span> We create a
                     responsive, interactive site.
@@ -605,8 +605,8 @@ const Services = ({ isLarge }) => {
                     your content, optimized for SEO.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">
                     4. Test & Launch
                   </div>
                   <div className="w-full text-base font-medium text-start pl-5">
@@ -622,8 +622,8 @@ const Services = ({ isLarge }) => {
                     site.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">5. Support</div>
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">5. Support</div>
                   <div className="w-full text-base font-medium text-start pl-5">
                     <span className="font-bold">Training:</span> Learn how to
                     manage your new site.
@@ -640,20 +640,20 @@ const Services = ({ isLarge }) => {
             </div>
             <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative border-[1px] border-black ">
               <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                <div className="text-xl font-secondary mt-4 w-full text-start relative">
+                <div className="text-lg font-secondary mt-4 w-full text-start relative">
                   Bot and Scripts Services
                   <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                 </div>
-                <div className="text-lg font-secondary w-full text-start font-medium">
+                <div className="text-base font-secondary w-full text-start font-medium">
                   Need data extracted from websites? Want to automate social
                   media posting or other online tasks? I will make you the web
                   scraping scripts and bot scripts and got you covered.
                 </div>
-                <div className="text-xl font-secondary w-full text-start">
+                <div className="text-lg font-secondary w-full text-start">
                   What We Offer:
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="text-lg w-full text-start">
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="text-base w-full text-start">
                     Web Scraping Scripts
                   </div>
                   <div className="w-full text-base font-medium text-start pl-5">
@@ -667,8 +667,8 @@ const Services = ({ isLarge }) => {
                     3. Scheduled or on-demand scraping
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">Bot Scripts</div>
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">Bot Scripts</div>
                   <div className="w-full text-base font-medium text-start pl-5">
                     1. Social media bots for posting, scheduling, interaction
                   </div>
@@ -690,8 +690,8 @@ const Services = ({ isLarge }) => {
         </div>
       ) : (
         <div className="w-full pt-0 pb-0 border-t-2  border-black">
-          <div className="w-full h-[60px] flex flex-row flex-wrap justify-center items-center border-b-2  border-black">
-            <div className="w-[35%] h-full flex text-center justify-center items-center text-[22px] font-secondary  font-bold">
+          <div className="w-full h-[80px] flex flex-row flex-wrap justify-center items-center border-b-2  border-black">
+            <div className="w-[35%] h-full flex text-center justify-center items-center text-[28px] font-secondary  font-bold">
               Services
             </div>
             <div className="w-[65%] h-full border-l-2 border-black ">
@@ -701,19 +701,19 @@ const Services = ({ isLarge }) => {
           <div className="w-full h-full pt-4 pr-4 pl-4 pb-4 flex md:flex-col flex-col lg:flex-row justify-around items-center gap-6 md:gap-6 lg:gap-1 ">
             <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative  border-[1px] border-black ">
               <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                <div className="text-xl font-secondary mt-4 w-full text-start relative">
+                <div className="text-lg font-secondary mt-4 w-full text-start relative">
                   Custom Website Service
                   <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                 </div>
-                <div className="text-lg font-secondary w-full text-start font-medium">
+                <div className="text-base font-secondary w-full text-start font-medium">
                   I will create you a custom website for your business or for
                   your personal use case
                 </div>
-                <div className="text-xl font-secondary w-full text-start">
+                <div className="text-lg font-secondary w-full text-start">
                   How It Works:
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="text-lg w-full text-start">
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="text-base w-full text-start">
                     1. Chat & Plan
                   </div>
                   <div className="w-full text-base font-medium text-start pl-5">
@@ -725,8 +725,8 @@ const Services = ({ isLarge }) => {
                     project, including timeline and deliverables.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">
                     2. Design & Prototype
                   </div>
                   <div className="w-full text-base font-medium text-start pl-5">
@@ -738,8 +738,8 @@ const Services = ({ isLarge }) => {
                     mockups and give feedback.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">3. Build</div>
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">3. Build</div>
                   <div className="w-full text-base font-medium text-start pl-5">
                     <span className="font-bold">Frontend: </span> We create a
                     responsive, interactive site.
@@ -753,8 +753,8 @@ const Services = ({ isLarge }) => {
                     your content, optimized for SEO.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">
                     4. Test & Launch
                   </div>
                   <div className="w-full text-base font-medium text-start pl-5">
@@ -770,8 +770,8 @@ const Services = ({ isLarge }) => {
                     site.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">5. Support</div>
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">5. Support</div>
                   <div className="w-full text-base font-medium text-start pl-5">
                     <span className="font-bold">Training:</span> Learn how to
                     manage your new site.
@@ -788,19 +788,19 @@ const Services = ({ isLarge }) => {
             </div>
             <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative  border-[1px] border-black ">
               <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                <div className="text-xl font-secondary mt-4 w-full text-start relative">
+                <div className="text-lg font-secondary mt-4 w-full text-start relative">
                   CMS Website Service
                   <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                 </div>
-                <div className="text-lg font-secondary w-full text-start font-medium">
+                <div className="text-base font-secondary w-full text-start font-medium">
                   I will create you a custom website for your business or for
                   your personal use case using Wordpress, Shopify or Wix
                 </div>
-                <div className="text-xl font-secondary w-full text-start">
+                <div className="text-lg font-secondary w-full text-start">
                   How It Works:
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="text-lg w-full text-start">
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="text-base w-full text-start">
                     1. Chat & Plan
                   </div>
                   <div className="w-full text-base font-medium text-start pl-5">
@@ -812,8 +812,8 @@ const Services = ({ isLarge }) => {
                     project, including timeline and deliverables.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">
                     2. Design & Prototype
                   </div>
                   <div className="w-full text-base font-medium text-start pl-5">
@@ -825,8 +825,8 @@ const Services = ({ isLarge }) => {
                     mockups and give feedback.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">3. Build</div>
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">3. Build</div>
                   <div className="w-full text-base font-medium text-start pl-5">
                     <span className="font-bold">Website: </span> We create a
                     responsive, interactive site.
@@ -836,8 +836,8 @@ const Services = ({ isLarge }) => {
                     your content, optimized for SEO.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">
                     4. Test & Launch
                   </div>
                   <div className="w-full text-base font-medium text-start pl-5">
@@ -853,8 +853,8 @@ const Services = ({ isLarge }) => {
                     site.
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">5. Support</div>
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">5. Support</div>
                   <div className="w-full text-base font-medium text-start pl-5">
                     <span className="font-bold">Training:</span> Learn how to
                     manage your new site.
@@ -871,20 +871,20 @@ const Services = ({ isLarge }) => {
             </div>
             <div className="md:w-[100%] w-[100%] h-full md:h-full  lg:h-[750px]  relative border-[1px] border-black ">
               <div className="text-[13px] md:text-[22px] w-full h-full font-secondary flex justify-start text-center items-start font-semibold p-3 flex-col gap-1 flex-wrap ">
-                <div className="text-xl font-secondary mt-4 w-full text-start relative">
+                <div className="text-lg font-secondary mt-4 w-full text-start relative">
                   Bot and Scripts Services
                   <div className="w-full h-[1px] bg-black absolute bottom-0"></div>
                 </div>
-                <div className="text-lg font-secondary w-full text-start font-medium">
+                <div className="text-base font-secondary w-full text-start font-medium">
                   Need data extracted from websites? Want to automate social
                   media posting or other online tasks? I will make you the web
                   scraping scripts and bot scripts and got you covered.
                 </div>
-                <div className="text-xl font-secondary w-full text-start">
+                <div className="text-lg font-secondary w-full text-start">
                   What We Offer:
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="text-lg w-full text-start">
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="text-base w-full text-start">
                     Web Scraping Scripts
                   </div>
                   <div className="w-full text-base font-medium text-start pl-5">
@@ -898,8 +898,8 @@ const Services = ({ isLarge }) => {
                     3. Scheduled or on-demand scraping
                   </div>
                 </div>
-                <div className="text-lg font-secondary w-full ml-2">
-                  <div className="w-full text-start text-lg">Bot Scripts</div>
+                <div className="text-base font-secondary w-full ml-2">
+                  <div className="w-full text-start text-base">Bot Scripts</div>
                   <div className="w-full text-base font-medium text-start pl-5">
                     1. Social media bots for posting, scheduling, interaction
                   </div>

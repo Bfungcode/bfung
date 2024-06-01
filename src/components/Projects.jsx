@@ -1027,9 +1027,9 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
         </div>
       ) : (
         <div className="w-full flex flex-col  ">
-          <div className="w-full h-[60px]  text-black font-secondary text-[52px] md:text-[72px] text-center flex justify-center items-center border-b-2 border-black">
-            <div className="w-[35%] h-full flex text-center justify-center items-center text-[22px] font-secondary  ">
-              Projects
+          <div className="w-full h-[80px] flex flex-row flex-wrap justify-center items-center border-b-2  border-black">
+            <div className="w-[35%] h-full flex text-center justify-center items-center text-[28px] font-secondary  font-bold">
+              Works
             </div>
             <div className="w-[65%] h-full border-l-2 border-black ">
               <img src="/Rectangle10.png" className="w-full h-full"></img>

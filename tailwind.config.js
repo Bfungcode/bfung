@@ -10,6 +10,9 @@ export default {
         secondary: ["Playfair Display", "serif"],
         third: ["Shrikhand", "serif"],
       },
+      backgroundImage: {
+        "custom-svg": "url('/noise.svg')",
+      },
     },
   },
   plugins: [

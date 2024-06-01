@@ -6,7 +6,7 @@ import Designs from "./components/Designs";
 import Skillset from "./components/Skillset";
 import Contacts from "./components/Contacts";
 import Exp from "./components/Exp";
-import { Noise } from "./components/svg";
+import { Noise, SvgNoise } from "./components/svg";
 function App() {
   const handleMouseEnter = (setBox) => () => {
     setBox(true);
@@ -29,7 +29,7 @@ function App() {
   return (
     <>
       {isLarge ? (
-        <div className="w-screen h-screen bg-[#EEE6DE] p-4">
+        <div className="w-screen h-screen bg-[#EEE6DE] p-4 bg-custom-svg">
           <div className="w-full h-full border-[2px] border-black flex flex-col flex-wrap overflow-auto">
             <div className="w-full h-[12%] border-b-2 border-black flex flex-row flex-wrap">
               <div className="w-[15%] h-full m-0 p-0 relative border-black">
@@ -85,20 +85,20 @@ function App() {
           </div>
         </div>
       ) : (
-        <div className="w-screen h-screen bg-[#EEE6DE] p-4 pt-6 relative">
+        <div className="w-screen h-screen bg-[#EEE6DE] p-4 pt-7 relative bg-custom-svg">
           <div className="border-2 border-black w-full h-full">
-            <div className="absolute w-[70px] md:w-[100px] h-[10%] flex flex-col flex-wrap right-2 top-1 border-2 border-black z-20 bg-black text-white justify-center items-center">
-              <div className="text-xs font-primary font-bold md:text-base">
+            <div className="absolute w-[60px] md:w-[100px] h-[60px] flex flex-col flex-wrap right-2 top-1 border-2 border-black z-20 bg-[#EEE6DE] text-black justify-center items-center">
+              <div className="text-[10px] font-primary font-bold md:text-base">
                 Resume
               </div>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
+                  width="26"
+                  height="26"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#ffffff"
+                  stroke="#000000"
                   stroke-width="1"
                   stroke-linecap="square"
                   stroke-linejoin="bevel"

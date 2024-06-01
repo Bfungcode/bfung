@@ -84,47 +84,34 @@ const Header = ({ isLarge }) => {
           </div>
         </div>
       ) : (
-        <div className="w-full h-[90%] flex flex-row flex-wrap">
+        <div className="w-full h-[500px] flex flex-row flex-wrap">
           <div className="flex flex-col flex-wrap w-full h-full">
             <div className="w-full h-[75%] md:h-[60%] flex flex-col flex-wrap relative ">
-              <div className="text-[30px] md:text-[60px] font-third md:h-[40%] h-[35%] w-full flex flex-col flex-wrap justify-start items-center pt-4">
-                <div className="w-full  tracking-[15px] pl-4  md:pl-24">
-                  Wha
-                  <span className="font-bold bg-white w-full h-full">T</span>
-                </div>
-                <div className=" w-full   tracking-[15px] pl-8 md:pl-36">
-                  they,sa
-                  <span className=" bg-black  text-white font-bold w-full h-full">
-                    y
-                  </span>
-                  <span className="underline  pl-4">?</span>
-                </div>
-              </div>
-              <div className="h-[65%] md:h-[60%] w-full  font-secondary text-[10px] md:text-[16px] p-2 pt-6  md:pt-20 flex flex-col flex-wrap justify-start items-center text-center gap-2">
-                <div className="w-full md:w-[90%] text-black font-medium  relative z-0 bg-white">
-                  <div className="pt-2 pb-2 pr-2 pl-2 font-primary">
-                    {review}
+              <div className="h-[20%] w-full pt-10 pl-6 ">
+                <div className="text-[18px] md:text-[32px] font-primary font-bold  text-black tracking-wider">
+                  Bie Fung
+                  <div className="text-xs font-primary text-gray-700 letter">
+                    Profile
                   </div>
                 </div>
+              </div>
 
-                <div className="w-[30%] text-white text-[16px] md:text-[22px] bg-red-700 ">
+              <div className="h-[80%] md:h-[60%] w-full  font-secondary text-[12px] tracking-tight md:text-[16px] p-2 pt-2  md:pt-20 flex flex-col flex-wrap justify-center items-center text-center gap-2">
+                <div className="w-[100%] md:w-[90%] text-black font-medium  relative z-0 ">
+                  <div className="pt-2 pr-2 pl-2 font-primary">{review}</div>
+                </div>
+                <div className="w-[80%] h-[1px] bg-black"></div>
+                <div className="w-[30%] text-black text-[16px] md:text-[22px] bg-white">
                   - {reviewer}
                 </div>
               </div>
             </div>
             <div className="w-full h-[25%]  md:h-[40%] flex flex-col flex-wrap justify-between pr-3 pl-3 pt-2 pb-2 ">
               <div className="w-full h-[100%] p-2 flex flex-col justify-end items-start gap-3">
-                <div className="text-[18px] md:text-[32px] font-primary font-bold text-black">
-                  Bie Fung
-                  <div className="text-xs font-primary text-gray-500">
-                    Profile
-                  </div>
-                </div>
-
-                <div className="text-[14px] md:text-[26px] font-primary text-black tracking-normal font-light">
-                  Hello, i'm Bie Fung. you can call me Abe or Bei. I’m a Front
-                  End Developer and Web Designer. Specializing in JavaScript.
-                  I'm a self taught Software Engineer with passion and dreams
+                <div className="text-[14px] md:text-[26px] font-primary text-gray-800 tracking-wider font-semibold leading-5">
+                  Hello, i'm Bie Fung. you can call me Abe or Bei. I’m a
+                  Freelancer. Specializing in Web Development. I'm a self taught
+                  Software Engineer with passion and dreams
                 </div>
               </div>
             </div>
