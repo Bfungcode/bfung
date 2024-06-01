@@ -85,7 +85,7 @@ function App() {
           </div>
         </div>
       ) : (
-        <div className="w-screen h-full bg-[#EEE6DE] p-4  bg-custom-svg">
+        <div className="w-screen h-screen bg-[#EEE6DE] p-4  bg-custom-svg">
           <div className="border-2 border-black w-full h-full">
             <a
               className="absolute w-[60px] md:w-[80px] h-[60px] md:h-[80px] flex flex-col flex-wrap right-2 top-1 border-2 border-black z-20 bg-[#EEE6DE] text-black justify-center items-center"
@@ -147,7 +147,7 @@ function App() {
               <div className="w-[25%] h-full bg-black text-white text-xs md:text-base flex justify-start items-end font-bold font-primary p-2">
                 Portfolio
               </div>
-              <div className="w-[85%] h-full text-center flex font-secondary justify-center items-center text-[20px] md:text-[44px]  font-bold ">
+              <div className="w-[85%] h-full text-center flex font-secondary justify-center items-center text-[18px] md:text-[44px]  font-bold ">
                 Bie Fung - Software Engineer
               </div>
             </div>
