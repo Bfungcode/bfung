@@ -85,9 +85,12 @@ function App() {
           </div>
         </div>
       ) : (
-        <div className="w-screen h-screen bg-[#EEE6DE] p-6 relative bg-custom-svg">
+        <div className="w-screen h-full bg-[#EEE6DE] p-4  bg-custom-svg">
           <div className="border-2 border-black w-full h-full">
-            <div className="absolute w-[60px] md:w-[80px] h-[60px] md:h-[80px] flex flex-col flex-wrap right-2 top-1 border-2 border-black z-20 bg-[#EEE6DE] text-black justify-center items-center">
+            <a
+              className="absolute w-[60px] md:w-[80px] h-[60px] md:h-[80px] flex flex-col flex-wrap right-2 top-1 border-2 border-black z-20 bg-[#EEE6DE] text-black justify-center items-center"
+              href="https://drive.google.com/file/d/1_iVl8JyKEli3Ii50BoNYNJ0rE9LL1KYU/view?usp=sharing"
+            >
               <div className="text-[10px] font-primary font-bold md:text-base">
                 Resume
               </div>
@@ -107,7 +110,7 @@ function App() {
                   <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
                 </svg>
               </div>
-            </div>
+            </a>
             <div className="w-full h-[88%] overflow-auto">
               <Header
                 isLarge={isLarge}
@@ -140,7 +143,7 @@ function App() {
                 handleMouseLeave={handleMouseLeave}
               />
             </div>
-            <div className="w-full h-[12%] border-t-2 border-black flex flex-row">
+            <div className="w-full h-[80px] border-t-2 border-black flex flex-row">
               <div className="w-[25%] h-full bg-black text-white text-xs md:text-base flex justify-start items-end font-bold font-primary p-2">
                 Portfolio
               </div>

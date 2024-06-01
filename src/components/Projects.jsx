@@ -1152,7 +1152,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                             className="w-full h-full object-fill"
                           ></img>
                         </div>
-                        <div className="w-[60%] h-full font-secondary text-[22px] md:text-[44px] flex justify-center items-center  relative">
+                        <div className="w-[60%] h-full font-secondary text-[18px] md:text-[44px] flex justify-center items-center  relative">
                           <div className="w-[60%] h-[30%] border-t-2 border-l-2 border-black absolute left-5 top-5"></div>
                           {project.name}
                           <div className="w-[60%] h-[30%] border-b-2 border-r-2 border-black absolute right-5 bottom-5"></div>
@@ -1281,7 +1281,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                         className="h-[100px] md:h-[150px] w-full border-b-2 border-black flex flex-row flex-wrap transition-all duration-1000 ease-out"
                         onClick={() => project.setState(true)}
                       >
-                        <div className="w-[60%] h-full font-secondary text-[22px] md:text-[44px] flex justify-center items-center  relative text-black">
+                        <div className="w-[60%] h-full font-secondary text-[18px] md:text-[44px] flex justify-center items-center  relative text-black">
                           <div className="w-[60%] h-[30%] border-t-2 border-l-2 border-black absolute left-5 top-5"></div>
                           {project.name}
                           <div className="w-[60%] h-[30%] border-b-2 border-r-2 border-black absolute right-5 bottom-5"></div>

@@ -249,11 +249,11 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
             <div className="flex flex-col flex-wrap">
               <div className="w-full  h-[80px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
                 <div className="flex flex-row flex-wrap justify-center items-center">
-                  <div className="text-[20px] md:text-[42px] font-secondary">
+                  <div className="text-[18px] md:text-[42px] font-secondary">
                     Mail me
                   </div>
                   <ArrowRight />
-                  <div className="text-[18px] md:text-[40px] font-secondary ">
+                  <div className="text-[16px] md:text-[40px] font-secondary ">
                     bfung0011@gmail.com
                     <div className="w-full h-[2px] border-black border-[1px]"></div>
                   </div>
@@ -261,24 +261,24 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
               </div>
               <div className="w-full  h-[80px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
                 <div className="flex flex-row flex-wrap justify-center items-center">
-                  <div className="text-[20px] md:text-[42px] font-secondary">
+                  <div className="text-[16px] md:text-[42px] font-secondary">
                     <a href="https://www.linkedin.com/in/biefung/">Linkedin</a>
                     <div className="w-full h-[2px] border-black border-[1px]"></div>
                   </div>
                   <ArrowBackBlack />
-                  <div className="text-[20px] md:text-[42px] font-secondary ">
+                  <div className="text-[18px] md:text-[42px] font-secondary ">
                     See my profile
                   </div>
                 </div>
               </div>
               <div className="w-full  h-[80px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
                 <div className="flex flex-row flex-wrap justify-center items-center">
-                  <div className="text-[20px] md:text-[42px] font-secondary">
+                  <div className="text-[18px] md:text-[42px] font-secondary">
                     {" "}
                     See my code
                   </div>
                   <ArrowRight />
-                  <div className="text-[20px] md:text-[42px] font-secondary ">
+                  <div className="text-[16px] md:text-[42px] font-secondary ">
                     <a href="https://github.com/Bfungcode">Github</a>
                     <div className="w-full h-[2px] border-black border-[1px]"></div>
                   </div>
@@ -286,13 +286,13 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
               </div>
               <div className="w-full  h-[80px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
                 <div className="flex flex-row flex-wrap justify-center items-center">
-                  <div className="text-[20px] md:text-[42px] font-secondary">
-                    <a href="https://twitter.com/bei_fg">X</a>
+                  <div className="text-[16px] md:text-[42px] font-secondary">
+                    <a href="https://twitter.com/bei_fg">_beifg</a>
                     <div className="w-full h-[2px] border-black border-[1px]"></div>
                   </div>
                   <ArrowBackBlack />
-                  <div className="text-[20px] font-secondary md:text-[42px]">
-                    See my tweets
+                  <div className="text-[18px] font-secondary md:text-[42px]">
+                    Discord Username
                   </div>
                 </div>
               </div>
