@@ -84,7 +84,7 @@ const Header = ({ isLarge }) => {
           </div>
         </div>
       ) : (
-        <div className="w-full h-[500px] flex flex-row flex-wrap">
+        <div className="w-full h-[500px] md:h-[650px] flex flex-row flex-wrap">
           <div className="flex flex-col flex-wrap w-full h-full">
             <div className="w-full h-[75%] md:h-[60%] flex flex-col flex-wrap relative ">
               <div className="h-[20%] w-full pt-10 pl-6 ">
@@ -96,7 +96,7 @@ const Header = ({ isLarge }) => {
                 </div>
               </div>
 
-              <div className="h-[80%] md:h-[60%] w-full  font-secondary text-[12px] tracking-tight md:text-[16px] p-2 pt-2  md:pt-20 flex flex-col flex-wrap justify-center items-center text-center gap-2">
+              <div className="h-[80%] md:h-[80%] w-full  font-secondary text-[12px] tracking-tight md:text-[18px] p-2 pt-2  md:pt-16 flex flex-col flex-wrap justify-center items-center text-center gap-2">
                 <div className="w-[100%] md:w-[90%] text-black font-medium  relative z-0 ">
                   <div className="pt-2 pr-2 pl-2 font-primary">{review}</div>
                 </div>
@@ -108,10 +108,11 @@ const Header = ({ isLarge }) => {
             </div>
             <div className="w-full h-[25%]  md:h-[40%] flex flex-col flex-wrap justify-between pr-3 pl-3 pt-2 pb-2 ">
               <div className="w-full h-[100%] p-2 flex flex-col justify-end items-start gap-3">
-                <div className="text-[14px] md:text-[26px] font-primary text-gray-800 tracking-wider font-semibold leading-5">
+                <div className="text-[14px] md:text-[22px] font-primary text-gray-800 tracking-wider font-semibold leading-4 md:leading-7">
                   Hello, i'm Bie Fung. you can call me Abe or Bei. I’m a
                   Freelancer. Specializing in Web Development. I'm a self taught
-                  Software Engineer with passion and dreams
+                  Software Engineer with passion and dreams with services
+                  including Website Order, Web Scraping Scripts etc
                 </div>
               </div>
             </div>
