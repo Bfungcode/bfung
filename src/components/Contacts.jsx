@@ -248,51 +248,58 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
             </div>
             <div className="flex flex-col flex-wrap">
               <div className="w-full  h-[80px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
-                <div className="flex flex-row flex-wrap justify-center items-center">
-                  <div className="text-[18px] md:text-[42px] font-secondary">
-                    Mail me
+                <div className="w-full h-full flex flex-row flex-wrap ">
+                  <div className="w-[35%] h-full flex justify-center items-center">
+                    <div className="text-[24px] md:text-[42px] font-secondary">
+                      Mail me
+                    </div>
                   </div>
-                  <ArrowRight />
-                  <div className="text-[16px] md:text-[40px] font-secondary ">
-                    bfung0011@gmail.com
-                    <div className="w-full h-[2px] border-black border-[1px]"></div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full  h-[80px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
-                <div className="flex flex-row flex-wrap justify-center items-center">
-                  <div className="text-[16px] md:text-[42px] font-secondary">
-                    <a href="https://www.linkedin.com/in/biefung/">Linkedin</a>
-                    <div className="w-full h-[2px] border-black border-[1px]"></div>
-                  </div>
-                  <ArrowBackBlack />
-                  <div className="text-[18px] md:text-[42px] font-secondary ">
-                    See my profile
+                  <div className="w-[65%] bg-black h-full flex justify-center items-center">
+                    <div className="text-[18px] md:text-[40px] font-secondary text-white">
+                      bfung0011@gmail.com
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="w-full  h-[80px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
-                <div className="flex flex-row flex-wrap justify-center items-center">
-                  <div className="text-[18px] md:text-[42px] font-secondary">
-                    {" "}
-                    See my code
+                <div className="w-full h-full flex flex-row flex-wrap ">
+                  <div className="w-[35%] h-full flex justify-center items-center">
+                    <div className="text-[24px] md:text-[42px] font-secondary">
+                      LinkedIn
+                    </div>
                   </div>
-                  <ArrowRight />
-                  <div className="text-[16px] md:text-[42px] font-secondary ">
-                    <a href="https://github.com/Bfungcode">Github</a>
-                    <div className="w-full h-[2px] border-black border-[1px]"></div>
+                  <div className="w-[65%] bg-black h-full flex justify-center items-center">
+                    <div className="text-[18px] md:text-[40px] font-secondary text-white">
+                      linkedin.com/in/biefung
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="w-full  h-[80px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
-                <div className="flex flex-row flex-wrap justify-center items-center">
-                  <div className="text-[16px] md:text-[42px] font-secondary">
-                    <a href="https://twitter.com/bei_fg">_beifg</a>
-                    <div className="w-full h-[2px] border-black border-[1px]"></div>
+                <div className="w-full h-full flex flex-row flex-wrap ">
+                  <div className="w-[35%] h-full flex justify-center items-center">
+                    <div className="text-[24px] md:text-[42px] font-secondary">
+                      Github
+                    </div>
                   </div>
-                  <ArrowBackBlack />
-                  <div className="text-[18px] font-secondary md:text-[42px]">
-                    Discord Username
+                  <div className="w-[65%] bg-black h-full flex justify-center items-center">
+                    <div className="text-[18px] md:text-[40px] font-secondary text-white">
+                      github.com/Bfungcode
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full  h-[80px] flex flex-wrap flex-col justify-center items-center border-t-2 border-black">
+                <div className="w-full h-full flex flex-row flex-wrap ">
+                  <div className="w-[35%] h-full flex justify-center items-center">
+                    <div className="text-[24px] md:text-[42px] font-secondary">
+                      Discord
+                    </div>
+                  </div>
+                  <div className="w-[65%] bg-black h-full flex justify-center items-center">
+                    <div className="text-[18px] md:text-[40px] font-secondary text-white">
+                      _beifg
+                    </div>
                   </div>
                 </div>
               </div>

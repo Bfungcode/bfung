@@ -31,7 +31,7 @@ const Header = ({ isLarge }) => {
     const interval = setInterval(() => {
       setIdx((prevIndex) => (prevIndex + 1) % reviews.length);
       setReviewer((prevIndex) => (prevIndex + 1) % reviewers.length);
-    }, 8000);
+    }, 1000);
 
     return () => clearInterval(interval);
   }, [reviews.length]);
@@ -87,28 +87,32 @@ const Header = ({ isLarge }) => {
         <div className="w-full h-[500px] md:h-[650px] flex flex-row flex-wrap">
           <div className="flex flex-col flex-wrap w-full h-full">
             <div className="w-full h-[75%] md:h-[60%] flex flex-col flex-wrap relative ">
-              <div className="h-[20%] w-full pt-10 pl-6 ">
-                <div className="text-[18px] md:text-[32px] font-primary font-bold  text-black tracking-wider">
+              <div className="h-[20%] w-full pt-3 pl-6 ">
+                <div className="text-[16px] md:text-[32px] font-primary font-bold  text-black tracking-wider">
                   Bie Fung
                   <div className="text-xs font-primary text-gray-700 letter">
                     Profile
                   </div>
+                  <img
+                    src="/bfung.png"
+                    className="w-[100px] h-[100px] md:h-[120px] md:w-[120px]"
+                  ></img>
                 </div>
               </div>
 
-              <div className="h-[80%] md:h-[80%] w-full  font-secondary text-[12px] tracking-tight md:text-[18px] p-2 pt-2  md:pt-16 flex flex-col flex-wrap justify-center items-center text-center gap-2">
+              <div className="h-[80%] md:h-[80%] w-full  font-secondary text-[12px] tracking-tight md:text-[15px] p-2 pt-14  md:pt-32 flex flex-col flex-wrap justify-center items-center text-center gap-2">
                 <div className="w-[100%] md:w-[90%] text-black font-medium  relative z-0 ">
                   <div className="pt-2 pr-2 pl-2 font-primary">{review}</div>
                 </div>
                 <div className="w-[80%] h-[1px] bg-black"></div>
-                <div className="w-[30%] text-black text-[16px] md:text-[22px] bg-white">
+                <div className="w-[30%] text-black text-[16px] md:text-[18px] bg-white">
                   - {reviewer}
                 </div>
               </div>
             </div>
             <div className="w-full h-[25%]  md:h-[40%] flex flex-col flex-wrap justify-between pr-3 pl-3 pt-2 pb-2 ">
               <div className="w-full h-[100%] p-2 flex flex-col justify-end items-start gap-3">
-                <div className="text-[14px] md:text-[22px] font-primary text-gray-800 tracking-wider font-semibold leading-4 md:leading-7">
+                <div className="text-[13px] md:text-[22px] font-primary text-gray-800 tracking-wider font-semibold  md:leading-7">
                   Hello, i'm Bie Fung. you can call me Abe or Bei. I’m a
                   Freelancer. Specializing in Web Development. I'm a self taught
                   Software Engineer with passion and dreams with services

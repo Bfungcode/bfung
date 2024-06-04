@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { ArrowBackBlack, ArrowBackWhite } from "./svg";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+import { FreeMode, Pagination } from "swiper/modules";
 const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
   const [openCartal, setOpenCartal] = useState(false);
   const [openCryptoHex, setOpenCrytoHex] = useState(false);
@@ -1098,44 +1102,35 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                             </div>
                           </div>
                           <div className="w-full h-[35%] md:h-[45%]">
-                            <div className="w-full h-[85%] flex justify-center items-center">
-                              <img
-                                src={`/pt${project.pt}/ft${project.imgNum}.png`}
-                                className="min-w-[200px] max-w-[900px] h-full"
-                              />
-                            </div>
-                            <div className="w-full h-[15%] flex flex-row justify-around text-[16px] md:text-[20px] items-center">
-                              <div
-                                onClick={handlePrevious(
-                                  project.num,
-                                  project.imgNum,
-                                  project.setImgNum,
-                                  setPrevious
-                                )}
-                                disabled={project.imgNum <= 1}
-                              >
-                                {project.imgNum <= 1 ? (
-                                  <span className="opacity-50">Previous</span>
-                                ) : (
-                                  <div>Previous</div>
-                                )}
-                              </div>
-                              <div
-                                onClick={handleNext(
-                                  project.num,
-                                  project.imgNum,
-                                  project.setImgNum,
-                                  project.ft
-                                )}
-                                disabled={project.imgNum >= project.ft}
-                              >
-                                {project.imgNum >= project.ft ? (
-                                  <span className="opacity-50">Next</span>
-                                ) : (
-                                  <div>Next</div>
-                                )}
-                              </div>
-                            </div>
+                            <Swiper
+                              slidesPerView={1}
+                              spaceBetween={10}
+                              freeMode={false}
+                              pagination={{
+                                clickable: true,
+                              }}
+                              modules={[FreeMode, Pagination]}
+                              className="w-full h-full"
+                            >
+                              <SwiperSlide>
+                                <img
+                                  src={`/pt${project.pt}/ft${project.imgNum}.png`}
+                                  loading="lazy"
+                                />
+                              </SwiperSlide>
+                              <SwiperSlide>
+                                <img
+                                  src={`/pt${project.pt}/ft${project.imgNum}.png`}
+                                  loading="lazy"
+                                />
+                              </SwiperSlide>
+                              <SwiperSlide>
+                                <img
+                                  src={`/pt${project.pt}/ft${project.imgNum}.png`}
+                                  loading="lazy"
+                                />
+                              </SwiperSlide>
+                            </Swiper>
                           </div>
                         </div>
                       </div>
@@ -1233,44 +1228,35 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                             </div>
                           </div>
                           <div className="w-full h-[35%] md:h-[45%]  md:pr-20 md:pl-20">
-                            <div className="w-full h-[85%] flex justify-center items-center">
-                              <img
-                                src={`/pt${project.pt}/ft${project.imgNum}.png`}
-                                className="min-w-[200px] max-w-[900px] h-full"
-                              />
-                            </div>
-                            <div className="w-full h-[15%] flex flex-row justify-around items-center text-[16px] ">
-                              <div
-                                onClick={handlePrevious(
-                                  project.num,
-                                  project.imgNum,
-                                  project.setImgNum
-                                )}
-                                disabled={project.imgNum <= 1}
-                              >
-                                {project.imgNum <= 1 ? (
-                                  <span className="opacity-50">Previous</span>
-                                ) : (
-                                  <div>Previous</div>
-                                )}
-                              </div>
-
-                              <div
-                                onClick={handleNext(
-                                  project.num,
-                                  project.imgNum,
-                                  project.setImgNum,
-                                  project.ft
-                                )}
-                                disabled={project.imgNum >= project.ft}
-                              >
-                                {project.imgNum >= project.ft ? (
-                                  <span className="opacity-50">Next</span>
-                                ) : (
-                                  <div>Next</div>
-                                )}
-                              </div>
-                            </div>
+                            <Swiper
+                              slidesPerView={1}
+                              spaceBetween={10}
+                              freeMode={false}
+                              pagination={{
+                                clickable: true,
+                              }}
+                              modules={[FreeMode, Pagination]}
+                              className="w-full h-full"
+                            >
+                              <SwiperSlide>
+                                <img
+                                  src={`/pt${project.pt}/ft${project.imgNum}.png`}
+                                  loading="lazy"
+                                />
+                              </SwiperSlide>
+                              <SwiperSlide>
+                                <img
+                                  src={`/pt${project.pt}/ft${project.imgNum}.png`}
+                                  loading="lazy"
+                                />
+                              </SwiperSlide>
+                              <SwiperSlide>
+                                <img
+                                  src={`/pt${project.pt}/ft${project.imgNum}.png`}
+                                  loading="lazy"
+                                />
+                              </SwiperSlide>
+                            </Swiper>
                           </div>
                         </div>
                       </div>
