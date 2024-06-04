@@ -31,7 +31,7 @@ const Header = ({ isLarge }) => {
     const interval = setInterval(() => {
       setIdx((prevIndex) => (prevIndex + 1) % reviews.length);
       setReviewer((prevIndex) => (prevIndex + 1) % reviewers.length);
-    }, 1000);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, [reviews.length]);
