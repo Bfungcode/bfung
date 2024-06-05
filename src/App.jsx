@@ -112,7 +112,7 @@ function App() {
                 </svg>
               </div>
             </a>
-            <div className="w-full h-[90%] overflow-auto border-black border-2 border-b-0">
+            <div className="w-full h-[88%] overflow-auto border-black border-2 border-b-0">
               <>
                 <Header
                   isLarge={isLarge}
@@ -146,7 +146,7 @@ function App() {
                 />
               </>
             </div>
-            <div className="w-full h-[10%] border-2 border-black flex flex-row">
+            <div className="w-full h-[12%] border-2 border-black flex flex-row">
               <div className="w-[25%] h-full bg-black text-white text-xs md:text-base flex justify-start items-end font-bold font-primary p-2">
                 Portfolio
               </div>
