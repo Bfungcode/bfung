@@ -1,26 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper/modules";
 const Designs = ({ isLarge }) => {
-  const [num, setNum] = useState(1);
-  const handleNext = () => {
-    if (num < 6) {
-      setNum(num + 1);
-    }
-  };
-  const handlePrevious = () => {
-    if (num > 1) {
-      setNum(num - 1);
-    }
-  };
   return (
     <>
       {isLarge ? (
         <>
-          {" "}
           <div className="w-full pt-0 pb-0 border-t-2 border-black">
             <div className="w-full h-full flex flex-col flex-wrap">
               <div className="w-full h-[80px]  font-secondary text-3xl border-b-2 text-center flex flex-row justify-center items-center border-black">

@@ -5,10 +5,6 @@ import Projects from "./components/Projects";
 import Designs from "./components/Designs";
 import Skillset from "./components/Skillset";
 import Contacts from "./components/Contacts";
-import Exp from "./components/Exp";
-import { Noise, SvgNoise } from "./components/svg";
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty("--vh", `${vh}px`);
 function App() {
   const handleMouseEnter = (setBox) => () => {
     setBox(true);
@@ -48,7 +44,10 @@ function App() {
                   Bie Fung - Software Engineer
                 </div>
               </div>
-              <div className="w-[6%]  border-l-2 border-black p-2 flex flex-col justify-center items-center gap-2">
+              <a
+                className="w-[6%]  border-l-2 border-black p-2 flex flex-col justify-center items-center gap-2"
+                href="https://drive.google.com/file/d/1_iVl8JyKEli3Ii50BoNYNJ0rE9LL1KYU/view?usp=sharing"
+              >
                 <div className="text-xs font-primary font-bold">Resume</div>
                 <div>
                   <svg
@@ -66,7 +65,7 @@ function App() {
                     <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
                   </svg>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="w-full h-[88%]  overflow-auto gap-2 ">
               <Header isLarge={isLarge} />
@@ -151,7 +150,7 @@ function App() {
               <div className="w-[25%] h-full bg-black text-white text-xs md:text-base flex justify-start items-end font-bold font-primary p-2">
                 Portfolio
               </div>
-              <div className="w-[85%] h-full text-center flex font-secondary justify-center items-center text-[17px] md:text-[44px]  font-bold ">
+              <div className="w-[85%] h-full text-center flex font-secondary justify-center items-center text-[16px] md:text-[44px]  font-bold p-2">
                 Bie Fung - Software Engineer
               </div>
             </div>

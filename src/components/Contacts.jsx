@@ -10,7 +10,6 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
     <>
       {isLarge ? (
         <div className="w-full   border-t-2 border-black">
-          {" "}
           <>
             <div className="w-full h-[80px]  text-white font-secondary text-[62px] md:text-[72px] text-center flex flex-row justify-center items-center  border-2 border-white">
               <div className="w-[70%] h-full">
