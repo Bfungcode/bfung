@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { ArrowBackBlack, ArrowRight } from "./svg";
 
 const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
   const [contact1, setContact1] = useState(false);

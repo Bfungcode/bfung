@@ -7,6 +7,8 @@ import Skillset from "./components/Skillset";
 import Contacts from "./components/Contacts";
 import Exp from "./components/Exp";
 import { Noise, SvgNoise } from "./components/svg";
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty("--vh", `${vh}px`);
 function App() {
   const handleMouseEnter = (setBox) => () => {
     setBox(true);
@@ -85,8 +87,8 @@ function App() {
           </div>
         </div>
       ) : (
-        <div className="w-screen h-screen bg-[#EEE6DE]  bg-custom-svg">
-          <div className="w-full h-full p-4">
+        <div className={`w-screen h-[100svh] bg-[#EEE6DE]  bg-custom-svg`}>
+          <div className="w-full h-full p-4 flex flex-wrap flex-col">
             <a
               className="absolute w-[60px] md:w-[80px] h-[60px] md:h-[80px] flex flex-col flex-wrap right-2 top-1 border-2 border-black z-20 bg-[#EEE6DE] text-black justify-center items-center"
               href="https://drive.google.com/file/d/1_iVl8JyKEli3Ii50BoNYNJ0rE9LL1KYU/view?usp=sharing"
@@ -111,39 +113,41 @@ function App() {
                 </svg>
               </div>
             </a>
-            <div className="w-full h-[88%] overflow-auto border-black border-2 border-b-0">
-              <Header
-                isLarge={isLarge}
-                handleMouseEnter={handleMouseEnter}
-                handleMouseLeave={handleMouseLeave}
-              />
-              <Services
-                isLarge={isLarge}
-                handleMouseEnter={handleMouseEnter}
-                handleMouseLeave={handleMouseLeave}
-              />
-              <Skillset
-                isLarge={isLarge}
-                handleMouseEnter={handleMouseEnter}
-                handleMouseLeave={handleMouseLeave}
-              />
-              <Projects
-                isLarge={isLarge}
-                handleMouseEnter={handleMouseEnter}
-                handleMouseLeave={handleMouseLeave}
-              />
-              <Designs
-                isLarge={isLarge}
-                handleMouseEnter={handleMouseEnter}
-                handleMouseLeave={handleMouseLeave}
-              />
-              <Contacts
-                isLarge={isLarge}
-                handleMouseEnter={handleMouseEnter}
-                handleMouseLeave={handleMouseLeave}
-              />
+            <div className="w-full h-[90%] overflow-auto border-black border-2 border-b-0">
+              <>
+                <Header
+                  isLarge={isLarge}
+                  handleMouseEnter={handleMouseEnter}
+                  handleMouseLeave={handleMouseLeave}
+                />
+                <Services
+                  isLarge={isLarge}
+                  handleMouseEnter={handleMouseEnter}
+                  handleMouseLeave={handleMouseLeave}
+                />
+                <Skillset
+                  isLarge={isLarge}
+                  handleMouseEnter={handleMouseEnter}
+                  handleMouseLeave={handleMouseLeave}
+                />
+                <Projects
+                  isLarge={isLarge}
+                  handleMouseEnter={handleMouseEnter}
+                  handleMouseLeave={handleMouseLeave}
+                />
+                <Designs
+                  isLarge={isLarge}
+                  handleMouseEnter={handleMouseEnter}
+                  handleMouseLeave={handleMouseLeave}
+                />
+                <Contacts
+                  isLarge={isLarge}
+                  handleMouseEnter={handleMouseEnter}
+                  handleMouseLeave={handleMouseLeave}
+                />
+              </>
             </div>
-            <div className="w-full h-[12%] border-2 border-black flex flex-row">
+            <div className="w-full h-[10%] border-2 border-black flex flex-row">
               <div className="w-[25%] h-full bg-black text-white text-xs md:text-base flex justify-start items-end font-bold font-primary p-2">
                 Portfolio
               </div>
