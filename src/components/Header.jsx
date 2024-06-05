@@ -92,10 +92,6 @@ const Header = ({ isLarge }) => {
                   <div className="text-xs font-primary text-gray-700 letter">
                     Profile
                   </div>
-                  <img
-                    src="/bfung.png"
-                    className="w-[100px] h-[100px] md:h-[120px] md:w-[120px]"
-                  ></img>
                 </div>
               </div>
 
@@ -111,7 +107,7 @@ const Header = ({ isLarge }) => {
             </div>
             <div className="w-full h-[25%]  md:h-[40%] flex flex-col flex-wrap justify-between pr-3 pl-3 pt-2 pb-2 ">
               <div className="w-full h-[100%] p-2 flex flex-col justify-end items-start gap-3">
-                <div className="text-[12px] md:text-[22px] font-primary text-gray-800 tracking-wider font-semibold  md:leading-7">
+                <div className="w-full text-[12px] md:text-[22px] font-primary text-gray-800 tracking-wider font-semibold  md:leading-7">
                   Hello, i'm Bie Fung. you can call me Abe or Bei. I’m a
                   Freelancer. Specializing in Web Development. I'm a self taught
                   Software Engineer with passion and dreams with services
