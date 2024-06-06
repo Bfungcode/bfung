@@ -11,6 +11,7 @@ const Header = ({ isLarge }) => {
     "Bie helped me get my python script working again quickly. Fast work and good communication. Thank you!",
     "I needed help fixing a python script and posted an ad . Bie was quick to respond and eager to help. We have had several back and fourth emails discussing the code and Bie took the time to analyze the task at hand and provide the solution I needed. We had several additional emails each time discussing changes with Bie tweaking the code until it ran perfectly. Bie was professional, quick and fixed the problems at hand. Would recommend and will contact him again in the future for further coding projects. ",
     "Bfung, Thank you for coding the bot for me! Your expertise and dedication were evident, resulting in a highly functional solution. Working with you was a pleasure, and I'm thoroughly impressed with the quality of your work. Highly recommended!",
+    "Thank you for the great work and prompt service! You’ve been a joy to work with.",
   ];
   const reviewers = [
     "M. Elliot",
@@ -22,6 +23,7 @@ const Header = ({ isLarge }) => {
     "Cam.F",
     "Cam.F",
     "Matthew. F",
+    "Ave",
   ];
   const [idx, setIdx] = useState(0);
   const [review, setReviews] = useState(reviews[idx]);
@@ -44,39 +46,25 @@ const Header = ({ isLarge }) => {
       {isLarge ? (
         <div className="w-full h-[90%] flex flex-row flex-wrap">
           <div className="w-[15%] h-full flex flex-col flex-wrap justify-between">
-            <div className="w-full h-[100%] p-4 flex flex-col justify-end items-start gap-2">
+            <div className="w-full h-[100%] p-4 flex flex-col justify-end  gap-2">
               <div className="text-[18px] font-primary font-bold text-black">
                 Bie Fung
               </div>
+              <img src="/bfung.png"></img>
               <div className="text-[12px]  font-primary text-black font-semibold tracking-widest">
-                Hello, i'm Bie Fung. you can call me Abe or Bei. I’m a Front End
+                Hello, I'm Bie Fung. you can call me Abe or Bei. I’m a Front End
                 Developer and Web Designer. Specializing in JavaScript. I'm a
                 self taught Software Engineer with passion and dreams
               </div>
             </div>
           </div>
           <div className="w-[85%] h-full border-l-2 border-black flex flex-col flex-wrap pt-4 relative">
-            <div className="text-[100px] font-third h-[35%] w-[60%] flex flex-col absolute top-42 ">
-              <div className=" h-[50%] w-full tracking-[15px] absolute left-10">
-                Wha
-                <span className="font-bold bg-white w-full h-full">T</span>
-              </div>
-              <div className=" h-[50%] w-full tracking-[15px] absolute bottom-10 left-28">
-                they sa
-                <span className=" bg-black  text-white font-bold w-full h-full">
-                  y
-                </span>
-                <span className="underline  pl-4">?</span>
-              </div>
-            </div>
-            <div className="h-full w-full font-secondary text-[20px] p-4 pt-32 flex flex-col flex-wrap justify-center items-center text-center gap-6">
-              <div className="w-[90%] text-black font-medium  relative z-0 bg-white">
-                <div className="pt-4 pb-4 pr-2 pl-2 font-secondary">
-                  {review}
-                </div>
+            <div className="h-full w-full font-secondary text-[20px] p-4 flex flex-col flex-wrap justify-center items-center text-center gap-2">
+              <div className="w-[90%] text-black font-bold  relative z-0 ">
+                <div className="pt-2  pr-2 pl-2 font-secondary">{review}</div>
               </div>
               <span className="w-[90%] h-[1px] bg-black"></span>
-              <div className="w-[30%] text-white text-[32px] bg-red-700 ">
+              <div className="w-[30%] text-black text-[32px] bg-white ">
                 - {reviewer}
               </div>
             </div>
@@ -108,7 +96,7 @@ const Header = ({ isLarge }) => {
             <div className="w-full h-[25%]  md:h-[40%] flex flex-col flex-wrap justify-between pr-3 pl-3 pt-2 pb-2 ">
               <div className="w-full h-[100%] p-2 flex flex-col justify-end items-start gap-3">
                 <div className="w-full text-[12px] md:text-[22px] font-primary text-gray-800 tracking-wider font-semibold  md:leading-7">
-                  Hello, i'm Bie Fung. you can call me Abe or Bei. I’m a
+                  Hello, I'm Bie Fung. you can call me Abe or Bei. I’m a
                   Freelancer. Specializing in Web Development. I'm a self taught
                   Software Engineer with passion and dreams with services
                   including Website Order, Web Scraping Scripts etc

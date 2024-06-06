@@ -109,10 +109,9 @@ function App() {
           </div>
           <div className="blob-cont2 z-50">
             <div className="red blob"></div>
-          </div>
-          <div className="blob-cont2 z-50">
             <div className="green blob"></div>
           </div>
+
           <div className="w-full h-full p-4 flex flex-wrap flex-col">
             <a
               className="absolute w-[60px] md:w-[80px] h-[60px] md:h-[80px] flex flex-col flex-wrap right-2 top-1 border-2 border-black z-20 bg-[#EEE6DE] text-black justify-center items-center"

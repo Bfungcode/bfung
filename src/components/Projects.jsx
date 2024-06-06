@@ -282,7 +282,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                 </div>
               </div>
             ) : (
-              <div className="w-full h-[200px] flex flex-row justify-between flex-wrap  ">
+              <div className="w-full h-[200px] flex flex-row justify-between flex-wrap   ">
                 {hover1 ? (
                   <>
                     <div
@@ -803,7 +803,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
               </div>
             )}
             {turn4 ? (
-              <div className="w-full h-full flex flex-row justify-between flex-wrap  transition-all duration-1000 ease-in-out border-black border-b-2  text-black">
+              <div className="w-full h-full flex flex-row justify-between flex-wrap  transition-all duration-1000 ease-in-out  text-black">
                 <div className="w-[20%] h-full flex  flex-wrap p-2 break-words">
                   <div className="w-full h-[60%] flex  flex-wrap">
                     <div className="h-[15%] w-full text-4xl font-primary font-bold pb-8">
