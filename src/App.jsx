@@ -106,17 +106,11 @@ function App() {
         <div className={`w-screen h-[100svh]`}>
           <div className="blob-cont z-50">
             <div className="yellow blob"></div>
-            <div className="red blob"></div>
-            <div className="green blob"></div>
           </div>
           <div className="blob-cont2 z-50">
-            <div className="yellow blob"></div>
             <div className="red blob"></div>
-            <div className="green blob"></div>
           </div>
           <div className="blob-cont2 z-50">
-            <div className="yellow blob"></div>
-            <div className="red blob"></div>
             <div className="green blob"></div>
           </div>
           <div className="w-full h-full p-4 flex flex-wrap flex-col">
