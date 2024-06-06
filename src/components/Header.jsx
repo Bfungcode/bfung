@@ -43,7 +43,7 @@ const Header = ({ isLarge }) => {
     <>
       {isLarge ? (
         <div className="w-full h-[90%] flex flex-row flex-wrap">
-          <div className="w-[15%] h-full border-r-2 flex flex-col flex-wrap justify-between">
+          <div className="w-[15%] h-full flex flex-col flex-wrap justify-between">
             <div className="w-full h-[100%] p-4 flex flex-col justify-end items-start gap-2">
               <div className="text-[18px] font-primary font-bold text-black">
                 Bie Fung

@@ -5,6 +5,8 @@ import Projects from "./components/Projects";
 import Designs from "./components/Designs";
 import Skillset from "./components/Skillset";
 import Contacts from "./components/Contacts";
+import "./index.css";
+
 function App() {
   const handleMouseEnter = (setBox) => () => {
     setBox(true);
@@ -27,7 +29,22 @@ function App() {
   return (
     <>
       {isLarge ? (
-        <div className="w-screen h-screen bg-[#EEE6DE] p-4 bg-custom-svg">
+        <div className="w-screen h-screen p-4 ">
+          <div className="blob-cont z-50">
+            <div className="yellow blob"></div>
+            <div className="red blob"></div>
+            <div className="green blob"></div>
+          </div>
+          <div className="blob-cont2 z-50">
+            <div className="yellow blob"></div>
+            <div className="red blob"></div>
+            <div className="green blob"></div>
+          </div>
+          <div className="blob-cont2 z-50">
+            <div className="yellow blob"></div>
+            <div className="red blob"></div>
+            <div className="green blob"></div>
+          </div>
           <div className="w-full h-full border-[2px] border-black flex flex-col flex-wrap overflow-auto">
             <div className="w-full h-[12%] border-b-2 border-black flex flex-row flex-wrap">
               <div className="w-[15%] h-full m-0 p-0 relative border-black">
@@ -86,7 +103,22 @@ function App() {
           </div>
         </div>
       ) : (
-        <div className={`w-screen h-[100svh] bg-[#EEE6DE]  bg-custom-svg`}>
+        <div className={`w-screen h-[100svh]`}>
+          <div className="blob-cont z-50">
+            <div className="yellow blob"></div>
+            <div className="red blob"></div>
+            <div className="green blob"></div>
+          </div>
+          <div className="blob-cont2 z-50">
+            <div className="yellow blob"></div>
+            <div className="red blob"></div>
+            <div className="green blob"></div>
+          </div>
+          <div className="blob-cont2 z-50">
+            <div className="yellow blob"></div>
+            <div className="red blob"></div>
+            <div className="green blob"></div>
+          </div>
           <div className="w-full h-full p-4 flex flex-wrap flex-col">
             <a
               className="absolute w-[60px] md:w-[80px] h-[60px] md:h-[80px] flex flex-col flex-wrap right-2 top-1 border-2 border-black z-20 bg-[#EEE6DE] text-black justify-center items-center"
