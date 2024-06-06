@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper/modules";
 const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
   const [openCartal, setOpenCartal] = useState(false);
-  const [openCryptoHex, setOpenCrytoHex] = useState(false);
+  const [openCryptoHex, setOpenCrytoHex] = useState(true);
   const [openCashier, setOpenCashier] = useState(false);
   const [openEasy, setOpenEasy] = useState(false);
   const [numCartal1, setNumCartal1] = useState(1);
@@ -17,7 +17,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
   const [hover1, setHover1] = useState(false);
   const [turn1, setTurn1] = useState(false);
   const [hover2, setHover2] = useState(false);
-  const [turn2, setTurn2] = useState(false);
+  const [turn2, setTurn2] = useState(true);
   const [hover3, setHover3] = useState(false);
   const [turn3, setTurn3] = useState(false);
   const [hover4, setHover4] = useState(false);

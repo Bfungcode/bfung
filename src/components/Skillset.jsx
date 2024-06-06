@@ -23,15 +23,15 @@ import {
 
 const Skillset = ({ isLarge }) => {
   const [isHover0, setIsHover0] = useState(false);
-  const [isHover1, setIsHover1] = useState(false);
+  const [isHover1, setIsHover1] = useState(true);
   const [isHover2, setIsHover2] = useState(false);
-  const [isHover3, setIsHover3] = useState(false);
+  const [isHover3, setIsHover3] = useState(true);
   const [isHover4, setIsHover4] = useState(false);
-  const [isHover5, setIsHover5] = useState(false);
+  const [isHover5, setIsHover5] = useState(true);
   const [isHover6, setIsHover6] = useState(false);
-  const [isHover7, setIsHover7] = useState(false);
+  const [isHover7, setIsHover7] = useState(true);
   const [isHover8, setIsHover8] = useState(false);
-  const [isHover9, setIsHover9] = useState(false);
+  const [isHover9, setIsHover9] = useState(true);
 
   const IconComponent = [
     JavaScript,

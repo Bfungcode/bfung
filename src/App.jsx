@@ -176,7 +176,7 @@ function App() {
               <div className="w-[25%] h-full bg-black text-white text-xs md:text-base flex justify-start items-end font-bold font-primary p-2">
                 Portfolio
               </div>
-              <div className="w-[85%] h-full text-center flex font-secondary justify-center items-center text-[16px] md:text-[44px]  font-bold p-2">
+              <div className="w-[75%] h-full text-center flex font-secondary justify-center items-center text-[16px] md:text-[44px]  font-bold p-2 border-l-2 border-black">
                 Bie Fung - Software Engineer
               </div>
             </div>
