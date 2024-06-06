@@ -515,7 +515,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                 {hover2 ? (
                   <>
                     <div
-                      className="w-full h-full border-black border-b-2 border-r-2 border-l-2 flex flex-row flex-wrap  p-2 cursor-pointer transition-all duration-1000 ease-in-out"
+                      className="w-full h-full border-black border-b-2  flex flex-row flex-wrap  p-2 cursor-pointer transition-all duration-1000 ease-in-out"
                       onMouseMove={handleMouseEnter(setHover2)}
                       onMouseLeave={handleMouseLeave(setHover2)}
                       onClick={() => turnPt(setTurn2, turn2)}
@@ -537,7 +537,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                   </>
                 ) : (
                   <>
-                    <div className="w-[30%] h-full border-black border-b-2  border-l-2  border-r-2">
+                    <div className="w-[30%] h-full border-black border-b-2 ">
                       <div className="w-full h-full  flex flex-col flex-wrap">
                         <img
                           src="/pt2/ft1.png"
@@ -546,7 +546,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                       </div>
                     </div>
                     <div
-                      className="w-[70%] h-full border-black border-b-2 border-r-2 border-l-2 flex flex-row flex-wrap cursor-pointer  p-2 transition-all duration-1000 ease-in-out z-0"
+                      className="w-[70%] h-full border-black border-b-2  border-l-2 flex flex-row flex-wrap cursor-pointer  p-2 transition-all duration-1000 ease-in-out z-0"
                       onMouseMove={handleMouseEnter(setHover2)}
                       onMouseLeave={handleMouseLeave(setHover2)}
                       onClick={() => {
@@ -803,7 +803,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
               </div>
             )}
             {turn4 ? (
-              <div className="w-full h-full flex flex-row justify-between flex-wrap  transition-all duration-1000 ease-in-out border-black  border-b-2  text-black">
+              <div className="w-full h-full flex flex-row justify-between flex-wrap  transition-all duration-1000 ease-in-out border-black border-b-2  text-black">
                 <div className="w-[20%] h-full flex  flex-wrap p-2 break-words">
                   <div className="w-full h-[60%] flex  flex-wrap">
                     <div className="h-[15%] w-full text-4xl font-primary font-bold pb-8">
@@ -953,7 +953,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                 {hover4 ? (
                   <>
                     <div
-                      className="w-full h-full border-black border-b-2 border-r-2 border-l-2 flex flex-row flex-wrap  p-2 transition-all duration-1000 ease-in-out cursor-pointer"
+                      className="w-full h-full   flex flex-row flex-wrap  p-2 transition-all duration-1000 ease-in-out cursor-pointer"
                       onMouseMove={handleMouseEnter(setHover4)}
                       onMouseLeave={handleMouseLeave(setHover4)}
                       onClick={() => turnPt(setTurn4, turn4)}
@@ -977,7 +977,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                   </>
                 ) : (
                   <>
-                    <div className="w-[30%] h-full  ">
+                    <div className="w-[30%] h-full  border-r-2">
                       <div className="w-full h-full  flex flex-col flex-wrap">
                         <img
                           src="/ef1.png"
@@ -987,7 +987,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                       </div>
                     </div>
                     <div
-                      className="w-[70%] h-full border-r-2 border-l-2 flex flex-row flex-wrap  p-2 cursor-pointer "
+                      className="w-[70%] h-full  border-l-2 border-black flex flex-row flex-wrap  p-2 cursor-pointer "
                       onMouseMove={handleMouseEnter(setHover4)}
                       onMouseLeave={handleMouseLeave(setHover4)}
                       onClick={() => turnPt(setTurn4, turn4)}

@@ -12,7 +12,7 @@ const Designs = ({ isLarge }) => {
           <div className="w-full pt-0 pb-0 border-t-2 border-black">
             <div className="w-full h-full flex flex-col flex-wrap">
               <div className="w-full h-[80px]  font-secondary text-3xl border-b-2 text-center flex flex-row justify-center items-center border-black">
-                <div className="h-full w-[30%]  text-black border-2 border-white text-[62px] flex justify-center items-center">
+                <div className="h-full w-[30%]  text-black  text-[62px] flex justify-center items-center">
                   Designs
                 </div>
                 <div className="h-full w-[70%]">
@@ -59,7 +59,7 @@ const Designs = ({ isLarge }) => {
       ) : (
         <>
           <div className="w-full  flex flex-col flex-wrap">
-            <div className="w-full h-[80px] flex flex-row flex-wrap justify-center items-center border-b-2  border-black">
+            <div className="w-full h-[80px] flex flex-row flex-wrap justify-center items-center border-b-2  border-black ">
               <div className="w-[35%] h-full flex text-center justify-center items-center text-[24px] md:text-[42px] font-secondary  font-bold">
                 Designs
               </div>
