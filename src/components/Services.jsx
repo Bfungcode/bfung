@@ -10,7 +10,7 @@ const Services = ({ isLarge }) => {
               Services
             </div>
             <div className="w-[85%] h-full border-l-2 border-black ">
-              <img src="/Rectangle10.png" className="w-full h-full"></img>
+              <img src="/Rectangle10.webp" className="w-full h-full"></img>
             </div>
           </div>
           <div className="w-full h-full pt-4 pr-4 pl-4 pb-4 flex md:flex-col flex-col lg:flex-row justify-around items-center gap-6 md:gap-6 lg:gap-1 ">
@@ -251,7 +251,7 @@ const Services = ({ isLarge }) => {
               Services
             </div>
             <div className="w-[65%] h-full border-l-2 border-black ">
-              <img src="/Rectangle10.png" className="w-full h-full"></img>
+              <img src="/Rectangle10.webp" className="w-full h-full"></img>
             </div>
           </div>
           <div className="w-full h-full pt-4 pr-4 pl-4 pb-4 flex md:flex-col flex-col lg:flex-row justify-around items-center gap-6 md:gap-6 lg:gap-1 ">

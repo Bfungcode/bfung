@@ -17,7 +17,7 @@ const Designs = ({ isLarge }) => {
                 </div>
                 <div className="h-full w-[70%]">
                   <img
-                    src="/Rectangle10.png"
+                    src="/Rectangle10.webp"
                     className="w-full h-full border-l-2 border-black"
                   ></img>
                 </div>
@@ -34,22 +34,22 @@ const Designs = ({ isLarge }) => {
                   className="w-full h-full"
                 >
                   <SwiperSlide>
-                    <img src="/dp/dp1.png" loading="lazy" />
+                    <img src="/dp/dp1.webp" loading="lazy" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="/dp/dp2.png" loading="lazy" />
+                    <img src="/dp/dp2.webp" loading="lazy" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="/dp/dp3.png" loading="lazy" />
+                    <img src="/dp/dp3.webp" loading="lazy" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="/dp/dp4.png" loading="lazy" />
+                    <img src="/dp/dp4.webp" loading="lazy" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="/dp/dp5.png" loading="lazy" />
+                    <img src="/dp/dp5.webp" loading="lazy" />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img src="/dp/dp6.png" loading="lazy" />
+                    <img src="/dp/dp6.webp" loading="lazy" />
                   </SwiperSlide>
                 </Swiper>
               </div>
@@ -64,7 +64,7 @@ const Designs = ({ isLarge }) => {
                 Designs
               </div>
               <div className="w-[65%] h-full border-l-2 border-black ">
-                <img src="/Rectangle10.png" className="w-full h-full"></img>
+                <img src="/Rectangle10.webp" className="w-full h-full"></img>
               </div>
             </div>
             <div className="w-full h-full flex flex-col flex-wrap p-1">
@@ -79,22 +79,22 @@ const Designs = ({ isLarge }) => {
                 className="w-full h-full"
               >
                 <SwiperSlide>
-                  <img src="/dp/dp1.png" loading="lazy" />
+                  <img src="/dp/dp1.webp" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="/dp/dp2.png" loading="lazy" />
+                  <img src="/dp/dp2.webp" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="/dp/dp3.png" loading="lazy" />
+                  <img src="/dp/dp3.webp" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="/dp/dp4.png" loading="lazy" />
+                  <img src="/dp/dp4.webp" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="/dp/dp5.png" loading="lazy" />
+                  <img src="/dp/dp5.webp" loading="lazy" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="/dp/dp6.png" loading="lazy" />
+                  <img src="/dp/dp6.webp" loading="lazy" />
                 </SwiperSlide>
               </Swiper>
             </div>

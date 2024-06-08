@@ -119,7 +119,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
           <div className="w-full h-[80px]  text-black font-secondary text-[62px]  flex flex-row border-b-2 border-black flex-wrap">
             <div className="w-[70%] h-full ">
               <img
-                src="/Rectangle10.png"
+                src="/Rectangle10.webp"
                 className="w-full h-full object-fit"
               ></img>
             </div>
@@ -129,23 +129,23 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
           </div>
           <div className="w-full h-full flex flex-col flex-wrap flex-1 relative">
             {turn1 ? (
-              <div className="w-full h-full flex flex-row justify-between flex-wrap  transition-all duration-1000 linear border-black  border-b-2 ">
+              <div className="w-full h-full flex flex-row justify-between flex-wrap  transition-all duration-1000 linear border-black bg-white  border-b-2 p-2">
                 <div className="w-[20%] h-full flex flex-col flex-wrap p-2">
                   <div className="w-full h-[60%] flex flex-col flex-wrap break-words">
-                    <div className="h-[15%] w-full text-4xl font-primary font-bold text-black pb-8">
+                    <div className="h-[15%] w-full text-2xl font-primary font-bold text-black pb-8">
                       Binar Car Rental
                     </div>
                     <div className="h-[55%] w-full flex flex-col flex-wrap gap-14">
                       <div className="w-full text-xl font-primary font-bold text-black">
                         Year Accomplished
-                        <div className="text-base text-black">2022</div>
+                        <div className="text-[14px] text-black">2022</div>
                       </div>
                       <div className="w-full text-xl font-primary font-bold text-black">
                         Role/Position
-                        <div className="text-base text-black">
+                        <div className="text-[14px] text-black">
                           Project Leader
                         </div>
-                        <div className="text-base text-black">
+                        <div className="text-[14px] text-black">
                           Front End Engineer
                         </div>
                       </div>
@@ -156,7 +156,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           target="_blank"
                           className="cursor-pointer"
                         >
-                          <div className="text-base text-black">
+                          <div className="text-[14px] text-black">
                             cartal.netlify.app
                           </div>
                         </a>
@@ -168,17 +168,19 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           target="_blank"
                           className="cursor-pointer"
                         >
-                          <div className="text-base text-black">
+                          <div className="text-[14px] text-black">
                             github.com/Bfungcode/BinarCarRents_Main
                           </div>
                         </a>
                       </div>
                       <div className="w-full text-xl font-primary font-bold text-black">
                         Stacks
-                        <div className="text-base text-black">JavaScript</div>
-                        <div className="text-base text-black">React JS</div>
-                        <div className="text-base text-black">React Redux</div>
-                        <div className="text-base text-black">CSS</div>
+                        <div className="text-[14px] text-black">JavaScript</div>
+                        <div className="text-[14px] text-black">React JS</div>
+                        <div className="text-[14px] text-black">
+                          React Redux
+                        </div>
+                        <div className="text-[14px] text-black">CSS</div>
                       </div>
                       <div
                         className="flex flex-row flex-wrap justify-start gap-2 items-center cursor-pointer mt-4"
@@ -202,7 +204,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                   </div>
                 </div>
                 <div className="w-[80%] h-full flex-col flex-wrap p-2">
-                  <div className="w-full h-[5%] text-xl font-primary font-bold text-black pt-2">
+                  <div className="w-full h-[5%] text-xl font-primary font-bold text-gray-500 ">
                     Project Description
                   </div>
                   <div className="w-full h-[95%] flex flex-col flex-wrap gap-2">
@@ -214,14 +216,14 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                         {projectsData[0].words2}
                       </div>
                     </div>
-                    <div className="w-full h-[65%] flex flex-row flex-wrap bg-gray-200 p-8 justify-center transition-all duration-1000 ease-in-out">
+                    <div className="w-full h-[65%] flex flex-row flex-wrap  p-8 justify-center transition-all duration-1000 ease-in-out bg-gray-200">
                       <div className="h-full w-[30%] text-center">
                         <div className="text-lg text-black font-bold h-[5%]">
                           Homepage
                         </div>
                         <div className="w-full p-2 h-[97%] flex flex-col gap-2 flex-wrap ">
                           <img
-                            src="/ct1.png"
+                            src="/ct1.webp"
                             className="w-full h-full object-fill"
                             loading="lazy"
                           />
@@ -234,7 +236,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                               Car Page
                             </div>
                             <img
-                              src="/ct2.png"
+                              src="/ct2.webp"
                               className="w-full h-full object-fill"
                               loading="lazy"
                             />
@@ -245,7 +247,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                               Cars Update
                             </div>
                             <img
-                              src="/ct5.png"
+                              src="/ct5.webp"
                               className="w-full h-full object-fill"
                               loading="lazy"
                             />
@@ -259,7 +261,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                               Admin Dashboard
                             </div>
                             <img
-                              src="/ct3.png"
+                              src="/ct3.webp"
                               className="w-full h-full object-fill"
                               loading="lazy"
                             />
@@ -270,7 +272,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                               Payment Page
                             </div>
                             <img
-                              src="/ct4.png"
+                              src="/ct4.webp"
                               className="w-full h-full object-fill"
                               loading="lazy"
                             />
@@ -294,7 +296,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                       <div className="relative w-full h-full">
                         <div className="absolute border-t-2 border-l-2 border-black border-solid w-[30%] h-[50%] left-0 top-0"></div>
                         <div className="absolute border-r-2 border-b-2 border-black border-solid w-[30%] h-[50%] right-0 bottom-0"></div>
-                        <div className="inset-0 flex flex-col items-center justify-start h-full w-full text-4xl">
+                        <div className="inset-0 flex flex-col items-center justify-start h-full w-full text-3xl">
                           <div className="w-full font-secondary text-black text-6xl p-4   text-center ">
                             Cartal
                             <div className="text-2xl font-secondary">
@@ -312,7 +314,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                     <div className="w-[30%] h-full border-black border-b-2 ">
                       <div className="w-full h-full  flex flex-col flex-wrap">
                         <img
-                          src="/pt5/ft1.png"
+                          src="/pt5/ft1.webp"
                           className="w-full h-full object-cover"
                           loading="lazy"
                         ></img>
@@ -325,7 +327,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                       onClick={() => turnPt(setTurn1, turn1)}
                     >
                       <div className="relative w-full h-full">
-                        <div className="absolute inset-0 flex-col items-center justify-start h-full w-full text-4xl p-2">
+                        <div className="absolute inset-0 flex-col items-center justify-start h-full w-full text-3xl p-2">
                           <div className="absolute border-t-2 border-l-2 border-black border-solid w-[30%] h-[50%] left-0 top-0"></div>
                           <div className="absolute border-r-2 border-b-2 border-black border-solid w-[30%] h-[50%] right-0 bottom-0"></div>
                           <div className="w-full font-secondary text-black text-6xl    text-center p-4">
@@ -344,30 +346,30 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
               </div>
             )}
             {turn2 ? (
-              <div className="w-full h-full flex flex-row justify-between flex-wrap  transition-all duration-1000 ease-in-out border-black  border-b-2  text-black z-0">
+              <div className="w-full h-full flex flex-row justify-between flex-wrap  transition-all duration-1000 ease-in-out border-black  border-b-2  text-black z-0 p-2 bg-white">
                 <div className="w-[20%] h-full flex flex-col flex-wrap p-2 break-words">
                   <div className="w-full h-[60%] flex flex-col flex-wrap">
-                    <div className="h-[15%] w-full text-4xl font-primary font-bold pb-8">
+                    <div className="h-[15%] w-full text-3xl font-primary font-bold pb-8">
                       CryptoHex
                     </div>
-                    <div className="h-[55%] w-full flex flex-col flex-wrap gap-14">
+                    <div className="h-[55%] w-full flex flex-col flex-wrap gap-10">
                       <div className="w-full text-xl font-primary font-bold">
                         Year Accomplished
-                        <div className="text-base text-black">2023</div>
+                        <div className="text-[14px] text-black">2023</div>
                       </div>
                       <div className="w-full text-xl font-primary font-bold ">
                         Role/Position
-                        <div className="text-base text-black">
+                        <div className="text-[14px] text-black">
                           Front End Developer
                         </div>
-                        <div className="text-base text-black">
+                        <div className="text-[14px] text-black">
                           UI/UX Designer
                         </div>
                       </div>
                       <div className="w-full text-xl font-primary font-bold ">
                         Publication Link
                         <a href="https://cryptohex.netlify.app" target="_blank">
-                          <div className="text-base text-black mb-1">
+                          <div className="text-[14px] text-black mb-1">
                             cryptohex.netlify.app
                           </div>
                         </a>
@@ -386,19 +388,19 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           href="https://github.com/Bfungcode/CryptoHex"
                           target="_blank"
                         >
-                          <div className="text-base text-black">
+                          <div className="text-[14px] text-black">
                             github.com/Bfungcode/CryptoHex
                           </div>
                         </a>
                       </div>
                       <div className="w-full text-xl font-primary font-bold ">
                         Stacks
-                        <div className="text-base text-black">JavaScript</div>
-                        <div className="text-base text-black">Vue JS</div>
-                        <div className="text-base text-black">CSS</div>
+                        <div className="text-[14px] text-black">JavaScript</div>
+                        <div className="text-[14px] text-black">Vue JS</div>
+                        <div className="text-[14px] text-black">CSS</div>
                       </div>
                       <div
-                        className="flex flex-row flex-wrap justify-start gap-2 items-center cursor-pointer mt-4"
+                        className="flex flex-row flex-wrap justify-start items-center cursor-pointer "
                         onClick={() => turnPt(setTurn2, turn2)}
                       >
                         <svg
@@ -407,7 +409,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           height="52"
                           viewBox="0 0 24 24"
                           fill="none"
-                          stroke="#ffffff"
+                          stroke="#000000"
                           stroke-width="1"
                           stroke-linecap="square"
                           stroke-linejoin="bevel"
@@ -419,12 +421,12 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                   </div>
                 </div>
                 <div className="w-[80%] h-full flex-col flex-wrap p-2">
-                  <div className="w-full h-[5%] text-base font-primary font-bold pt-2">
+                  <div className="w-full h-[5%] text-[14px] font-primary font-bold ">
                     Project Description
                   </div>
                   <div className="w-full h-[95%] ">
-                    <div className="w-full h-[30%] flex flex-row flex-wrap">
-                      <div className="text-base text-black w-[35%]">
+                    <div className="w-full h-[30%] flex flex-row flex-wrap gap-3">
+                      <div className="text-[14px] text-black w-[35%]">
                         I recently applied for a Front-End Developer role that
                         entailed a comprehensive 5-step recruitment process. The
                         first case required creating a web design using Figma
@@ -434,7 +436,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                         period to immerse myself in learning both web design
                         principles and Figma.
                       </div>
-                      <div className="text-base text-black w-[65%]">
+                      <div className="text-[14px] text-black w-[62%]">
                         Drawing on my Front-End Engineer experience, I
                         confidently progressed to the second case, where I
                         received acceptance criteria that included the option to
@@ -449,7 +451,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                         received feedback that I was not a fit for their company
                         culture and was subsequently rejected. learned by only
                         one month.
-                        <div className="text-base text-black font-bold">
+                        <div className="text-[14px] text-black font-bold">
                           While the outcome wasn't what I had hoped for, this
                           experience presented valuable learning opportunities.
                           From acquiring Figma and web design skills within a
@@ -463,13 +465,13 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                         </div>
                       </div>
                     </div>
-                    <div className="w-full h-[70%] flex flex-row flex-wrap p-2 transition-all duration-1000 ease-in-out justify-center items-center">
+                    <div className="w-full h-[70%]  flex flex-row flex-wrap p-2 transition-all duration-1000 ease-in-out justify-evenly items-center bg-gray-200 pb-10 pt-4 mt-3">
                       <div className="h-full w-[25%] p-2 text-center">
                         <div className="text-lg text-black font-bold h-[5%]">
                           Homepage
                         </div>
                         <img
-                          src="/ch1.png"
+                          src="/ch1.webp"
                           className="w-full object-contain h-[95%]"
                           loading="lazy"
                         />
@@ -479,7 +481,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           Homepage 2
                         </div>
                         <img
-                          src="/ch2.png"
+                          src="/ch2.webp"
                           className="w-full object-contain h-[95%]"
                           loading="lazy"
                         />
@@ -490,7 +492,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                             Login Page
                           </div>
                           <img
-                            src="/ch3.png"
+                            src="/ch3.webp"
                             className="w-full h-[95%] object-contain"
                             loading="lazy"
                           />
@@ -500,7 +502,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                             Register Page
                           </div>
                           <img
-                            src="/ch4.png"
+                            src="/ch4.webp"
                             className="w-full h-[95%] object-contain"
                             loading="lazy"
                           />
@@ -523,7 +525,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                       <div className="relative w-full h-full">
                         <div className="absolute border-t-2 border-l-2 border-black border-solid w-[30%] h-[50%] left-0 top-0"></div>
                         <div className="absolute border-r-2 border-b-2 border-black border-solid w-[30%] h-[50%] right-0 bottom-0"></div>
-                        <div className="absolute inset-0 flex flex-column items-center justify-start h-full w-full text-4xl p-2">
+                        <div className="absolute inset-0 flex flex-column items-center justify-start h-full w-full text-3xl p-2">
                           <div className="w-full font-secondary text-black text-6xl p-2   text-center">
                             CryptoHex
                             <div className="text-2xl font-secondary">
@@ -540,7 +542,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                     <div className="w-[30%] h-full border-black border-b-2 ">
                       <div className="w-full h-full  flex flex-col flex-wrap">
                         <img
-                          src="/pt2/ft1.png"
+                          src="/pt2/ft1.webp"
                           className="w-full h-full object-cover"
                         ></img>
                       </div>
@@ -556,7 +558,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                       <div className="relative w-full h-full">
                         <div className="absolute border-t-2 border-l-2 border-black border-solid w-[30%] h-[50%] left-0 top-0"></div>
                         <div className="absolute border-r-2 border-b-2 border-black border-solid w-[30%] h-[50%] right-0 bottom-0"></div>
-                        <div className="absolute inset-0 flex flex-column items-center justify-start h-full w-full text-4xl p-2">
+                        <div className="absolute inset-0 flex flex-column items-center justify-start h-full w-full text-3xl p-2">
                           <div className="w-full font-secondary text-black text-6xl p-2   text-center">
                             CryptoHex
                             <div className="text-2xl font-secondary">
@@ -572,20 +574,20 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
               </div>
             )}
             {turn3 ? (
-              <div className="w-full h-full flex flex-row justify-between flex-wrap  transition-all duration-1000 ease-in-out border-black border-b-2 z-10 ">
+              <div className="w-full h-full flex flex-row justify-between flex-wrap  transition-all duration-1000 ease-in-out border-black border-b-2 z-10 p-2 bg-white">
                 <div className="w-[20%] h-full flex flex-col flex-wrap p-2">
                   <div className="w-full h-[60%] flex flex-col flex-wrap break-words">
-                    <div className="h-[15%] w-full text-4xl font-primary font-bold text-black pb-8">
+                    <div className="h-[15%] w-full text-3xl font-primary font-bold text-black pb-8">
                       Cashier
                     </div>
-                    <div className="h-[55%] w-full flex flex-col flex-wrap gap-14">
+                    <div className="h-[55%] w-full flex flex-col flex-wrap gap-10">
                       <div className="w-full text-xl font-primary font-bold text-black">
                         Year Accomplished
-                        <div className="text-base text-black">2023</div>
+                        <div className="text-[14px] text-black">2023</div>
                       </div>
                       <div className="w-full text-xl font-primary font-bold text-black">
                         Role/Position
-                        <div className="text-base text-black">
+                        <div className="text-[14px] text-black">
                           Front End Developer
                         </div>
                       </div>
@@ -595,7 +597,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           href="https://cashier-webapp.vercel.app"
                           target="_blank"
                         >
-                          <div className="text-base text-black">
+                          <div className="text-[14px] text-black">
                             cashier-webapp.vercel.app
                           </div>
                         </a>
@@ -606,16 +608,18 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           href="https://github.com/Bfungcode/Cashier_WebApp"
                           target="_blank"
                         >
-                          <div className="text-base text-black">
+                          <div className="text-[14px] text-black">
                             github.com/Bfungcode/Cashier_WebApp
                           </div>
                         </a>
                       </div>
                       <div className="w-full text-xl font-primary font-bold text-black">
                         Stacks
-                        <div className="text-base text-black">JavaScript</div>
-                        <div className="text-base text-black">React JS</div>
-                        <div className="text-base text-black">Tailwind CSS</div>
+                        <div className="text-[14px] text-black">JavaScript</div>
+                        <div className="text-[14px] text-black">React JS</div>
+                        <div className="text-[14px] text-black">
+                          Tailwind CSS
+                        </div>
                       </div>
                       <div
                         className="flex flex-row flex-wrap justify-start gap-2 items-center cursor-pointer mt-4"
@@ -644,7 +648,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                   </div>
                   <div className="w-full h-[95%] flex flex-col flex-wrap gap-4">
                     <div className="w-full h-[35%]">
-                      <div className="text-base text-black font-semibold">
+                      <div className="text-[14px] text-black font-semibold">
                         I developed a practical project named "Cashier" designed
                         to streamline the order management and payment
                         processing tasks for front desk workers. "Cashier"
@@ -654,7 +658,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                         <div className="w-full flex flex-row flex-wrap">
                           <div className="w-full flex flex-row flex-wrap gap-2">
                             <div className="w-full h-[10%]">
-                              <div className="text-base text-black font-medium">
+                              <div className="text-[14px] text-black font-medium">
                                 <div className="text-black inline-block font-semibold pr-2">
                                   - Interactive Menu:
                                 </div>
@@ -665,7 +669,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                               </div>
                             </div>
                             <div className="w-full h-[10%]">
-                              <div className="text-base text-black font-medium">
+                              <div className="text-[14px] text-black font-medium">
                                 <div className="text-black inline-block font-semibold pr-2">
                                   - Order Summary:
                                 </div>
@@ -676,7 +680,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                               </div>
                             </div>
                             <div className="w-full h-[10%]">
-                              <div className="text-base text-black font-medium">
+                              <div className="text-[14px] text-black font-medium">
                                 <div className="text-black inline-block font-semibold pr-2">
                                   - Payment Proccessing:
                                 </div>
@@ -688,7 +692,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                               </div>
                             </div>
                             <div className="w-full h-[10%]">
-                              <div className="text-base text-black font-medium">
+                              <div className="text-[14px] text-black font-medium">
                                 <div className="text-black inline-block font-semibold pt-2 pr-2">
                                   - Payment Notifications:
                                 </div>
@@ -703,32 +707,32 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                         </div>
                       </div>
                     </div>
-                    <div className="w-full h-[65%] flex flex-row flex-wrap p-2 bg-gray-200 transition-all duration-1000 ease-in-out ">
+                    <div className="w-full h-[65%] flex flex-row flex-wrap p-2  transition-all duration-1000 ease-in-out bg-gray-200">
                       <div className="w-full h-full flex flex-row flex-wrap p-4 justify-center gap-5">
                         <div className="w-[40%] h-full flex flex-col flex-wrap">
                           <img
-                            src="/cs1.png"
+                            src="/cs1.webp"
                             className="w-full h-[80%] object-fill "
                             loading="lazy"
                           />
                         </div>
                         <div className="w-[15%] h-full">
                           <img
-                            src="/cs2.png"
+                            src="/cs2.webp"
                             className="w-full h-full object-cover"
                             loading="lazy"
                           />
                         </div>
                         <div className="w-[15%] h-full">
                           <img
-                            src="/cs3.png"
+                            src="/cs3.webp"
                             className="w-full h-full object-cover"
                             loading="lazy"
                           />
                         </div>
                         <div className="w-[15%] h-full">
                           <img
-                            src="/cs4.png"
+                            src="/cs4.webp"
                             className="w-full h-full object-cover"
                             loading="lazy"
                           />
@@ -751,7 +755,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                       <div className="relative w-full h-full">
                         <div className="absolute border-t-2 border-l-2 border-black border-solid w-[30%] h-[50%] left-0 top-0"></div>
                         <div className="absolute border-r-2 border-b-2 border-black border-solid w-[30%] h-[50%] right-0 bottom-0"></div>
-                        <div className="absolute inset-0 flex flex-column items-center justify-start h-full w-full text-4xl p-2">
+                        <div className="absolute inset-0 flex flex-column items-center justify-start h-full w-full text-3xl p-2">
                           <div className="w-full font-secondary text-black text-6xl p-2   text-center">
                             Cashier
                             <div className="text-2xl font-secondary">
@@ -770,7 +774,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                     <div className="w-[30%] h-full border-black border-b-2  ">
                       <div className="w-full h-full  flex flex-col flex-wrap">
                         <img
-                          src="/pt3/ft1.png"
+                          src="/pt3/ft1.webp"
                           className="w-full h-full object-fill"
                           loading="lazy"
                         ></img>
@@ -785,7 +789,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                       <div className="relative w-full h-full">
                         <div className="absolute border-t-2 border-l-2 border-black border-solid w-[30%] h-[50%] left-0 top-0"></div>
                         <div className="absolute border-r-2 border-b-2 border-black border-solid w-[30%] h-[50%] right-0 bottom-0"></div>
-                        <div className="absolute inset-0 flex flex-col items-center justify-start h-full w-full text-4xl p-2">
+                        <div className="absolute inset-0 flex flex-col items-center justify-start h-full w-full text-3xl p-2">
                           <div className="w-full font-secondary text-black text-6xl p-2   text-center">
                             Cashier
                             <div className="text-2xl font-secondary">
@@ -803,20 +807,20 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
               </div>
             )}
             {turn4 ? (
-              <div className="w-full h-full flex flex-row justify-between flex-wrap  transition-all duration-1000 ease-in-out  text-black">
+              <div className="w-full h-full flex flex-row justify-between flex-wrap  transition-all duration-1000 ease-in-out  text-black p-2 bg-white">
                 <div className="w-[20%] h-full flex  flex-wrap p-2 break-words">
                   <div className="w-full h-[60%] flex  flex-wrap">
-                    <div className="h-[15%] w-full text-4xl font-primary font-bold pb-8">
+                    <div className="h-[15%] w-full text-3xl font-primary font-bold pb-8">
                       Easy Features
                     </div>
-                    <div className="h-[55%] w-full flex flex-col flex-wrap gap-14">
+                    <div className="h-[55%] w-full flex flex-col flex-wrap gap-10">
                       <div className="w-full h-[10%] text-xl font-primary font-bold ">
                         Year Accomplished
-                        <div className="text-base text-black">2022</div>
+                        <div className="text-[14px] text-black">2022</div>
                       </div>
                       <div className="w-full text-xl font-primary font-bold h-[10%]">
                         Role/Position
-                        <div className="text-base text-black">
+                        <div className="text-[14px] text-black">
                           Front End Developer
                         </div>
                       </div>
@@ -826,7 +830,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           href="https://easyfeatures.netlify.app"
                           target="_blank"
                         >
-                          <div className="text-base text-black">
+                          <div className="text-[14px] text-black">
                             easyfeatures.netlify.app
                           </div>
                         </a>
@@ -837,16 +841,16 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           href="https://github.com/Bfungcode/EasyFeatures"
                           target="_blank"
                         >
-                          <div className="text-base text-black">
+                          <div className="text-[14px] text-black">
                             github.com/Bfungcode/EasyFeatures
                           </div>
                         </a>
                       </div>
                       <div className="w-full text-xl font-primary font-bold h-[10%] ">
                         Stacks
-                        <div className="text-base text-black">JavaScript</div>
-                        <div className="text-base text-black">React JS</div>
-                        <div className="text-base text-black">CSS</div>
+                        <div className="text-[14px] text-black">JavaScript</div>
+                        <div className="text-[14px] text-black">React JS</div>
+                        <div className="text-[14px] text-black">CSS</div>
                       </div>
                       <div
                         className="flex flex-row flex-wrap justify-start gap-2 items-center cursor-pointer mt-4 h-[10%]"
@@ -858,7 +862,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                           height="52"
                           viewBox="0 0 24 24"
                           fill="none"
-                          stroke="#ffffff"
+                          stroke="#000000"
                           stroke-width="1"
                           stroke-linecap="square"
                           stroke-linejoin="bevel"
@@ -875,7 +879,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                   </div>
                   <div className="w-full h-[95%] flex flex-col gap-2 flex-wrap pt-5">
                     <div className="w-full h-[30%]">
-                      <div className="text-base text-black">
+                      <div className="text-[14px] text-black">
                         I developed a personal website portfolio aimed at
                         contributing to the React JS Front End Developer
                         community. While creating features using React JS and
@@ -903,18 +907,18 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                         the underlying complexities.
                       </div>
                     </div>
-                    <div className="w-full h-[70%] flex flex-row flex-wrap transition-all duration-1000 ease-in-out">
+                    <div className="w-full h-[70%]  flex flex-row flex-wrap transition-all duration-1000 ease-in-out bg-gray-200 p-6">
                       <div className="h-full w-[40%]  p-2 flex flex-col flex-wrap gap-2">
                         <div className="w-full h-[40%]">
                           <img
-                            src="/ef1.png"
+                            src="/ef1.webp"
                             className="w-full h-full object-cover"
                             loading="lazy"
                           />
                         </div>
                         <div className="w-full h-[60%] ">
                           <img
-                            src="/ef2.png"
+                            src="/ef2.webp"
                             className="w-full h-full object-cover"
                             loading="lazy"
                           />
@@ -923,14 +927,14 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                       <div className="h-full w-[40%]  p-2 flex flex-col flex-wrap gap-2">
                         <div className="w-full h-[60%]">
                           <img
-                            src="/ef3.png"
+                            src="/ef3.webp"
                             className="w-full h-full object-cover"
                             loading="lazy"
                           />
                         </div>
                         <div className="w-full h-[40%] bg-gray-400">
                           <img
-                            src="/ef4.png"
+                            src="/ef4.webp"
                             className="w-full h-full object-cover"
                             loading="lazy"
                           />
@@ -938,7 +942,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                       </div>
                       <div className="h-full w-[20%] p-1 mt-1 flex flex-colflex-wrap gap-2">
                         <img
-                          src="/ef5.png"
+                          src="/ef5.webp"
                           className="w-full h-full object-cover"
                           loading="lazy"
                         />
@@ -961,7 +965,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                       <div className="relative w-full h-full">
                         <div className="absolute border-t-2 border-l-2 border-black border-solid w-[30%] h-[50%] left-0 top-0"></div>
                         <div className="absolute border-r-2 border-b-2 border-black border-solid w-[30%] h-[50%] right-0 bottom-0"></div>
-                        <div className="absolute inset-0 flex flex-col items-center justify-start h-full w-full text-4xl p-2">
+                        <div className="absolute inset-0 flex flex-col items-center justify-start h-full w-full text-3xl p-2">
                           <div className="w-full font-secondary text-black text-6xl p-2   text-center">
                             Easy Features
                             <div className="text-2xl font-secondary">
@@ -977,10 +981,10 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                   </>
                 ) : (
                   <>
-                    <div className="w-[30%] h-full  border-r-2">
+                    <div className="w-[30%] h-full  ">
                       <div className="w-full h-full  flex flex-col flex-wrap">
                         <img
-                          src="/ef1.png"
+                          src="/ef1.webp"
                           className="w-full h-full object-cover"
                           loading="lazy"
                         ></img>
@@ -995,7 +999,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                       <div className="relative w-full h-full">
                         <div className="absolute border-t-2 border-l-2 border-black border-solid w-[30%] h-[50%] left-0 top-0"></div>
                         <div className="absolute border-r-2 border-b-2 border-black border-solid w-[30%] h-[50%] right-0 bottom-0"></div>
-                        <div className="absolute inset-0 flex flex-col items-center justify-start h-full w-full text-4xl p-2">
+                        <div className="absolute inset-0 flex flex-col items-center justify-start h-full w-full text-3xl p-2">
                           <div className="w-full font-secondary text-black text-6xl p-2   text-center">
                             Easy Features
                             <div className="text-2xl font-secondary">
@@ -1021,7 +1025,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
               Works
             </div>
             <div className="w-[65%] h-full border-l-2 border-black ">
-              <img src="/Rectangle10.png" className="w-full h-full"></img>
+              <img src="/Rectangle10.webp" className="w-full h-full"></img>
             </div>
           </div>
           {projectsData.map((project) => (
@@ -1099,19 +1103,19 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                             >
                               <SwiperSlide>
                                 <img
-                                  src={`/pt${project.pt}/ft1.png`}
+                                  src={`/pt${project.pt}/ft1.webp`}
                                   loading="lazy"
                                 />
                               </SwiperSlide>
                               <SwiperSlide>
                                 <img
-                                  src={`/pt${project.pt}/ft2.png`}
+                                  src={`/pt${project.pt}/ft2.webp`}
                                   loading="lazy"
                                 />
                               </SwiperSlide>
                               <SwiperSlide>
                                 <img
-                                  src={`/pt${project.pt}/ft3.png`}
+                                  src={`/pt${project.pt}/ft3.webp`}
                                   loading="lazy"
                                 />
                               </SwiperSlide>
@@ -1128,7 +1132,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                       >
                         <div className="w-[40%] h-full">
                           <img
-                            src={`/pt${project.pt}/ft${project.imgNum}.png`}
+                            src={`/pt${project.pt}/ft${project.imgNum}.webp`}
                             className="w-full h-full object-fill"
                           ></img>
                         </div>
@@ -1225,19 +1229,19 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                             >
                               <SwiperSlide>
                                 <img
-                                  src={`/pt${project.pt}/ft1.png`}
+                                  src={`/pt${project.pt}/ft1.webp`}
                                   loading="lazy"
                                 />
                               </SwiperSlide>
                               <SwiperSlide>
                                 <img
-                                  src={`/pt${project.pt}/ft2.png`}
+                                  src={`/pt${project.pt}/ft2.webp`}
                                   loading="lazy"
                                 />
                               </SwiperSlide>
                               <SwiperSlide>
                                 <img
-                                  src={`/pt${project.pt}/ft3.png`}
+                                  src={`/pt${project.pt}/ft3.webp`}
                                   loading="lazy"
                                 />
                               </SwiperSlide>
@@ -1259,7 +1263,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                         </div>
                         <div className="w-[40%] h-full">
                           <img
-                            src={`/pt${project.pt}/ft${project.imgNum}.png`}
+                            src={`/pt${project.pt}/ft${project.imgNum}.webp`}
                             className="w-full h-full object-fill"
                           ></img>
                         </div>

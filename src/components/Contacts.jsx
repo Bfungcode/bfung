@@ -5,7 +5,6 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
   const [contact2, setContact2] = useState(false);
   const [contact3, setContact3] = useState(false);
   const [contact4, setContact4] = useState(false);
-
   return (
     <>
       {isLarge ? (
@@ -13,7 +12,7 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
           <>
             <div className="w-full h-[80px]  text-white font-secondary text-[62px] md:text-[72px] text-center flex flex-row justify-center items-center  ">
               <div className="w-[70%] h-full">
-                <img src="Rectangle10.png" className="w-full h-full"></img>
+                <img src="Rectangle10.webp" className="w-full h-full"></img>
               </div>
               <div className="w-[30%] h-full text-black text-[62px] border-l-2 border-black flex justify-center items-center">
                 Contacts
@@ -272,7 +271,7 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                 Contacts
               </div>
               <div className="w-[65%] h-full border-l-2 border-black ">
-                <img src="/Rectangle10.png" className="w-full h-full"></img>
+                <img src="/Rectangle10.webp" className="w-full h-full"></img>
               </div>
             </div>
             <div className="flex flex-col flex-wrap">

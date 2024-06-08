@@ -50,7 +50,7 @@ const Header = ({ isLarge }) => {
               <div className="text-[18px] font-primary font-bold text-black">
                 Bie Fung
               </div>
-              <img src="/bfung.png"></img>
+              <img src="/bfung.webp"></img>
               <div className="text-[12px]  font-primary text-black font-semibold tracking-widest">
                 Hello, I'm Bie Fung. you can call me Abe or Bei. I’m a Front End
                 Developer and Web Designer. Specializing in JavaScript. I'm a

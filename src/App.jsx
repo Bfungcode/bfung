@@ -49,7 +49,7 @@ function App() {
             <div className="w-full h-[12%] border-b-2 border-black flex flex-row flex-wrap">
               <div className="w-[15%] h-full m-0 p-0 relative border-black">
                 <img
-                  src="/Rectangle4.png"
+                  src="/Rectangle4.webp"
                   className="w-[100%] h-full object-none overflow"
                 ></img>
               </div>

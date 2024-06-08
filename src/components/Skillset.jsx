@@ -209,7 +209,7 @@ const Skillset = ({ isLarge }) => {
               Skill Set
             </div>
             <div className="w-[65%] h-full border-l-2 border-black ">
-              <img src="/Rectangle10.png" className="w-full h-full"></img>
+              <img src="/Rectangle10.webp" className="w-full h-full"></img>
             </div>
           </div>
           <div className="w-full h-[85%]  flex flex-col ">
