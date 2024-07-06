@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Designs from "./components/Designs";
 import Skillset from "./components/Skillset";
 import Contacts from "./components/Contacts";
+
 import "./index.css";
 
 function App() {
@@ -53,11 +54,11 @@ function App() {
                   className="w-[100%] h-full object-none overflow"
                 ></img>
               </div>
-              <div className="w-[79%] flex flex-col p-2 border-l-2 border-black">
+              <div className="w-[79%] flex flex-col p-2 pb-0 border-l-2 border-black">
                 <div className="font-primary font-bold text-xs w-full pl-2 text-start">
                   Profile
                 </div>
-                <div className="font-secondary text-6xl w-full text-center">
+                <div className="font-secondary text-5xl w-full text-center">
                   Bie Fung - Software Engineer
                 </div>
               </div>
@@ -104,22 +105,16 @@ function App() {
         </div>
       ) : (
         <div className={`w-screen h-[100svh]`}>
-          <div className="blob-cont z-50">
-            <div className="yellow blob"></div>
-          </div>
-          <div className="blob-cont2 z-50">
+          <div className="blob-cont-m z-50">
             <div className="red blob"></div>
             <div className="green blob"></div>
+            <div className="yellow blob"></div>
           </div>
-
           <div className="w-full h-full p-4 flex flex-wrap flex-col">
             <a
               className="absolute w-[60px] md:w-[80px] h-[60px] md:h-[80px] flex flex-col flex-wrap right-2 top-1 border-2 border-black z-20 bg-[#EEE6DE] text-black justify-center items-center"
               href="https://drive.google.com/file/d/1_iVl8JyKEli3Ii50BoNYNJ0rE9LL1KYU/view?usp=sharing"
             >
-              <div className="text-[10px] font-primary font-bold md:text-base">
-                Resume
-              </div>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +123,7 @@ function App() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="#000000"
-                  stroke-width="1"
+                  stroke-width="1.5"
                   stroke-linecap="square"
                   stroke-linejoin="bevel"
                 >
@@ -137,13 +132,14 @@ function App() {
                 </svg>
               </div>
             </a>
-            <div className="w-full h-[88%] overflow-auto border-black border-2 border-b-0">
+            <div className="w-full h-[92%] md:h-[92%] overflow-auto border-black border-2 border-b-0">
               <>
                 <Header
                   isLarge={isLarge}
                   handleMouseEnter={handleMouseEnter}
                   handleMouseLeave={handleMouseLeave}
                 />
+
                 <Services
                   isLarge={isLarge}
                   handleMouseEnter={handleMouseEnter}
@@ -171,7 +167,7 @@ function App() {
                 />
               </>
             </div>
-            <div className="w-full h-[12%] border-2 border-black flex flex-row">
+            <div className="w-full h-[8%] md:h-[8%] border-2 border-black flex flex-row">
               <div className="w-[25%] h-full bg-black text-white text-xs md:text-base flex justify-start items-end font-bold font-primary p-2">
                 Portfolio
               </div>

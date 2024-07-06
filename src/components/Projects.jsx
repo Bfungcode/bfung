@@ -1020,11 +1020,11 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
         </div>
       ) : (
         <div className="w-full flex flex-col  ">
-          <div className="w-full h-[80px] flex flex-row flex-wrap justify-center items-center border-b-2  border-black">
-            <div className="w-[35%] h-full flex text-center justify-center items-center text-[24px] md:text-[42px] font-secondary  font-bold">
+          <div className="w-full h-[60px] flex flex-row flex-wrap justify-center items-center border-b-2  border-black">
+            <div className="w-[40%] h-full flex text-center justify-center items-center text-[24px] md:text-[42px] font-secondary  font-bold bg-white">
               Works
             </div>
-            <div className="w-[65%] h-full border-l-2 border-black ">
+            <div className="w-[60%] h-full border-l-2 border-black bg-white">
               <img src="/Rectangle10.webp" className="w-full h-full"></img>
             </div>
           </div>
@@ -1130,13 +1130,13 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                         className="h-[100px] md:h-[150px] w-full border-b-2 border-black flex flex-row flex-wrap transition-all duration-1000 ease-out"
                         onClick={() => project.setState(true)}
                       >
-                        <div className="w-[40%] h-full">
+                        <div className="w-[40%] h-full ">
                           <img
                             src={`/pt${project.pt}/ft${project.imgNum}.webp`}
                             className="w-full h-full object-fill"
                           ></img>
                         </div>
-                        <div className="w-[60%] h-full font-secondary text-[18px] md:text-[44px] flex justify-center items-center  relative">
+                        <div className="w-[60%] h-full font-secondary text-[26px] md:text-[44px] flex justify-center items-center  relative bg-white font-bold border-l-2 border-black">
                           <div className="w-[60%] h-[30%] border-t-2 border-l-2 border-black absolute left-5 top-5"></div>
                           {project.name}
                           <div className="w-[60%] h-[30%] border-b-2 border-r-2 border-black absolute right-5 bottom-5"></div>
@@ -1256,7 +1256,7 @@ const Projects = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
                         className="h-[100px] md:h-[150px] w-full border-b-2 border-black flex flex-row flex-wrap transition-all duration-1000 ease-out"
                         onClick={() => project.setState(true)}
                       >
-                        <div className="w-[60%] h-full font-secondary text-[18px] md:text-[44px] flex justify-center items-center  relative text-black">
+                        <div className="w-[60%] h-full font-secondary text-[18px] md:text-[44px] flex justify-center items-center  relative text-black border-r-2 border-black bg-white">
                           <div className="w-[60%] h-[30%] border-t-2 border-l-2 border-black absolute left-5 top-5"></div>
                           {project.name}
                           <div className="w-[60%] h-[30%] border-b-2 border-r-2 border-black absolute right-5 bottom-5"></div>

@@ -150,7 +150,7 @@ const Skillset = ({ isLarge }) => {
     <>
       {isLarge ? (
         <div className="w-full h-full p-4 pt-0 pb-0 pr-0 pl-0 flex flex-row flex-wrap">
-          <div className="w-[15%] h-full bg-white text-black font-secondary text-[62px]  text-center flex flex-row justify-center items-center vertical-rl">
+          <div className="w-[15%] h-full bg-white text-black font-secondary text-[52px]  text-center flex flex-row justify-center items-center vertical-rl">
             <div className="w-full h-full flex justify-center items-center  border-black tracking-[5px] rotate-0 orientation-upright uppercase font-third relative">
               <div className="absolute w-[40%] h-[60%] border-l-2 border-t-2 border-black top-10 left-18"></div>
               <div className="absolute w-[40%] h-[60%] border-r-2 border-b-2 border-black bottom-10 right-18"></div>
@@ -204,11 +204,11 @@ const Skillset = ({ isLarge }) => {
         </div>
       ) : (
         <div className="w-full  p-4 pt-0 pb-0 pr-0 pl-0 flex flex-col flex-wrap border-t-2 border-black">
-          <div className="w-full h-[80px] flex flex-row flex-wrap justify-center items-center border-b-2  border-black">
-            <div className="w-[35%] h-full flex text-center justify-center items-center text-[24px] md:text-[42px] font-secondary  font-bold">
+          <div className="w-full h-[60px] flex flex-row flex-wrap justify-center items-center border-b-2  border-black">
+            <div className="w-[40%] h-full flex text-center justify-center items-center text-[24px] md:text-[42px] font-secondary  font-bold bg-white">
               Skill Set
             </div>
-            <div className="w-[65%] h-full border-l-2 border-black ">
+            <div className="w-[60%] h-full border-l-2 border-black bg-white">
               <img src="/Rectangle10.webp" className="w-full h-full"></img>
             </div>
           </div>

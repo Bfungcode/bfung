@@ -266,11 +266,11 @@ const Contacts = ({ isLarge, handleMouseEnter, handleMouseLeave }) => {
       ) : (
         <div className="w-full   border-t-2 border-black">
           <>
-            <div className="w-full h-[80px] flex flex-row flex-wrap justify-center items-center  border-black">
-              <div className="w-[35%] h-full flex text-center justify-center items-center text-[24px] md:text-[42px] font-secondary  font-bold">
+            <div className="w-full h-[60px] flex flex-row flex-wrap justify-center items-center  border-black">
+              <div className="w-[40%] h-full flex text-center justify-center items-center text-[24px] md:text-[42px] font-secondary  font-bold bg-white">
                 Contacts
               </div>
-              <div className="w-[65%] h-full border-l-2 border-black ">
+              <div className="w-[60%] h-full border-l-2 border-black bg-white">
                 <img src="/Rectangle10.webp" className="w-full h-full"></img>
               </div>
             </div>
